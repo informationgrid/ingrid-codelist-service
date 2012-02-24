@@ -73,7 +73,7 @@ public class CodeListUtils {
             cl.setName(jsonObject.getString("name"));
             cl.setDescription(jsonObject.getString("description"));
             cl.setDefaultEntry(jsonObject.optString("defaultEntry", ""));
-            cl.setLastModified(jsonObject.getLong("lastModified"));
+            cl.setLastModified(jsonObject.optLong("lastModified",-1));
             
             List<CodeListEntry> entries = new ArrayList<CodeListEntry>();
             JSONArray jsonEntriesArray = jsonObject.getJSONArray("entries");

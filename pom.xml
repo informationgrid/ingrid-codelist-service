@@ -44,15 +44,20 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring</artifactId>
-            <version>2.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
+            <version>2.5.6</version>
         </dependency>
         <dependency>
             <groupId>opensymphony</groupId>
             <artifactId>quartz</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>de.ingrid</groupId>
+            <artifactId>ingrid-ibus-client</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>

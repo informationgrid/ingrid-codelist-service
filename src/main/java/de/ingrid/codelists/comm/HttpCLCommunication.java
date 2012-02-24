@@ -11,8 +11,11 @@ import org.apache.commons.httpclient.HttpMethod;
 import org.apache.commons.httpclient.UsernamePasswordCredentials;
 import org.apache.commons.httpclient.auth.AuthScope;
 import org.apache.commons.httpclient.methods.GetMethod;
+import org.apache.log4j.Logger;
 
 public class HttpCLCommunication implements ICodeListCommunication {
+    
+    private final static Logger log = Logger.getLogger(HttpCLCommunication.class);
 
     private String requestUrl;
     
@@ -23,8 +26,9 @@ public class HttpCLCommunication implements ICodeListCommunication {
         HttpClient client = getClient();
         HttpMethod method = new GetMethod(requestUrl);
         String result = "";
+        int status = -1;
         try {
-            int status = client.executeMethod(method);
+            status = client.executeMethod(method);
             
             if (status == 200) {
                 BufferedReader in = new BufferedReader(new InputStreamReader(method.getResponseBodyAsStream()));
@@ -37,18 +41,17 @@ public class HttpCLCommunication implements ICodeListCommunication {
                 (new Exception("Http Status Code was: " + status)).printStackTrace();
             }
         } catch (HttpException e) {
-            // TODO Auto-generated catch block
+            log.error("Problem when accessing url: " + requestUrl + " (Status Code: " + status + ") Message: " + e.getMessage());
             e.printStackTrace();
             return null;
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+            log.error("Problem handling the http-stream. Message: " + e.getMessage()); 
             e.printStackTrace();
             return null;
         }
         
         // convert JSON to JAVA Object
         //List<CodeList> codelists = CodeListUtils.getCodeListsFromJsonGeneric(result);
-        // TODO Auto-generated method stub
         return result;
     }
     

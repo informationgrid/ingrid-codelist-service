@@ -2,6 +2,8 @@ package de.ingrid.codelists;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import de.ingrid.codelists.comm.ICodeListCommunication;
 import de.ingrid.codelists.model.CodeList;
 import de.ingrid.codelists.persistency.ICodeListPersistency;
@@ -10,6 +12,7 @@ import de.ingrid.codelists.util.CodeListUtils;
 public class CodeListService {
 
     // injected by Spring
+    @Autowired
     private ICodeListCommunication      comm;
 
     // injected by Spring
@@ -41,10 +44,7 @@ public class CodeListService {
     }
     
     public CodeList getCodeList(String id) {
-        // read codelists if it#s the first time
-        if (this.codelists == null) {
-            this.codelists = persistencies.get(defaultPersistency).read();
-        }
+        getCodeLists();
         
         // filter codelist by ID
         for (CodeList cl : this.codelists) {
@@ -54,6 +54,14 @@ public class CodeListService {
         }
         
         return null;
+    }
+    
+    public List<CodeList> getCodeLists() {
+        // read codelists if it's the first time
+        if (this.codelists == null) {
+            this.codelists = persistencies.get(defaultPersistency).read();
+        }
+        return this.codelists;
     }
     
     public void setCodelist(String id, String data) {
@@ -75,10 +83,15 @@ public class CodeListService {
         
     }
     
-    private void persistToAll() {
-        for (ICodeListPersistency persistTarget : persistencies) {
-            persistTarget.write(this.codelists);
+    public boolean persistToAll() {
+        try {
+            for (ICodeListPersistency persistTarget : persistencies) {
+                persistTarget.write(this.codelists);
+            }
+        } catch (Exception e) {
+            return false;
         }
+        return true;
     }
     
     public void setComm(ICodeListCommunication comm) {
