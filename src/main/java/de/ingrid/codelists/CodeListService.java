@@ -36,7 +36,7 @@ public class CodeListService {
         
         if (response != null) {
             // transform codelists into java objects
-            this.codelists = CodeListUtils.getCodeListsFromJsonGeneric(response);
+            this.codelists = CodeListUtils.getCodeListsFromResponse(response);
             
             // persist codelists in file/db
             persistToAll();
@@ -58,7 +58,7 @@ public class CodeListService {
     
     public List<CodeList> getCodeLists() {
         // read codelists if it's the first time
-        if (this.codelists == null) {
+        if (this.codelists == null && persistencies != null) {
             this.codelists = persistencies.get(defaultPersistency).read();
         }
         return this.codelists;

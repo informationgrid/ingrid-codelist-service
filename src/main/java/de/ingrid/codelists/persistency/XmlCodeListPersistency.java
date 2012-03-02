@@ -54,7 +54,7 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
         File f = new File(filePath);
         File parentDir = f.getParentFile();
         // create dir if the file is inside a subdirectory and does not exist already
-        if (parentDir != null && !parentDir.exists() || !parentDir.isDirectory()) {
+        if (parentDir != null && (!parentDir.exists() || !parentDir.isDirectory())) {
             parentDir.mkdir();
         }
         // check for the file now!

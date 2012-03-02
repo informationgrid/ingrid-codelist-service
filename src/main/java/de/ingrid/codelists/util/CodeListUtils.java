@@ -9,6 +9,8 @@ import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
+import com.thoughtworks.xstream.XStream;
+
 import de.ingrid.codelists.model.CodeList;
 import de.ingrid.codelists.model.CodeListEntry;
 
@@ -47,7 +49,14 @@ public class CodeListUtils {
         return null;
     }
     
-    public static List<CodeList> getCodeListsFromJsonGeneric(String data) {
+    /**
+     * Generates a list of CodeList objects from a response which could be a
+     * string in json format or a serialized xml from these objects.
+     * @param data
+     * @return
+     */
+    @SuppressWarnings("unchecked")
+    public static List<CodeList> getCodeListsFromResponse(String data) {
         List<CodeList> codelists = new ArrayList<CodeList>();
         
         try {
@@ -57,9 +66,14 @@ public class CodeListUtils {
             }
             
         } catch (JSONException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            return null;
+            // try to convert it from xml notation (response from InGrid communication
+            try {
+                XStream xs = new XStream();
+                codelists = (List<CodeList>) xs.fromXML(data);
+            } catch (Exception ex) {
+                ex.printStackTrace();
+                return null;
+            }
         }
         
         return codelists;
@@ -81,6 +95,7 @@ public class CodeListUtils {
                 CodeListEntry cle = new CodeListEntry();
                 JSONObject jsonEntryObject = jsonEntriesArray.getJSONObject(i);
                 cle.setId(jsonEntryObject.getString("id"));
+                cle.setDescription(jsonEntryObject.getString("description"));
                 JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations"); 
                 for (int j=0; j<jsonLocalisationsArray.length(); j++) {
                     cle.setLocalisedEntry(
@@ -99,5 +114,16 @@ public class CodeListUtils {
         }
         
         return cl;
+    }
+
+    public static String getXmlFromObject(Object obj) {
+        XStream xstream = new XStream(/*new JsonHierarchicalStreamDriver() {
+            @Override
+            public HierarchicalStreamWriter createWriter(Writer writer) {
+                return new JsonWriter(writer, JsonWriter.DROP_ROOT_MODE);
+            }
+        }*/);
+        
+        return xstream.toXML(obj);
     }
 }

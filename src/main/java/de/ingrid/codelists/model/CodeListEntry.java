@@ -9,8 +9,14 @@ import java.util.Map;
  * @author Andre
  *
  */
-public class CodeListEntry {
+public class CodeListEntry  {
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 5219802039802156694L;
+    
     private String              id;
+    private String              description;
     private Map<String, String> localisations;
     
     public CodeListEntry() {
@@ -40,4 +46,34 @@ public class CodeListEntry {
     public void setLocalisations(Map<String, String> map) {
         this.localisations = map;
     }
+
+    
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    
+    public String getDescription() {
+        return description;
+    }
+
+    
+    
+    /*
+    @Override
+    public void writeExternal(ObjectOutput out) throws IOException {
+        out.writeObject(getId());
+        out.writeObject(getLocalisations());
+        
+    }
+    
+
+    @SuppressWarnings("unchecked")
+    @Override
+    public void readExternal(ObjectInput in) throws IOException,
+            ClassNotFoundException {
+        setId((String) in.readObject());
+        setLocalisations((Map<String, String>) in.readObject());
+        
+    }*/
 }
