@@ -30,7 +30,18 @@ public class CodeListUtils {
                 if ("name".equals(what)) {
                     res = o1.getName().compareTo(o2.getName());
                 } else if ("id".equals(what)) {
-                    res = o1.getId().compareTo(o2.getId());
+                    // compare numbers correctly!
+                    // does not work properly if it's a real string! for this 
+                    // we need to check if the string is a number and then compare it with 
+                    // another string which also might be a number or not
+                    if (o2.getId().length() > o1.getId().length()) 
+                        res = -1;
+                    else if (o2.getId().length() < o1.getId().length()) 
+                        res = 1;
+                    else
+                        res = o1.getId().compareTo(o2.getId());
+                    
+                    //res = (Integer.valueOf(o1.getId())).compareTo(Integer.valueOf(o2.getId()));
                 }
                 return (how.equals(SORT_INCREMENT) ? res : res*-1);
             }
@@ -84,8 +95,8 @@ public class CodeListUtils {
         
         try {
             cl.setId(jsonObject.getString("id"));
-            cl.setName(jsonObject.getString("name"));
-            cl.setDescription(jsonObject.getString("description"));
+            cl.setName(jsonObject.optString("name", ""));
+            cl.setDescription(jsonObject.optString("description", ""));
             cl.setDefaultEntry(jsonObject.optString("defaultEntry", ""));
             cl.setLastModified(jsonObject.optLong("lastModified",-1));
             
@@ -95,7 +106,7 @@ public class CodeListUtils {
                 CodeListEntry cle = new CodeListEntry();
                 JSONObject jsonEntryObject = jsonEntriesArray.getJSONObject(i);
                 cle.setId(jsonEntryObject.getString("id"));
-                cle.setDescription(jsonEntryObject.getString("description"));
+                cle.setDescription(jsonEntryObject.optString("description", ""));
                 JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations"); 
                 for (int j=0; j<jsonLocalisationsArray.length(); j++) {
                     cle.setLocalisedEntry(

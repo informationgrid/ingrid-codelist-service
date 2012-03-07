@@ -94,6 +94,11 @@ public class CodeListService {
         return true;
     }
     
+    public boolean persistTo(int where) {
+        this.persistencies.get(where).write(codelists);
+        return true;
+    }
+    
     public void setComm(ICodeListCommunication comm) {
         this.comm = comm;
     }
