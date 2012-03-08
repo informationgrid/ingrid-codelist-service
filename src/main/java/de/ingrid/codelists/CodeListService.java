@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import de.ingrid.codelists.comm.ICodeListCommunication;
 import de.ingrid.codelists.model.CodeList;
+import de.ingrid.codelists.model.CodeListEntry;
 import de.ingrid.codelists.persistency.ICodeListPersistency;
 import de.ingrid.codelists.util.CodeListUtils;
 
@@ -62,6 +63,16 @@ public class CodeListService {
             this.codelists = persistencies.get(defaultPersistency).read();
         }
         return this.codelists;
+    }
+
+    public String getCodeListValue(String lstId, String entryId, String lang) {
+        CodeList cl = getCodeList(lstId);
+        for (CodeListEntry entry : cl.getEntries()) {
+            if (entry.getId().equals(entryId)) {
+                return entry.getLocalisedEntry(lang);
+            }
+        }
+        return "";
     }
     
     public void setCodelist(String id, String data) {

@@ -36,7 +36,8 @@ public class CodeListEntry  {
     }
     
     public String getLocalisedEntry(String lang) {
-        return this.localisations.get(lang);
+        String value = this.localisations.get(lang);
+        return value == null ? "" : value;
     }
 
     public Map<String, String> getLocalisations() {
