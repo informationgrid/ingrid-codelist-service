@@ -1,5 +1,6 @@
 package de.ingrid.codelists.quartz.jobs;
 
+import org.apache.log4j.Logger;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.SchedulerContext;
@@ -11,16 +12,23 @@ import de.ingrid.codelists.CodeListService;
 
 public class UpdateCodeListsJob extends QuartzJobBean {
     
-    //private final static Logger log = Logger.getLogger(UpdateCodeListsJob.class);
+    private final static Logger log = Logger.getLogger(UpdateCodeListsJob.class);
 
     public UpdateCodeListsJob() {}
     
     @Override
     protected void executeInternal(JobExecutionContext jobExecutionContext)
             throws JobExecutionException {
-        //log.debug("Executing UpdateCodeListsJob...");
+        if (log.isDebugEnabled()) {
+            log.debug("Executing UpdateCodeListsJob...");
+        }
+        
         CodeListService clService = getClServiceFromBean(jobExecutionContext);
         clService.updateFromServer();
+        
+        if (log.isDebugEnabled()) {
+            log.debug("UpdateCodeListsJob finished!");
+        }
     }
 
     public CodeListService getClServiceFromBean(JobExecutionContext jobExecutionContext) throws JobExecutionException {
@@ -35,8 +43,5 @@ public class UpdateCodeListsJob extends QuartzJobBean {
         
         return (CodeListService) appContext.getBean("codeListService");
     }
-    
-    
-    
 
 }

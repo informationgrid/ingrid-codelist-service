@@ -23,6 +23,9 @@ public class HttpCLCommunication implements ICodeListCommunication {
     
     @Override
     public String sendRequest() {
+        if (log.isDebugEnabled()) {
+            log.debug("Requesting codelists from CodeList-Repository ...");
+        }
         HttpClient client = getClient();
         HttpMethod method = new GetMethod(requestUrl);
         String result = "";
@@ -50,8 +53,10 @@ public class HttpCLCommunication implements ICodeListCommunication {
             return null;
         }
         
-        // convert JSON to JAVA Object
-        //List<CodeList> codelists = CodeListUtils.getCodeListsFromJsonGeneric(result);
+        if (log.isDebugEnabled()) {
+            log.debug("Request finished.");
+        }
+        
         return result;
     }
     
