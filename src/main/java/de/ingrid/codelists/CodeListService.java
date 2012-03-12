@@ -33,10 +33,10 @@ public class CodeListService {
      * Fetch all codelists from server and make them locally persistent
      * in the defined targets (XML or DB).
      */
-    public void updateFromServer() {
+    public boolean updateFromServer() {
         if (comm == null) {
             log.warn("No communication defined to retrieve codelists!");
-            return;
+            return false;
         }
         // request repository and receive response which contains all codelists
         String response = comm.sendRequest();
@@ -47,7 +47,11 @@ public class CodeListService {
             
             // persist codelists in file/db
             persistToAll();
+        } else {
+            return false;
         }
+        
+        return true;
     }
     
     public CodeList getCodeList(String id) {
