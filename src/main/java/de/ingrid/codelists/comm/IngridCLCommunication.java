@@ -4,6 +4,7 @@ package de.ingrid.codelists.comm;
 import org.apache.log4j.Logger;
 
 import de.ingrid.ibus.client.BusClientFactory;
+import de.ingrid.utils.IngridHit;
 import de.ingrid.utils.IngridHits;
 import de.ingrid.utils.query.IngridQuery;
 import de.ingrid.utils.queryparser.QueryStringParser;
@@ -35,7 +36,13 @@ public class IngridCLCommunication implements ICodeListCommunication {
             e.printStackTrace();
         }
         
-        return (String) hits.getHits()[0].get("codelists");
+        IngridHit[] hitsPart = hits.getHits();
+        if (hitsPart.length == 0) {
+            log.error("Codelists could not be fetched from Management-iPlug!");
+            return null;
+        }
+        
+        return (String) hitsPart[0].get("codelists");
     }
 
 }

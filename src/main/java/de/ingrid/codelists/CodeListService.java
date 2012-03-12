@@ -2,6 +2,7 @@ package de.ingrid.codelists;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import de.ingrid.codelists.comm.ICodeListCommunication;
@@ -11,6 +12,7 @@ import de.ingrid.codelists.persistency.ICodeListPersistency;
 import de.ingrid.codelists.util.CodeListUtils;
 
 public class CodeListService {
+    private final static Logger log = Logger.getLogger(CodeListService.class);
 
     // injected by Spring
     @Autowired
@@ -32,6 +34,10 @@ public class CodeListService {
      * in the defined targets (XML or DB).
      */
     public void updateFromServer() {
+        if (comm == null) {
+            log.warn("No communication defined to retrieve codelists!");
+            return;
+        }
         // request repository and receive response which contains all codelists
         String response = comm.sendRequest();
         
