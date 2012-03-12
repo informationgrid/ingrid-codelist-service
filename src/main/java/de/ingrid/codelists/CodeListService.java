@@ -53,6 +53,9 @@ public class CodeListService {
     public CodeList getCodeList(String id) {
         getCodeLists();
         
+        // if codelists never could be read return null!
+        if (this.codelists == null) return null;
+        
         // filter codelist by ID
         for (CodeList cl : this.codelists) {
             if (cl.getId().equals(id)) {
