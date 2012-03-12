@@ -70,7 +70,12 @@ public class CodeListService {
         // read codelists if it's the first time
         if (this.codelists == null && persistencies != null) {
             this.codelists = persistencies.get(defaultPersistency).read();
+            // log an error if codelists could not be read!
+            if (this.codelists == null) {
+                log.error("No Codelists could be read!");
+            }
         }
+        
         return this.codelists;
     }
 
