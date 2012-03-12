@@ -67,9 +67,11 @@ public class CodeListService {
 
     public String getCodeListValue(String lstId, String entryId, String lang) {
         CodeList cl = getCodeList(lstId);
-        for (CodeListEntry entry : cl.getEntries()) {
-            if (entry.getId().equalsIgnoreCase(entryId)) {
-                return entry.getLocalisedEntry(lang);
+        if(cl != null){
+        	for (CodeListEntry entry : cl.getEntries()) {
+                if (entry.getId().equalsIgnoreCase(entryId)) {
+                    return entry.getLocalisedEntry(lang);
+                }
             }
         }
         return "";
@@ -77,10 +79,12 @@ public class CodeListService {
     
     public String getCodeListEntryId(String lstId, String entryValue, String lang) {
         CodeList cl = getCodeList(lstId);
-        for (CodeListEntry entry : cl.getEntries()) {
-            if (entryValue.equalsIgnoreCase(entry.getLocalisedEntry(lang))) {
-                return entry.getId();
-            }
+        if(cl != null){
+	        for (CodeListEntry entry : cl.getEntries()) {
+	            if (entryValue.equalsIgnoreCase(entry.getLocalisedEntry(lang))) {
+	                return entry.getId();
+	            }
+	        }
         }
         return "";
     }
