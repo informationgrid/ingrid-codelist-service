@@ -9,6 +9,7 @@ import de.ingrid.codelists.comm.ICodeListCommunication;
 import de.ingrid.codelists.model.CodeList;
 import de.ingrid.codelists.model.CodeListEntry;
 import de.ingrid.codelists.persistency.ICodeListPersistency;
+import de.ingrid.codelists.persistency.InitialCodeListReaderPersistency;
 import de.ingrid.codelists.util.CodeListUtils;
 
 public class CodeListService {
@@ -75,12 +76,18 @@ public class CodeListService {
         if (this.codelists == null && persistencies != null) {
             this.codelists = persistencies.get(defaultPersistency).read();
             // log an error if codelists could not be read!
-            if (this.codelists == null) {
-                log.error("No Codelists could be read!");
+            if (this.codelists == null || this.codelists.isEmpty()) {
+                log.error("No Codelists could be read using initial ones!");
+                this.codelists = getInitialCodelists();
             }
         }
         
         return this.codelists;
+    }
+
+    private List<CodeList> getInitialCodelists() {
+        InitialCodeListReaderPersistency p = new InitialCodeListReaderPersistency();
+        return p.read();
     }
 
     public String getCodeListValue(String lstId, String entryId, String lang) {

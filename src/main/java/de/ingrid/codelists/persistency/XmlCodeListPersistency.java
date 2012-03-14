@@ -28,7 +28,7 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
         XStream xStream = new XStream();
         try {
             checkForFile(this.pathToXml);
-            return (List<CodeList>) xStream.fromXML(new FileInputStream(pathToXml));
+            return (List<CodeList>) xStream.fromXML(new FileInputStream(this.pathToXml));
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
