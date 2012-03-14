@@ -5,6 +5,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,9 +44,15 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
         XStream xStream = new XStream();
         try {
             checkForFile(this.pathToXml);
-            xStream.toXML(data, new FileOutputStream(this.pathToXml));
+            
+            FileOutputStream fos = new FileOutputStream(this.pathToXml);
+            Writer writer = new OutputStreamWriter(fos, "UTF-8");
+            xStream.toXML(data, writer);
             return true;
         } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
