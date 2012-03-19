@@ -28,7 +28,12 @@ public class CodeListUtils {
                 int res = 0;
                 
                 if ("name".equals(what)) {
-                    res = o1.getName().compareTo(o2.getName());
+                    if (o1.getName() == null)
+                        res = -1;
+                    else if (o2.getName() == null)
+                        res = 1;
+                    else
+                        res = o1.getName().compareTo(o2.getName());
                 } else if ("id".equals(what)) {
                     // compare numbers correctly!
                     // does not work properly if it's a real string! for this 
