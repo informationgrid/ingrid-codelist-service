@@ -17,7 +17,14 @@ public class HttpCLCommunication implements ICodeListCommunication {
     
     private final static Logger log = Logger.getLogger(HttpCLCommunication.class);
 
+    // injected by Spring
     private String requestUrl;
+    
+    // injected by Spring
+    private String username;
+    
+    // injected by Spring
+    private String password;
     
     public HttpCLCommunication() {}
     
@@ -61,9 +68,9 @@ public class HttpCLCommunication implements ICodeListCommunication {
     }
     
     private HttpClient getClient() {
-        HttpClient client = new HttpClient();//httpClientParams, httpConnectionManager);
+        HttpClient client = new HttpClient();
         
-        Credentials defaultcreds = new UsernamePasswordCredentials("ingrid", "ingrid");
+        Credentials defaultcreds = new UsernamePasswordCredentials(this.username, this.password);
         //client.getState().setCredentials(new AuthScope("localhost", 80, AuthScope.ANY_REALM), defaultcreds);
         client.getState().setCredentials(AuthScope.ANY, defaultcreds);
         return client;
@@ -71,6 +78,14 @@ public class HttpCLCommunication implements ICodeListCommunication {
 
     public void setRequestUrl(String requestUrl) {
         this.requestUrl = requestUrl;
+    }
+    
+    public void setUsername(String username) {
+        this.username = username;
+    }
+    
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 }
