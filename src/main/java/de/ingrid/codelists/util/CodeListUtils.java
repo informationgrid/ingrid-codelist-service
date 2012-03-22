@@ -75,20 +75,21 @@ public class CodeListUtils {
     public static List<CodeList> getCodeListsFromResponse(String data) {
         List<CodeList> codelists = new ArrayList<CodeList>();
         
-        try {
-            JSONArray jsonCodelists = new JSONArray(data);
-            for (int i=0; i<jsonCodelists.length(); i++) {
-                codelists.add(getCodeListFromObject(jsonCodelists.getJSONObject(i)));
-            }
-            
-        } catch (JSONException e) {
-            // try to convert it from xml notation (response from InGrid communication
+        if (!data.isEmpty()) {
             try {
-                XStream xs = new XStream();
-                codelists = (List<CodeList>) xs.fromXML(data);
-            } catch (Exception ex) {
-                ex.printStackTrace();
-                return null;
+                JSONArray jsonCodelists = new JSONArray(data);
+                for (int i=0; i<jsonCodelists.length(); i++) {
+                    codelists.add(getCodeListFromObject(jsonCodelists.getJSONObject(i)));
+                }
+                
+            } catch (JSONException e) {
+                // try to convert it from xml notation (response from InGrid communication
+                try {
+                    XStream xs = new XStream();
+                    codelists = (List<CodeList>) xs.fromXML(data);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
             }
         }
         

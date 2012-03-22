@@ -1,5 +1,6 @@
 package de.ingrid.codelists;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -27,27 +28,57 @@ public class CodeListService {
     
     private List<CodeList>              codelists;
     
+    // remember the last fetched codelists, which is needed when no persistency
+    // is used and received codelists are only forwarded
+    private List<CodeList>              lastModifiedCodelists;
     
-    public CodeListService() {}
+    
+    public CodeListService() {
+        this.codelists             = new ArrayList<CodeList>();
+        this.lastModifiedCodelists = new ArrayList<CodeList>();
+    }
     
     /**
      * Fetch all codelists from server and make them locally persistent
      * in the defined targets (XML or DB).
      */
     public boolean updateFromServer() {
+        return updateFromServer(-1L);
+    }
+    
+    /**
+     * Fetch all codelists that have been modified since 'timestamp' from the server 
+     * and make them locally persistent in the defined targets (XML or DB).
+     * @param timestamp
+     * @return
+     */
+    public boolean updateFromServer(Long timestamp) {
         if (comm == null) {
             log.warn("No communication defined to retrieve codelists!");
             return false;
         }
+        
         // request repository and receive response which contains all codelists
-        String response = comm.sendRequest();
+        String response = comm.sendRequest(timestamp);
         
         if (response != null) {
             // transform codelists into java objects
-            this.codelists = CodeListUtils.getCodeListsFromResponse(response);
-            
-            // persist codelists in file/db
-            persistToAll();
+            this.lastModifiedCodelists = CodeListUtils.getCodeListsFromResponse(response);
+          
+            // only update if there were any modifications!
+            if (this.lastModifiedCodelists.size() > 0) {
+                log.info(this.lastModifiedCodelists.size() + " modified codelist(s) received.");
+                
+                // merge codelist
+                mergeModifiedCodelists(this.lastModifiedCodelists);
+                
+                // persist codelists in file/db
+                persistToAll(this.lastModifiedCodelists);
+            } else {
+                if (log.isDebugEnabled()) {
+                    log.debug("No modified codelists have been received.");
+                }
+            }
         } else {
             return false;
         }
@@ -55,6 +86,12 @@ public class CodeListService {
         return true;
     }
     
+    private void mergeModifiedCodelists(List<CodeList> modifiedCodelists) {
+        for (CodeList codeList : modifiedCodelists) {
+            setCodelist(codeList.getId(), codeList);                
+        }
+    }
+
     public CodeList getCodeList(String id) {
         getCodeLists();
         
@@ -73,7 +110,7 @@ public class CodeListService {
     
     public List<CodeList> getCodeLists() {
         // read codelists if it's the first time
-        if (this.codelists == null && persistencies != null) {
+        if (this.codelists.isEmpty() && persistencies != null) {
             this.codelists = persistencies.get(defaultPersistency).read();
             // log an error if codelists could not be read!
             if (this.codelists == null || this.codelists.isEmpty()) {
@@ -91,15 +128,20 @@ public class CodeListService {
     }
 
     public String getCodeListValue(String lstId, String entryId, String lang) {
+        String localizedEntry = "???";
         CodeList cl = getCodeList(lstId);
         if(cl != null){
         	for (CodeListEntry entry : cl.getEntries()) {
                 if (entry.getId().equalsIgnoreCase(entryId)) {
-                    return entry.getLocalisedEntry(lang);
+                    localizedEntry = entry.getLocalisedEntry(lang);
+                    // fallback to english value
+                    if (localizedEntry == null)
+                        localizedEntry = entry.getLocalisedEntry("en");
+                    break;
                 }
             }
         }
-        return "";
+        return localizedEntry;
     }
     
     public String getCodeListEntryId(String lstId, String entryValue, String lang) {
@@ -111,15 +153,23 @@ public class CodeListService {
 	            }
 	        }
         }
-        return "";
+        return "???";
     }
     
+    /**
+     * This function should only be used by the codelist repository where the timestamp
+     * is also set.
+     * @param id
+     * @param data
+     */
     public void setCodelist(String id, String data) {
         CodeList cl = CodeListUtils.getCodeListFromJsonGeneric(data);
-        
         // add modification date
         cl.setLastModified(System.currentTimeMillis());
+        setCodelist(id, cl);
+    }
         
+    public void setCodelist(String id, CodeList cl) { 
         // remove old codelist if it exists
         CodeList oldCl = getCodeList(cl.getId());
         if (oldCl != null)
@@ -127,16 +177,20 @@ public class CodeListService {
         
         cl.setId(id);
         this.codelists.add(cl);
-        
-        // make persistent
-        persistToAll();
-        
     }
     
     public boolean persistToAll() {
+        return persistToAll(this.codelists);
+    }
+    
+    public boolean persistToAll(List<CodeList> modifiedCodelists) {
         try {
             for (ICodeListPersistency persistTarget : persistencies) {
-                persistTarget.write(this.codelists);
+                if (persistTarget.canDoPartialUpdates()) {
+                    persistTarget.writePartial(modifiedCodelists);
+                } else {
+                    persistTarget.write(this.codelists);
+                }
             }
         } catch (Exception e) {
             return false;
@@ -145,7 +199,7 @@ public class CodeListService {
     }
     
     public boolean persistTo(int where) {
-        this.persistencies.get(where).write(codelists);
+        this.persistencies.get(where).write(this.codelists);
         return true;
     }
     
@@ -159,5 +213,18 @@ public class CodeListService {
 
     public void setDefaultPersistency(int defaultPersistency) {
         this.defaultPersistency = defaultPersistency;
+    }
+
+    public Long getLastModifiedTimestamp() {
+        Long time = 0L;
+        for (CodeList codelist : getCodeLists()) {
+            if (codelist.getLastModified() > time)
+                time = codelist.getLastModified();
+        }
+        return time;
+    }
+    
+    public List<CodeList> getLastModifiedCodelists() {
+        return this.lastModifiedCodelists;
     }
 }

@@ -48,4 +48,16 @@ public class DbCodeListPersistency implements ICodeListPersistency {
         return password;
     }
 
+    
+    @Override
+    public boolean writePartial(List<CodeList> codelists) {
+        return false;
+    }
+
+
+    @Override
+    public boolean canDoPartialUpdates() {
+        return false;
+    }
+
 }

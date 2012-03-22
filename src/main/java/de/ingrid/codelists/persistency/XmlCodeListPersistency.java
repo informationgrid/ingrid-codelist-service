@@ -81,4 +81,16 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
         this.pathToXml = pathToXml;
     }
 
+
+    @Override
+    public boolean writePartial(List<CodeList> codelists) {
+        return false;
+    }
+
+    
+    @Override
+    public boolean canDoPartialUpdates() {
+        return false;
+    }
+
 }

@@ -33,4 +33,17 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
         return false;
     }
 
+    
+    @Override
+    public boolean writePartial(List<CodeList> codelists) {
+        //new Exception();
+        return false;
+    }
+
+    
+    @Override
+    public boolean canDoPartialUpdates() {
+        return false;
+    }
+
 }
