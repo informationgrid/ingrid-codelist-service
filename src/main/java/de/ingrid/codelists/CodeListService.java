@@ -80,6 +80,7 @@ public class CodeListService {
                 }
             }
         } else {
+            log.error("Communication problem to the codelist repository!");
             return false;
         }
         
@@ -216,7 +217,7 @@ public class CodeListService {
     }
 
     public Long getLastModifiedTimestamp() {
-        Long time = 0L;
+        Long time = -1L;
         for (CodeList codelist : getCodeLists()) {
             if (codelist.getLastModified() > time)
                 time = codelist.getLastModified();
