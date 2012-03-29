@@ -28,6 +28,9 @@ public class CodeList {
     // the date the codelist has been modified the last time
     private long lastModified;
     
+    // can the codelist be edited locally?
+    //private boolean maintainable; 
+    
     public CodeList() {
         this.entries = new ArrayList<CodeListEntry>();
         defaultEntry = "";
@@ -92,5 +95,14 @@ public class CodeList {
         return lastModified;
     }
 
+    /*
+    public void setMaintainable(boolean maintainable) {
+        this.maintainable = maintainable;
+    }
+
+    public boolean isMaintainable() {
+        return maintainable;
+    }
+    */
     
 }

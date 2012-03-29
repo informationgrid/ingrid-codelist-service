@@ -129,7 +129,7 @@ public class CodeListService {
     }
 
     public String getCodeListValue(String lstId, String entryId, String lang) {
-        String localizedEntry = "???";
+        String localizedEntry = null;
         CodeList cl = getCodeList(lstId);
         if(cl != null){
         	for (CodeListEntry entry : cl.getEntries()) {
@@ -154,7 +154,7 @@ public class CodeListService {
 	            }
 	        }
         }
-        return "???";
+        return null;
     }
     
     /**
