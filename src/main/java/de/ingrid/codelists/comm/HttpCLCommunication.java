@@ -31,7 +31,7 @@ public class HttpCLCommunication implements ICodeListCommunication {
     @Override
     public String sendRequest(Long timestamp) {
         if (log.isDebugEnabled()) {
-            log.debug("Requesting codelists from CodeList-Repository ...");
+            log.debug("Requesting codelists from Codelist-Repository ...");
         }
         HttpClient client = getClient();
         HttpMethod method = new GetMethod(requestUrl + "?lastModifiedDate=" + timestamp);
@@ -49,7 +49,7 @@ public class HttpCLCommunication implements ICodeListCommunication {
                 }
                 in.close();
             } else {
-                (new Exception("Problem with url '"+requestUrl+"'. Http Status Code was: " + status)).printStackTrace();
+                log.error("Could not connect to Codelist-Repository. Status: " + status); 
             }
         } catch (HttpException e) {
             log.error("Problem when accessing url: " + requestUrl + " (Status Code: " + status + ") Message: " + e.getMessage());
