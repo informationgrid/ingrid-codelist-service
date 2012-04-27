@@ -623,11 +623,15 @@
         <localisations>
           <entry>
             <string>de</string>
+            <string>Zoll</string>
+          </entry>
+          <entry>
+            <string>iso</string>
             <string>Inch</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>Zoll</string>
+            <string>Inch</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -637,6 +641,10 @@
           <entry>
             <string>de</string>
             <string>Meter</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>Metre</string>
           </entry>
           <entry>
             <string>en</string>
@@ -652,6 +660,10 @@
             <string>Fuss</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>Foot</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>Foot</string>
           </entry>
@@ -663,6 +675,10 @@
           <entry>
             <string>de</string>
             <string>Kilometer</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>Kilometre</string>
           </entry>
           <entry>
             <string>en</string>
@@ -1226,7 +1242,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>jis</string>
+            <string>Jis</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1234,7 +1250,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>jis</string>
+            <string>Jis</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1243,7 +1259,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>shiftJIS</string>
+            <string>ShiftJIS</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1251,7 +1267,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>shiftJIS</string>
+            <string>ShiftJIS</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1260,7 +1276,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>eucJP</string>
+            <string>EucJP</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1268,7 +1284,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>eucJP</string>
+            <string>EucJP</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1277,7 +1293,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>usAscii</string>
+            <string>UsAscii</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1285,7 +1301,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>usAscii</string>
+            <string>UsAscii</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1294,7 +1310,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>ebcdic</string>
+            <string>Ebcdic</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1302,7 +1318,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>ebcdic</string>
+            <string>Ebcdic</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1311,7 +1327,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>eucKR</string>
+            <string>EucKR</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1319,7 +1335,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>eucKR</string>
+            <string>EucKR</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1362,7 +1378,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>8859part13</string>
+            <string>8859part12</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1370,7 +1386,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>8859part13</string>
+            <string>8859part12</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1379,7 +1395,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>8859part16</string>
+            <string>8859part13</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1387,7 +1403,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>8859part16</string>
+            <string>8859part13</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1405,6 +1421,98 @@
           <entry>
             <string>en</string>
             <string>GB2312</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+    </entries>
+    <lastModified>0</lastModified>
+  </de.ingrid.codelists.model.CodeList>
+  <de.ingrid.codelists.model.CodeList>
+    <id>511</id>
+    <defaultEntry></defaultEntry>
+    <entries>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>1</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>unbeschränkt</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>unclassified</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>unclassified</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>2</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>beschränkt</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>restricted</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>restricted</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>3</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>vertraulich</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>confidential</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>confidential</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>4</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>geheim</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>secret</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>secret</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>5</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>streng geheim</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>topSecret</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>top secret</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1802,7 +1910,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>notPlanned</string>
+            <string>not Planned</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2145,6 +2253,10 @@
             <string>unbekannt (*)</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>unknown</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>unknown</string>
           </entry>
@@ -2156,6 +2268,10 @@
           <entry>
             <string>de</string>
             <string>Faxabruf</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>faxback</string>
           </entry>
           <entry>
             <string>en</string>
@@ -2171,6 +2287,10 @@
             <string>Mobilfunk</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>mobileRadio</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>mobile radio</string>
           </entry>
@@ -2182,6 +2302,10 @@
           <entry>
             <string>de</string>
             <string>Rundfunk</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>broadcast</string>
           </entry>
           <entry>
             <string>en</string>
@@ -2197,6 +2321,10 @@
             <string>Videotext</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>videoText</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>video text</string>
           </entry>
@@ -2208,6 +2336,10 @@
           <entry>
             <string>de</string>
             <string>analoge Fotografie</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>analogPhotography</string>
           </entry>
           <entry>
             <string>en</string>
@@ -2223,6 +2355,10 @@
             <string>Mikrofilm</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>microfilm</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>microfilm</string>
           </entry>
@@ -2234,6 +2370,10 @@
           <entry>
             <string>de</string>
             <string>ZIP-Laufwerk</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>zipDrive</string>
           </entry>
           <entry>
             <string>en</string>
@@ -2249,6 +2389,10 @@
             <string>E-Mail</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>email</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>e-mail</string>
           </entry>
@@ -2260,6 +2404,10 @@
           <entry>
             <string>de</string>
             <string>Infokiosk</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>infoKiosk</string>
           </entry>
           <entry>
             <string>en</string>
@@ -2390,7 +2538,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>under development</string>
+            <string>underDevelopment</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2411,9 +2559,152 @@
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
+    <id>524</id>
+    <defaultEntry></defaultEntry>
+    <entries>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>1</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Urheberrecht</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>copyright</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>copyright</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>2</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Patent</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>patent</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>patent</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>3</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Patent angemeldet</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>patentPending</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>patent pending</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>4</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Warenzeichen</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>trademark</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>trademark</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>5</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Lizenz</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>license</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>license</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>6</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>geistiges Eigentum</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>intellectualPropertyRights</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>intellectual property rights</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>7</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>beschränkter Zugang</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>restricted</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>restricted</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>8</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>andere Beschränkungen</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>otherRestrictions</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>other restrictions</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+    </entries>
+    <lastModified>0</lastModified>
+  </de.ingrid.codelists.model.CodeList>
+  <de.ingrid.codelists.model.CodeList>
     <id>525</id>
     <name>Objektklasse 1 - Datensatz/Datenserie</name>
-    <defaultEntry>5</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>5</id>
@@ -2818,7 +3109,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>planningCadastre</string>
+            <string>PlanningCadastre</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3048,39 +3339,6 @@
           <entry>
             <string>en</string>
             <string>abstract</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-    </entries>
-    <lastModified>0</lastModified>
-  </de.ingrid.codelists.model.CodeList>
-  <de.ingrid.codelists.model.CodeList>
-    <id>1000</id>
-    <defaultEntry>1</defaultEntry>
-    <entries>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>1</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>eins</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>one</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>3</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>drei</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>two</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3885,15 +4143,28 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
+        <id>9990</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Datendownload</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Download of data</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
         <id>9999</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Keine Kopplung</string>
+            <string>unspezifischer Verweis</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>Not attached</string>
+            <string>unspecific Link</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4141,7 +4412,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>3571</id>
     <name>Veröffentlichungsbreite</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -6123,6 +6394,10 @@
             <string>Informationssystem</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>information system</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>Information System</string>
           </entry>
@@ -6134,6 +6409,10 @@
           <entry>
             <string>de</string>
             <string>nicht geographischer Dienst</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>non geographic service</string>
           </entry>
           <entry>
             <string>en</string>
@@ -6149,6 +6428,10 @@
             <string>Anwendung</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>application</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>Application</string>
           </entry>
@@ -6160,7 +6443,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>6000</id>
     <name>Konformität - Grad der Konformität</name>
-    <defaultEntry>3</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -6207,7 +6490,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>6005</id>
     <name>Konformität - Spezifikation der Konformität</name>
-    <defaultEntry>13</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -6382,322 +6665,20 @@
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
-    <id>6010</id>
-    <name>Verfügbarkeit - Zugangsbeschränkungen</name>
-    <defaultEntry>1</defaultEntry>
-    <entries>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>1</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>keine</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>no conditions apply</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>2</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund der Vertraulichkeit der Verfahren von Behörden</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>the confidentiality of the proceedings of public authorities</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>3</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund internationaler Beziehungen, der öffentliche Sicherheit oder der Landesverteidigung</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>international relations, public security or national defence</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>4</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund laufender Gerichtsverfahren</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>the course of justice</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>5</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund der Vertraulichkeit von Geschäfts- oder Betriebsinformationen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>the confidentiality of commercial or industrial information</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>6</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund der Rechte des geistigen Eigentums</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>intellectual property rights</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>7</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund der Vertraulichkeit personenbezogener Daten</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>the confidentiality of personal data and/or files</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>8</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund des Schutzes einer Person</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>the interests or protection of any person</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>9</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>aufgrund des Schutzes von Umweltbereichen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>the protection of the environment</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>10</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>unbekannt</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>conditions unknown</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-    </entries>
-    <lastModified>0</lastModified>
-  </de.ingrid.codelists.model.CodeList>
-  <de.ingrid.codelists.model.CodeList>
-    <id>6020</id>
-    <name>Verfügbarkeit - Nutzungsbedingungen</name>
-    <defaultEntry></defaultEntry>
-    <entries>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>1</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Keine</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>No conditions apply</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-    </entries>
-    <lastModified>0</lastModified>
-  </de.ingrid.codelists.model.CodeList>
-  <de.ingrid.codelists.model.CodeList>
     <id>6100</id>
     <name>INSPIRE-Themen</name>
     <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>105</id>
+        <id>101</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Adressen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Addresses</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>313</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Atmosphärische Bedingungen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Utility and governmental services</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>311</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Bewirtschaftungsgebiete/Schutzgebiete/geregelte Gebiete und Berichterstattungseinheiten</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Land cover</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>317</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Biogeografische Regionen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Agricultural and aquaculture facilities</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>303</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Boden</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Administrative units</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>202</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Bodenbedeckung</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Area management/restriction/regulation zones and reporting units</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>304</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Bodennutzung</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Elevation</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>320</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Energiequellen</string>
+            <string>Koordinatenreferenzsysteme</string>
           </entry>
           <entry>
             <string>en</string>
             <string>Coordinate reference systems</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>106</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Flurstücke/Grundstücke (Katasterparzellen)</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Hydrography</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>302</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Gebäude</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Human health and safety</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>312</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Gebiete mit naturbedingten Risiken</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Cadastral parcels</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>103</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Geografische Bezeichnungen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Sea regions</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -6715,28 +6696,67 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>204</id>
+        <id>103</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Geologie</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Environmental monitoring facilities</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>305</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Gesundheit und Sicherheit</string>
+            <string>Geografische Bezeichnungen</string>
           </entry>
           <entry>
             <string>en</string>
             <string>Geographical names</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>104</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Verwaltungseinheiten</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Administrative units</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>105</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Adressen</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Addresses</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>106</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Flurstücke/Grundstücke (Katasterparzellen)</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Cadastral parcels</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>107</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Verkehrsnetze</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Transport networks</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -6749,7 +6769,20 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>Land use</string>
+            <string>Hydrography</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>109</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Schutzgebiete</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Protected sites</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -6762,85 +6795,20 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>Geology</string>
+            <string>Elevation</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>101</id>
+        <id>202</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Koordinatenreferenzsysteme</string>
+            <string>Bodenbedeckung</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>Habitats and biotopes</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>309</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Landwirtschaftliche Anlagen und Aquakulturanlagen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Bio-geographical regions</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>318</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Lebensräume und Biotope</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Buildings</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>316</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Meeresregionen</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Mineral resources</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>314</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Meteorologisch-geografische Kennwerte</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Natural risk zones</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>321</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Mineralische Bodenschätze</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Energy resources</string>
+            <string>Land cover</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -6858,6 +6826,201 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
+        <id>204</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Geologie</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Geology</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>301</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Statistische Einheiten</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Statistical units</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>302</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Gebäude</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Buildings</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>303</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Boden</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Soil</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>304</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Bodennutzung</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Land use</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>305</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Gesundheit und Sicherheit</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Human health and safety</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>306</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Versorgungswirtschaft und staatliche Dienste</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Utility and governmental services</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>307</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Umweltüberwachung</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Environmental monitoring facilities</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>308</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Produktions- und Industrieanlagen</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Production and industrial facilities</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>309</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Landwirtschaftliche Anlagen und Aquakulturanlagen</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Agricultural and aquaculture facilities</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>310</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Verteilung der Bevölkerung - Demografie</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Population distribution - demography</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>311</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Bewirtschaftungsgebiete/Schutzgebiete/geregelte Gebiete und Berichterstattungseinheiten</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Area management/restriction/regulation zones and reporting units</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>312</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Gebiete mit naturbedingten Risiken</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Natural risk zones</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>313</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Atmosphärische Bedingungen</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Atmospheric conditions</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>314</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Meteorologisch-geografische Kennwerte</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Meteorological geographical features</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
         <id>315</id>
         <localisations>
           <entry>
@@ -6871,80 +7034,41 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>308</id>
+        <id>316</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Produktions- und Industrieanlagen</string>
+            <string>Meeresregionen</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>Transport networks</string>
+            <string>Sea regions</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>109</id>
+        <id>317</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Schutzgebiete</string>
+            <string>Biogeografische Regionen</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>Population distribution - demography</string>
+            <string>Bio-geographical regions</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>301</id>
+        <id>318</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Statistische Einheiten</string>
+            <string>Lebensräume und Biotope</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>Production and industrial facilities</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>307</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Umweltüberwachung</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Meteorological geographical features</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>107</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Verkehrsnetze</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Atmospheric conditions</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>306</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Versorgungswirtschaft und staatliche Dienste</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Statistical units</string>
+            <string>Habitats and biotopes</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -6957,33 +7081,46 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>Protected sites</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>310</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Verteilung der Bevölkerung - Demografie</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Soil</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>104</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Verwaltungseinheiten</string>
-          </entry>
-          <entry>
-            <string>en</string>
             <string>Species distribution</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>320</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Energiequellen</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Energy resources</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>321</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Mineralische Bodenschätze</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Mineral resources</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>99999</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Kein INSPIRE-Thema</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>No INSPIRE Theme</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -6993,7 +7130,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>6200</id>
     <name>ISO Liste der Länder</name>
-    <defaultEntry>276</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>8</id>
@@ -7599,7 +7736,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>6300</id>
     <name>INSPIRE-Datenformat</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -7922,7 +8059,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>7113</id>
     <name>Datenqualität - Konsistenz des Wertebereichs - Art der Messung</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -7943,7 +8080,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>7114</id>
     <name>Datenqualität - Formatkonsistenz - Art der Messung</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -8115,7 +8252,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>7120</id>
     <name>Datenqualität - Zeitliche Genauigkeit - Art der Messung</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -8136,7 +8273,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>7125</id>
     <name>Datenqualität - Korrektheit der thematischen Klassifizierung - Art der Messung</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -8157,7 +8294,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>7126</id>
     <name>Datenqualität - Genauigkeit nicht-quantitativer Attribute - Art der Messung</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -8191,7 +8328,7 @@
   <de.ingrid.codelists.model.CodeList>
     <id>7127</id>
     <name>Datenqualität - Genauigkeit quantitativer Attribute - Art der Messung</name>
-    <defaultEntry>1</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -8212,8 +8349,60 @@
   <de.ingrid.codelists.model.CodeList>
     <id>99999999</id>
     <name>Sprache der Ressource / des Metadatensatzes</name>
-    <defaultEntry>150</defaultEntry>
+    <defaultEntry></defaultEntry>
     <entries>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>65</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Bulgarisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Bulgarian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>101</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Tschechisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Czech</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>103</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Dänisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Danish</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>116</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Niederländisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Dutch</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>123</id>
         <localisations>
@@ -8228,6 +8417,45 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
+        <id>126</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Estnisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Estonian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>134</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Finnisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Finish</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>137</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Französisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>French</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
         <id>150</id>
         <localisations>
           <entry>
@@ -8237,6 +8465,201 @@
           <entry>
             <string>en</string>
             <string>German</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>164</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Griechisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Greek</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>183</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Ungarisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Hungarian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>202</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Italienisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Italian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>247</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Lettisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Latvian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>251</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Litauisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Lithuanian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>284</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Maltesisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Maltese</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>312</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Norwegisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Norwegian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>346</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Polnisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Polish</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>348</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Portugiesisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Portuguese</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>360</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Rumänisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Romanian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>363</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Russisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Russian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>385</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Slowakisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Slovakian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>386</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Slowenisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Slovenian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>401</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Spanisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Spanish</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>413</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Schwedisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Swedish</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
