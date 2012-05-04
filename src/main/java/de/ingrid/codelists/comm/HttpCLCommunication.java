@@ -59,6 +59,9 @@ public class HttpCLCommunication implements ICodeListCommunication {
             log.error("Problem handling the http-stream. Message: " + e.getMessage()); 
             e.printStackTrace();
             return null;
+        } catch (Exception e) {
+            log.error("Could not connect to repository! Probably wrong method call: " + method.getPath() + "?" + method.getQueryString());
+            return null;
         }
         
         if (log.isDebugEnabled()) {
