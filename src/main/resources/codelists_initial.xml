@@ -733,7 +733,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>letzte Änderung</string>
+            <string>Aktualisierung</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -758,7 +758,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Ressourcenanbieter</string>
+            <string>Anbieter</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -766,7 +766,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>Resource Provider</string>
+            <string>resourceProvider</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1537,7 +1537,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>complexes</string>
+            <string>complex</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1546,7 +1546,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Verbund</string>
+            <string>Komposit</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1554,7 +1554,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>composites</string>
+            <string>composite</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1563,7 +1563,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Kurve</string>
+            <string>Linie</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1614,7 +1614,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Oberfläche</string>
+            <string>Fläche</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1639,7 +1639,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Wissenszweig</string>
+            <string>Fachdisziplin</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1656,7 +1656,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Ortsangabe</string>
+            <string>Ort</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1673,7 +1673,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Schicht</string>
+            <string>Schichtungsebene</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1707,7 +1707,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Themenbereich</string>
+            <string>Thema</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -1783,7 +1783,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>vierzehntägig</string>
+            <string>zweiwöchentlich</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2008,164 +2008,11 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>5</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>5,25-Zoll Diskette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>5quarterInchFloppy</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>5.25-inch diskette</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>6</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>7 Spur Band</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>7trackTape</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>7 trackTape</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>7</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>9 Spur Band</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>9trackType</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>9 track Tape</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>8</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>3480 Bandkassette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>3480Cartridge</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>3480 Cartridge</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>9</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>3490 Bandkassette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>3490Cartridge</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>3490 Cartridge</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>10</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>3580 Bandkassette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>3580Cartridge</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>3580 Cartridge</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>11</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>4mm Bandkassette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>4mmCartridgeTape</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>4mm Cartridge Tape</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>12</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>8mm Bandkassette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>8mmCartridgeTape</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>8mm Cartridge Tape</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>13</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>1/4-Zoll Bandkassette</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>1quarterInchCartridgeTape</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>0.25-inch Cartridge Tape</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
         <id>14</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Digitales Band</string>
+            <string>0,5-Zoll Kassette</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2195,28 +2042,11 @@
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
-        <id>16</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Satellitenverbindung</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>satellite</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Satellite</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
         <id>17</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Telefon</string>
+            <string>Telefonverbindung</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2233,7 +2063,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Papier</string>
+            <string>Ausdruck</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2445,7 +2275,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>archiviert</string>
+            <string>historisches Archiv</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2462,7 +2292,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>obsolet</string>
+            <string>veraltet</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2479,7 +2309,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>kontinuierlich</string>
+            <string>kontinuierliche Aktualisierung</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2513,7 +2343,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>benötigt</string>
+            <string>erforderlich</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2538,7 +2368,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>underDevelopment</string>
+            <string>under development</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2711,7 +2541,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Datensatz</string>
+            <string>Datenbestand</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2728,7 +2558,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Datenserie</string>
+            <string>Serie</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2736,7 +2566,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>Dataseries</string>
+            <string>series</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2770,7 +2600,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Rasterdaten</string>
+            <string>Raster, Gitter</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2787,7 +2617,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Texttabelle</string>
+            <string>Text, Tabelle</string>
           </entry>
           <entry>
             <string>iso</string>
