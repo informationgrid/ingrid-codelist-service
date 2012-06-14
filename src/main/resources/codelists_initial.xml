@@ -707,7 +707,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>creation</string>
+            <string>Creation</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -724,7 +724,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>publication</string>
+            <string>Publication</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -741,7 +741,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>revision</string>
+            <string>Revision</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -766,7 +766,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>resourceProvider</string>
+            <string>Resource Provider</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1537,7 +1537,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>complex</string>
+            <string>Complex</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1554,7 +1554,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>composite</string>
+            <string>Composite</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1571,7 +1571,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>curve</string>
+            <string>Curve</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1588,7 +1588,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>point</string>
+            <string>Point</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1605,7 +1605,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>solid</string>
+            <string>Solid</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1622,7 +1622,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>surface</string>
+            <string>Surface</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1969,7 +1969,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>dvd</string>
+            <string>DVD</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -1986,7 +1986,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>dvd Rom</string>
+            <string>DVD Rom</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2105,7 +2105,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>faxback</string>
+            <string>Faxback</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2122,7 +2122,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>mobile radio</string>
+            <string>Mobile Radio</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2139,7 +2139,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>broadcast</string>
+            <string>Broadcast</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2156,7 +2156,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>video text</string>
+            <string>Video Text</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2190,7 +2190,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>microfilm</string>
+            <string>Microfilm</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2283,7 +2283,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>historicalArchive</string>
+            <string>historical archive</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2566,7 +2566,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>series</string>
+            <string>Series</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2591,7 +2591,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>vector</string>
+            <string>Vector</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2608,7 +2608,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>grid</string>
+            <string>Grid</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2625,7 +2625,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>textTable</string>
+            <string>Text, Table</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2659,7 +2659,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>stereoModel</string>
+            <string>Stereo Model</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2676,7 +2676,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>video</string>
+            <string>Video</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2701,7 +2701,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>farming</string>
+            <string>Farming</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2718,7 +2718,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>biota</string>
+            <string>Biota</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2735,7 +2735,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>boundaries</string>
+            <string>Boundaries</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2752,7 +2752,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>climatologyMeteorologyAtmosphere</string>
+            <string>Atmosphere</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2769,7 +2769,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>economy</string>
+            <string>Economy</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2786,7 +2786,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>elevation</string>
+            <string>Elevation</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2803,7 +2803,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>environment</string>
+            <string>Environment</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2820,7 +2820,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>geoscientificInformation</string>
+            <string>Geoscientific Information</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2837,7 +2837,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>health</string>
+            <string>Health</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2854,7 +2854,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>imageryBaseMapsEarthCover</string>
+            <string>Surface Description</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2871,7 +2871,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>intelligenceMilitary</string>
+            <string>Intelligence and Military</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2888,7 +2888,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>inlandWaters</string>
+            <string>Inland Waters</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2905,7 +2905,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>location</string>
+            <string>Location</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2922,7 +2922,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>oceans</string>
+            <string>Oceans</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2939,7 +2939,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>PlanningCadastre</string>
+            <string>Planning, Cadastre</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2956,7 +2956,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>society</string>
+            <string>Society</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2973,7 +2973,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>structure</string>
+            <string>Structure</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -2990,7 +2990,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>transportation</string>
+            <string>Transportation</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3007,7 +3007,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>utilitiesCommunication</string>
+            <string>Utilities, Communication</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3032,7 +3032,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>geometryOnly</string>
+            <string>Geometry without Topology</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3049,7 +3049,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>topology1D</string>
+            <string>Topology 1D</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3066,7 +3066,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>planarGraph</string>
+            <string>Planar Graph</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3083,7 +3083,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>fullPlanarGraph</string>
+            <string>Full Planar Graph</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3100,7 +3100,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>surfaceGraph</string>
+            <string>Surface Graph</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3117,7 +3117,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>fullSurfaceGraph</string>
+            <string>Full Surface Graph</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3134,7 +3134,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>topology3D</string>
+            <string>Topology 3D</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3151,7 +3151,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>fullTopology3D</string>
+            <string>Full Topology 3D</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3236,7 +3236,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>seconds</string>
+            <string>Seconds</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3249,7 +3249,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>minutes</string>
+            <string>Minutes</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3262,7 +3262,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>hours</string>
+            <string>Hours</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3275,7 +3275,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>days</string>
+            <string>Days</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3288,7 +3288,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>months</string>
+            <string>Months</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -3301,7 +3301,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>years</string>
+            <string>Years</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4062,7 +4062,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>internet</string>
+            <string>Internet</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4075,7 +4075,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>intranet</string>
+            <string>Intranet</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4253,7 +4253,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>internet</string>
+            <string>Internet</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4266,7 +4266,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>intranet</string>
+            <string>Intranet</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4381,7 +4381,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>telephone</string>
+            <string>Telephone</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4394,7 +4394,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>ax</string>
+            <string>Fax</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4446,7 +4446,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>telex</string>
+            <string>Telex</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -8514,7 +8514,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>copyright</string>
+            <string>Copyright</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -8531,7 +8531,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>patent</string>
+            <string>Patent</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -8548,7 +8548,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>patent pending</string>
+            <string>Patent Pending</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -8565,7 +8565,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>trademark</string>
+            <string>Trademark</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -8582,7 +8582,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>license</string>
+            <string>License</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
