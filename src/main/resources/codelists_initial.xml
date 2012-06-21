@@ -733,7 +733,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Aktualisierung</string>
+            <string>letzte Änderung</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2541,7 +2541,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Datenbestand</string>
+            <string>Datensatz</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2558,7 +2558,7 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>Serie</string>
+            <string>Datenserie</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -2566,7 +2566,7 @@
           </entry>
           <entry>
             <string>en</string>
-            <string>Series</string>
+            <string>Dataseries</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
