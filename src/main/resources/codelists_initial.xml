@@ -1429,6 +1429,7 @@
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
     <id>511</id>
+    <name>Status</name>
     <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
@@ -2382,149 +2383,6 @@
           <entry>
             <string>en</string>
             <string>in operation</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-    </entries>
-    <lastModified>0</lastModified>
-  </de.ingrid.codelists.model.CodeList>
-  <de.ingrid.codelists.model.CodeList>
-    <id>524</id>
-    <defaultEntry></defaultEntry>
-    <entries>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>1</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Urheberrecht</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>copyright</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>copyright</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>2</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Patent</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>patent</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>patent</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>3</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Patent angemeldet</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>patentPending</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>patent pending</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>4</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Warenzeichen</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>trademark</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>trademark</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>5</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Lizenz</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>license</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>license</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>6</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>geistiges Eigentum</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>intellectualPropertyRights</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>intellectual property rights</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>7</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>beschränkter Zugang</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>restricted</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>restricted</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>8</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>andere Beschränkungen</string>
-          </entry>
-          <entry>
-            <string>iso</string>
-            <string>otherRestrictions</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>other restrictions</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
@@ -4084,6 +3942,7 @@
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
     <id>3230</id>
+    <name>System</name>
     <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
@@ -4216,6 +4075,7 @@
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
     <id>3561</id>
+    <name>Orte</name>
     <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
@@ -4455,6 +4315,7 @@
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
     <id>5000</id>
+    <name>Gruppe</name>
     <defaultEntry></defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
