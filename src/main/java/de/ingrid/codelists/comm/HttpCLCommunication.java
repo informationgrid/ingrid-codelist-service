@@ -50,6 +50,7 @@ public class HttpCLCommunication implements ICodeListCommunication {
                 in.close();
             } else {
                 log.error("Could not connect to Codelist-Repository. Status: " + status); 
+                return null;
             }
         } catch (HttpException e) {
             log.error("Problem when accessing url: " + requestUrl + " (Status Code: " + status + ") Message: " + e.getMessage());
