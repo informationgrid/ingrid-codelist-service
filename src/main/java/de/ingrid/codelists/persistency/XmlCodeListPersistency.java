@@ -5,11 +5,16 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.StreamException;
@@ -18,6 +23,8 @@ import de.ingrid.codelists.model.CodeList;
 
 public class XmlCodeListPersistency implements ICodeListPersistency {
 
+    private static Log log = LogFactory.getLog(XmlCodeListPersistency.class);
+    
     private String pathToXml;
     
     public XmlCodeListPersistency() {}
@@ -28,13 +35,16 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
         XStream xStream = new XStream();
         try {
             checkForFile(this.pathToXml);
-            return (List<CodeList>) xStream.fromXML(new FileInputStream(this.pathToXml));
+            Reader reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
+            return (List<CodeList>) xStream.fromXML(reader);
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
             //throw new Exception();
         } catch (StreamException e) {
             return new ArrayList<CodeList>();
+        } catch (UnsupportedEncodingException e) {
+            log.warn("Problems reading codelists from file "+this.pathToXml+".", e);
         }
         return null;
     }

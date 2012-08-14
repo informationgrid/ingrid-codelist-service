@@ -24,10 +24,11 @@ public class UpdateCodeListsJob extends QuartzJobBean {
         }
         
         CodeListService clService = getClServiceFromBean(jobExecutionContext);
-        boolean success = clService.updateFromServer(clService.getLastModifiedTimestamp()); // or timestamp from db!
+        // if null is returned then this means that an error occured!
+        Object modifiedCodelists = clService.updateFromServer(clService.getLastModifiedTimestamp());
         
         if (log.isDebugEnabled()) {
-            log.debug("UpdateCodeListsJob finished! (successful = " + success + ")");
+            log.debug("UpdateCodeListsJob finished! (successful = " + (modifiedCodelists == null ? false : true) + ")");
         }
     }
 

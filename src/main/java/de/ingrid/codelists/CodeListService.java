@@ -28,21 +28,15 @@ public class CodeListService {
     
     private List<CodeList>              codelists;
     
-    // remember the last fetched codelists, which is needed when no persistency
-    // is used and received codelists are only forwarded
-    private List<CodeList>              lastModifiedCodelists;
-    
-    
     public CodeListService() {
         this.codelists             = new ArrayList<CodeList>();
-        this.lastModifiedCodelists = new ArrayList<CodeList>();
     }
     
     /**
      * Fetch all codelists from server and make them locally persistent
      * in the defined targets (XML or DB).
      */
-    public boolean updateFromServer() {
+    public List<CodeList> updateFromServer() {
         return updateFromServer(-1L);
     }
     
@@ -50,30 +44,32 @@ public class CodeListService {
      * Fetch all codelists that have been modified since 'timestamp' from the server 
      * and make them locally persistent in the defined targets (XML or DB).
      * @param timestamp
-     * @return
+     * @return changed codelists received from repository or 'null' if an error occurred
      */
-    public boolean updateFromServer(Long timestamp) {
+    public List<CodeList> updateFromServer(Long timestamp) {
         if (comm == null) {
             log.warn("No communication defined to retrieve codelists!");
-            return false;
+            return null;
         }
+        
+        List<CodeList> lastModifiedCodelists = new ArrayList<CodeList>();
         
         // request repository and receive response which contains all codelists
         String response = comm.sendRequest(timestamp);
         
         if (response != null) {
             // transform codelists into java objects
-            this.lastModifiedCodelists = CodeListUtils.getCodeListsFromResponse(response);
+            lastModifiedCodelists = CodeListUtils.getCodeListsFromResponse(response);
           
             // only update if there were any modifications!
-            if (this.lastModifiedCodelists.size() > 0) {
-                log.info(this.lastModifiedCodelists.size() + " modified codelist(s) received.");
+            if (lastModifiedCodelists.size() > 0) {
+                log.info(lastModifiedCodelists.size() + " modified codelist(s) received.");
                 
                 // merge codelist
-                mergeModifiedCodelists(this.lastModifiedCodelists);
+                mergeModifiedCodelists(lastModifiedCodelists);
                 
                 // persist codelists in file/db
-                persistToAll(this.lastModifiedCodelists);
+                persistToAll(lastModifiedCodelists);
             } else {
                 if (log.isDebugEnabled()) {
                     log.debug("No modified codelists have been received.");
@@ -81,10 +77,10 @@ public class CodeListService {
             }
         } else {
             log.error("Communication problem to the codelist repository!");
-            return false;
+            return null;
         }
         
-        return true;
+        return lastModifiedCodelists;
     }
     
     private void mergeModifiedCodelists(List<CodeList> modifiedCodelists) {
@@ -223,9 +219,5 @@ public class CodeListService {
                 time = codelist.getLastModified();
         }
         return time;
-    }
-    
-    public List<CodeList> getLastModifiedCodelists() {
-        return this.lastModifiedCodelists;
     }
 }
