@@ -42,7 +42,7 @@ public class HttpCLCommunication implements ICodeListCommunication {
             status = client.executeMethod(method);
             
             if (status == 200) {
-                BufferedReader in = new BufferedReader(new InputStreamReader(method.getResponseBodyAsStream()));
+                BufferedReader in = new BufferedReader(new InputStreamReader(method.getResponseBodyAsStream(), "UTF-8"));
                 String inputLine = "";
                 while ((inputLine = in.readLine()) != null) {
                     result = result.concat(inputLine);
