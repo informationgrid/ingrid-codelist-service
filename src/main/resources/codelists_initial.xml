@@ -3856,6 +3856,20 @@
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>3600</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Gekoppelte Daten</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Coupled Data</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
