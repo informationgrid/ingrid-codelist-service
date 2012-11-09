@@ -80,7 +80,7 @@ public class CodeList {
     
     public void removeEntry(String id) {
         for (CodeListEntry entry : entries) {
-            if (entry.getId() == id) {
+            if (entry.getId().equals(id)) {
                 entries.remove(entry);
                 break;
             }
