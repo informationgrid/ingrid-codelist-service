@@ -37,10 +37,7 @@ public class IngridCLCommunication implements ICodeListCommunication {
                 log.debug("Request finished.");
             }
         } catch (Exception e) {
-            if (log.isDebugEnabled()) {
-                log.debug("Error while requesting codelists from Management iPlug.");
-            }
-            e.printStackTrace();
+            log.error("Error while requesting codelists from Management iPlug.", e);
             return null;
         }
         
