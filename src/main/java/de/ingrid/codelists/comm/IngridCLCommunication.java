@@ -42,7 +42,7 @@ public class IngridCLCommunication implements ICodeListCommunication {
         }
         
         IngridHit[] hitsPart = hits.getHits();
-        if (hitsPart.length == 0) {
+        if (hitsPart.length == 0 || hitsPart[0].get("codelists") == null) {
             log.error("Codelists could not be fetched from Management-iPlug!");
             return null;
         }
