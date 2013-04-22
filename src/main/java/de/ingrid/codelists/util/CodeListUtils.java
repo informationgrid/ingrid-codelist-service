@@ -113,6 +113,7 @@ public class CodeListUtils {
                 JSONObject jsonEntryObject = jsonEntriesArray.getJSONObject(i);
                 cle.setId(jsonEntryObject.getString("id"));
                 cle.setDescription(jsonEntryObject.optString("description", ""));
+                cle.setData(jsonEntryObject.optString("data", ""));
                 JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations"); 
                 for (int j=0; j<jsonLocalisationsArray.length(); j++) {
                     cle.setLocalisedEntry(

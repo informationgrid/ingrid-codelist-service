@@ -18,6 +18,7 @@ public class CodeListEntry  {
     private String              id;
     private String              description;
     private Map<String, String> localisations;
+    private String 				data;
     
     public CodeListEntry() {
         localisations = new HashMap<String, String>();
@@ -57,6 +58,14 @@ public class CodeListEntry  {
     public String getDescription() {
         return description;
     }
+
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
 
     
     
