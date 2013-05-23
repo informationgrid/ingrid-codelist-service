@@ -6214,169 +6214,182 @@
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Addresses – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Addresses – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Addresses – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Addresses – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>2</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Administrative units --Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Administrative units --Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Administrative units --Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Administrative units --Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>3</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Cadastral parcels --Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Cadastral parcels --Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Cadastral parcels --Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Cadastral parcels --Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>4</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Geographical names – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Geographical names – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Geographical names – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Geographical names – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>5</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Hydrography – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Hydrography – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Hydrography – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Hydrography – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>6</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Protected Sites – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Protected Sites – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Protected Sites – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Protected Sites – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>7</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Transport Networks – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Transport Networks – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Transport Networks – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Data Specification on Transport Networks – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>8</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Specification on Coordinate Reference Systems – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Specification on Coordinate Reference Systems – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Specification on Coordinate Reference Systems – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Specification on Coordinate Reference Systems – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>9</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Specification on Geographical Grid Systems – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Specification on Geographical Grid Systems – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Specification on Geographical Grid Systems – Guidelines, 2010-05-03</string>
+            <string>INSPIRE Specification on Geographical Grid Systems – Guidelines</string>
           </entry>
         </localisations>
+        <data>2010-05-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>10</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Netzdienste, 2009-10-19</string>
+            <string>INSPIRE Durchführungsbestimmung Netzdienste</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Netzdienste, 2009-10-19</string>
+            <string>INSPIRE Durchführungsbestimmung Netzdienste</string>
           </entry>
         </localisations>
+        <data>2009-10-19</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>11</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Metadaten, 2008-12-03</string>
+            <string>INSPIRE Durchführungsbestimmung Metadaten</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Metadaten, 2008-12-03</string>
+            <string>INSPIRE Durchführungsbestimmung Metadaten</string>
           </entry>
         </localisations>
+        <data>2008-12-03</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>12</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten, 2010-11-21</string>
+            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten, 2010-11-21</string>
+            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten</string>
           </entry>
         </localisations>
+        <data>2010-11-21</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>13</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Richtlinie, 2007-03-14</string>
+            <string>INSPIRE Richtlinie</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Richtlinie, 2007-03-14</string>
+            <string>INSPIRE Richtlinie</string>
           </entry>
         </localisations>
+        <data>2007-03-14</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
