@@ -11,6 +11,7 @@ import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
@@ -57,6 +58,8 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
             
             FileOutputStream fos = new FileOutputStream(this.pathToXml);
             Writer writer = new OutputStreamWriter(fos, "UTF-8");
+            // sort list by id to write similar file so it can be patched
+            Collections.sort(data);
             xStream.toXML(data, writer);
             return true;
         } catch (FileNotFoundException e) {

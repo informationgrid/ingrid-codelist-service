@@ -9,7 +9,7 @@ import java.util.List;
  * @author Andre
  *
  */
-public class CodeList {
+public class CodeList implements Comparable<CodeList> {
     // the id of the codelist
     private String  id;
     
@@ -94,6 +94,11 @@ public class CodeList {
     public long getLastModified() {
         return lastModified;
     }
+
+	@Override
+	public int compareTo(CodeList cl) {
+		return getId().compareTo(cl.getId());
+	}
 
     /*
     public void setMaintainable(boolean maintainable) {
