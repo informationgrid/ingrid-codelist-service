@@ -1537,6 +1537,7 @@
             <string>Coupled Data</string>
           </entry>
         </localisations>
+        <data></data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
