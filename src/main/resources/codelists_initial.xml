@@ -1511,6 +1511,20 @@
         <data>0,1,2,3,4,5,6</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
+        <id>9995</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Nutzungsbedingungen</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Usage Limitations</string>
+          </entry>
+        </localisations>
+        <data>0,1,2,3,4,5,6</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
         <id>9999</id>
         <localisations>
           <entry>
