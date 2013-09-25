@@ -119,7 +119,7 @@ public class CodeListService {
         return this.codelists;
     }
 
-    private List<CodeList> getInitialCodelists() {
+    public List<CodeList> getInitialCodelists() {
         InitialCodeListReaderPersistency p = new InitialCodeListReaderPersistency();
         return p.read();
     }
@@ -215,6 +215,15 @@ public class CodeListService {
     public Long getLastModifiedTimestamp() {
         Long time = -1L;
         for (CodeList codelist : getCodeLists()) {
+            if (codelist.getLastModified() > time)
+                time = codelist.getLastModified();
+        }
+        return time;
+    }
+    
+    public Long getLatestTimestampFromInitialCodelist() {
+        Long time = -1L;
+        for (CodeList codelist : getInitialCodelists()) {
             if (codelist.getLastModified() > time)
                 time = codelist.getLastModified();
         }

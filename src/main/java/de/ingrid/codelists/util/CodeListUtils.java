@@ -144,4 +144,13 @@ public class CodeListUtils {
         
         return xstream.toXML(obj);
     }
+    
+    public static boolean codelistExists(List<CodeList> codelists, String id) {
+        boolean result = false;
+        for (CodeList codeList : codelists) {
+            if (codeList.getId().equals(id))
+                result = true;
+        }
+        return result;
+    }
 }
