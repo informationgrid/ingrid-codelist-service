@@ -3221,6 +3221,20 @@ ACHTUNG: Eventuell gleichlautende Einträge sind für unterschiedliche Klassen v
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>6</id>
+        <description>Dieser Eintrag ist gedacht für den Zugriff auf einen ATOM-Download-Service</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Get Download Service Metadata</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Get Download Service Metadata</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
