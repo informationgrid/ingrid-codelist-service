@@ -1,6 +1,7 @@
 package de.ingrid.codelists;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -141,10 +142,23 @@ public class CodeListService {
         return localizedEntry;
     }
     
+    /** Map String to codelist entry
+     * @param lstId id of syslist
+     * @param entryValue string to map
+     * @param lang which lang of codelist to use ("de", "en") ? PASS "" or null to check all entries independent from localisation !!!
+     * @return found entry value or null
+     */
     public String getCodeListEntryId(String lstId, String entryValue, String lang) {
     	return getCodeListEntryId(lstId, entryValue, lang, false);
     }
     
+    /** Map String to codelist entry
+     * @param lstId id of syslist
+     * @param entryValue string to map
+     * @param lang which lang of codelist to use ("de", "en") ? PASS "" or null to check all entries independent from localisation !!!
+     * @param doRobustComparison pass true if comparison should be robust, e.g. values match even if "—" != "-" !
+     * @return found entry value or null
+     */
     public String getCodeListEntryId(String lstId, String entryValue, String lang, Boolean doRobustComparison) {
         CodeList cl = getCodeList(lstId);
         if(cl != null){
@@ -153,13 +167,20 @@ public class CodeListService {
         		entryValue = entryValue.trim().replace("—", "").replace("-", "").replace(" ", "");        		
         	}
 	        for (CodeListEntry entry : cl.getEntries()) {
-	        	String localisedEntry = entry.getLocalisedEntry(lang);
-	        	if (doRobustComparison && localisedEntry != null) {
-	        		localisedEntry = localisedEntry.trim().replace("—", "").replace("-", "").replace(" ", "");
+	        	Collection<String> localisedEntryValues = new ArrayList<String>();
+	        	if (lang != null && lang.length() > 0) {
+		        	localisedEntryValues.add(entry.getLocalisedEntry(lang));
+	        	} else {
+	        		localisedEntryValues = entry.getLocalisations().values();
 	        	}
-	            if (entryValue.equalsIgnoreCase(localisedEntry)) {
-	                return entry.getId();
-	            }
+	        	for (String localisedEntryValue : localisedEntryValues) {
+		        	if (doRobustComparison && localisedEntryValue != null) {
+		        		localisedEntryValue = localisedEntryValue.trim().replace("—", "").replace("-", "").replace(" ", "");
+		        	}
+		            if (entryValue.equalsIgnoreCase(localisedEntryValue)) {
+		                return entry.getId();
+		            }	        		
+	        	}
 	        }
         }
         return null;
