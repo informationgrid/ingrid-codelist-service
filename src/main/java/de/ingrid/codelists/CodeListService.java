@@ -142,10 +142,22 @@ public class CodeListService {
     }
     
     public String getCodeListEntryId(String lstId, String entryValue, String lang) {
+    	return getCodeListEntryId(lstId, entryValue, lang, false);
+    }
+    
+    public String getCodeListEntryId(String lstId, String entryValue, String lang, Boolean doRobustComparison) {
         CodeList cl = getCodeList(lstId);
         if(cl != null){
+        	// more robust comparison, see INGRID-2334
+        	if (doRobustComparison) {
+        		entryValue = entryValue.trim().replace("—", "").replace("-", "").replace(" ", "");        		
+        	}
 	        for (CodeListEntry entry : cl.getEntries()) {
-	            if (entryValue.equalsIgnoreCase(entry.getLocalisedEntry(lang))) {
+	        	String localisedEntry = entry.getLocalisedEntry(lang);
+	        	if (doRobustComparison && localisedEntry != null) {
+	        		localisedEntry = localisedEntry.trim().replace("—", "").replace("-", "").replace(" ", "");
+	        	}
+	            if (entryValue.equalsIgnoreCase(localisedEntry)) {
 	                return entry.getId();
 	            }
 	        }
