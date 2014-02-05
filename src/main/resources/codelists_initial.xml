@@ -1355,8 +1355,11 @@
     <id>2000</id>
     <name>Objekt / Url-Verweis - Typ</name>
     <description>Im Datafeld wird angegeben, in welchen Objektklassen der jeweilige Verweistyp angeboten wird. Die Objektklassen werden mit ihrer ID angegeben, jeweils durch ein Koma voneinander getrennt.
-ACHTUNG: Eventuell gleichlautende Einträge sind für unterschiedliche Klassen vorgesehen und dürfen NICHT gelöscht werden.</description>
-    <defaultEntry></defaultEntry>
+ACHTUNG: Eventuell gleichlautende Einträge sind für unterschiedliche Klassen vorgesehen und dürfen NICHT gelöscht werden.
+
+Bei der Erzeuung der ISO-Metadaten aus den Katalogdaten wird, wenn vorhanden, immer der Eintrag der ISO-Locale verwendet. Andernfalls wird der Wert der English-Locale herangezogen.
+</description>
+    <defaultEntry>-1</defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>3100</id>
@@ -6418,7 +6421,7 @@ ACHTUNG: Eventuell gleichlautende Einträge sind für unterschiedliche Klassen v
     <name>Konformität - Spezifikation der Konformität</name>
     <description>Das Datum der jeweiligen Spezifikation wird aus dem &lt;Data&gt;-Feld ausgelesen, bitte in folgender Form eingeben:
 JJJJ-MM-TT</description>
-    <defaultEntry>-1</defaultEntry>
+    <defaultEntry>12</defaultEntry>
     <entries>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>1</id>
@@ -6582,11 +6585,15 @@ JJJJ-MM-TT</description>
             <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten</string>
           </entry>
           <entry>
+            <string>iso</string>
+            <string>VERORDNUNG (EG) Nr. 1089/2010 DER KOMMISSION vom 23. November 2010 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich der Interoperabilität von Geodatensätzen und -diensten</string>
+          </entry>
+          <entry>
             <string>en</string>
             <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten</string>
           </entry>
         </localisations>
-        <data>2013-12-10</data>
+        <data>2010-12-08</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>13</id>
@@ -6614,7 +6621,7 @@ JJJJ-MM-TT</description>
             <string>INSPIRE Data Specification on Elevation – Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2013-02-04</data>
+        <data>2013-12-10</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>15</id>
@@ -6863,11 +6870,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Sea Regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Sea regions – Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Sea Regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Sea regions – Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7027,7 +7034,7 @@ JJJJ-MM-TT</description>
         <data>2012-08-02</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
-    <lastModified>1387189378329</lastModified>
+    <lastModified>1391508866903</lastModified>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
     <id>6100</id>
