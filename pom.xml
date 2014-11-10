@@ -2,7 +2,7 @@
     <parent>
         <groupId>de.ingrid</groupId>
         <artifactId>ingrid-base-pom</artifactId>
-        <version>3.4.0</version>
+        <version>3.5.0-SNAPSHOT-R304</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -39,11 +39,13 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>4.11</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.jettison</groupId>
@@ -53,6 +55,7 @@
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
+            <version>1.4.4</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -62,10 +65,12 @@
         <dependency>
             <groupId>opensymphony</groupId>
             <artifactId>quartz</artifactId>
+            <version>1.6.5</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
     <build>
