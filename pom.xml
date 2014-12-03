@@ -13,8 +13,8 @@
 
     <name>InGrid CodeList Service</name>
     <scm>
-        <connection>scm:svn:https://harrison.its-technidata.de:444/svn/ingrid/ingrid-codelist-service/trunk</connection>
-        <developerConnection>scm:svn:https://harrison.its-technidata.de:444/svn/ingrid/ingrid-codelist-service/trunk</developerConnection>
+        <connection>scm:git:git@github.com:informationgrid/ingrid-codelist-service.git</connection>
+        <developerConnection>scm:git:git@github.com:informationgrid/ingrid-codelist-service.git</developerConnection>
     </scm>
 
   <repositories>
@@ -22,7 +22,7 @@
     <repository>
       <id>de.ingrid.all</id>
       <name>Maven Repo InGrid</name>
-      <url>http://harrison.its-technidata.de/archiva/repository/ingrid-all</url>
+      <url>https://dev.informationgrid.eu/archiva/repository/ingrid-all</url>
     </repository>
   </repositories>
 
