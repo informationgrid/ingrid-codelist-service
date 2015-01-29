@@ -8,14 +8,14 @@
 
     <groupId>de.ingrid</groupId>
     <artifactId>ingrid-codelist-service</artifactId>
-    <version>3.5.0</version>
+    <version>3.6.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>InGrid CodeList Service</name>
     <scm>
         <connection>scm:git:git@github.com:informationgrid/ingrid-codelist-service.git</connection>
         <developerConnection>scm:git:git@github.com:informationgrid/ingrid-codelist-service.git</developerConnection>
-      <tag>ingrid-codelist-service-3.5.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
   <repositories>
