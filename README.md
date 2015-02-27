@@ -5,7 +5,7 @@ This library is part of the InGrid software package. It provides common function
 
 Usage
 =========
-This service can be configured via Spring where the following settigs are needed in the application-context.xml.
+This service can be configured via Spring where the following settings are needed in the application-context.xml.
 
 \#1 Add one communication bean, whether to request Management iPlug or direct http:
 
