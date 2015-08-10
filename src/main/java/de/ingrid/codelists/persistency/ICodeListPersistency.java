@@ -28,7 +28,7 @@ import de.ingrid.codelists.model.CodeList;
 
 public interface ICodeListPersistency {
     
-    public List<CodeList> read();
+    public List<?> read();
     
     // write all codelists to the destination
     public boolean write(List<CodeList> codelists);
