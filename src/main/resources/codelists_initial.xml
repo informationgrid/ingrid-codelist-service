@@ -9049,7 +9049,7 @@ JJJJ-MM-TT</description>
             <string>Datenlizenz Deutschland Namensnennung</string>
           </entry>
         </localisations>
-        <data>dl-de-by-1.0</data>
+        <data>{"id":"dl-de-by-1.0","name":"Datenlizenz Deutschland Namensnennung","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>2</id>
@@ -9060,7 +9060,7 @@ JJJJ-MM-TT</description>
             <string>Amtliches Werk, lizenzfrei nach §5 UrhG</string>
           </entry>
         </localisations>
-        <data>official-work</data>
+        <data>{"id":"official-work","name":"Amtliches Werk, lizenzfrei nach §5 UrhG","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>3</id>
@@ -9071,7 +9071,7 @@ JJJJ-MM-TT</description>
             <string>Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes</string>
           </entry>
         </localisations>
-        <data>geonutzv-de-2013-03-19</data>
+        <data>{"id":"geonutzv-de-2013-03-19","name":"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>4</id>
@@ -9082,7 +9082,7 @@ JJJJ-MM-TT</description>
             <string>Creative Commons Namensnennung (CC-BY)</string>
           </entry>
         </localisations>
-        <data>cc-by</data>
+        <data>{"id":"cc-by","name":"Creative Commons Namensnennung (CC-BY)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>5</id>
@@ -9093,7 +9093,7 @@ JJJJ-MM-TT</description>
             <string>Creative Commons Zero</string>
           </entry>
         </localisations>
-        <data>cc-zero</data>
+        <data>{"id":"cc-zero","name":"Creative Commons Zero","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>6</id>
@@ -9104,7 +9104,7 @@ JJJJ-MM-TT</description>
             <string>Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC-BY-SA)</string>
           </entry>
         </localisations>
-        <data>cc-by-sa</data>
+        <data>{"id":"cc-by-sa","name":"Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC-BY-SA)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>7</id>
@@ -9115,7 +9115,7 @@ JJJJ-MM-TT</description>
             <string>Open Data Commons Open Database License (ODbL)</string>
           </entry>
         </localisations>
-        <data>odc-odbl</data>
+        <data>{"id":"odc-odbl","name":"Open Data Commons Open Database License (ODbL)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>8</id>
@@ -9126,7 +9126,7 @@ JJJJ-MM-TT</description>
             <string>Open Data Commons Namensnennung</string>
           </entry>
         </localisations>
-        <data>odc-by</data>
+        <data>{"id":"odc-by","name":"Open Data Commons Namensnennung","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>9</id>
@@ -9137,7 +9137,7 @@ JJJJ-MM-TT</description>
             <string>Open Data Commons Public Domain Dedication and Licence (PDDL)</string>
           </entry>
         </localisations>
-        <data>odc-pddl</data>
+        <data>{"id":"odc-pddl","name":"Open Data Commons Public Domain Dedication and Licence (PDDL)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>10</id>
@@ -9148,7 +9148,7 @@ JJJJ-MM-TT</description>
             <string>Andere freie Lizenz</string>
           </entry>
         </localisations>
-        <data>other-open</data>
+        <data>{"id":"other-open","name":"Andere freie Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>11</id>
@@ -9159,7 +9159,7 @@ JJJJ-MM-TT</description>
             <string>Creative Commons Nicht-Kommerziell (CC-NC)</string>
           </entry>
         </localisations>
-        <data>cc-nc</data>
+        <data>{"id":"cc-nc","name":"Creative Commons Nicht-Kommerziell (CC-NC)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>12</id>
@@ -9170,7 +9170,7 @@ JJJJ-MM-TT</description>
             <string>Creative Commons Keine Bearbeitung (CC-BY-ND)</string>
           </entry>
         </localisations>
-        <data>cc-by-nd</data>
+        <data>{"id":"cc-by-nd","name":"Creative Commons Keine Bearbeitung (CC-BY-ND)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>13</id>
@@ -9181,7 +9181,7 @@ JJJJ-MM-TT</description>
             <string>Datenlizenz Deutschland Namensnennung nicht-kommerziell</string>
           </entry>
         </localisations>
-        <data>dl-de-by-nc-1.0</data>
+        <data>{"id":"dl-de-by-nc-1.0","name":"Datenlizenz Deutschland Namensnennung nicht-kommerziell","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>14</id>
@@ -9192,7 +9192,7 @@ JJJJ-MM-TT</description>
             <string>Geolizenz Ia Namensnennung</string>
           </entry>
         </localisations>
-        <data>geolizenz-i-a</data>
+        <data>{"id":"geolizenz-i-a","name":"Geolizenz Ia Namensnennung","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>15</id>
@@ -9203,7 +9203,7 @@ JJJJ-MM-TT</description>
             <string>eingeschränkte Geolizenz</string>
           </entry>
         </localisations>
-        <data>geolizenz-closed</data>
+        <data>{"id":"geolizenz-closed","name":"eingeschränkte Geolizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>16</id>
@@ -9214,7 +9214,7 @@ JJJJ-MM-TT</description>
             <string>Apache Lizenz</string>
           </entry>
         </localisations>
-        <data>apache</data>
+        <data>{"id":"apache","name":"Apache Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>17</id>
@@ -9225,7 +9225,7 @@ JJJJ-MM-TT</description>
             <string>Andere kommerzielle Lizenz</string>
           </entry>
         </localisations>
-        <data>app_commercial</data>
+        <data>{"id":"app_commercial","name":"Andere kommerzielle Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>18</id>
@@ -9236,7 +9236,7 @@ JJJJ-MM-TT</description>
             <string>Andere kostenfreie Lizenz</string>
           </entry>
         </localisations>
-        <data>app_freeware</data>
+        <data>{"id":"app_freeware","name":"Andere kostenfreie Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>19</id>
@@ -9247,7 +9247,7 @@ JJJJ-MM-TT</description>
             <string>Andere Open Source Lizenz</string>
           </entry>
         </localisations>
-        <data>app_opensource</data>
+        <data>{"id":"app_opensource","name":"Andere Open Source Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>20</id>
@@ -9258,7 +9258,7 @@ JJJJ-MM-TT</description>
             <string>BSD Lizenz</string>
           </entry>
         </localisations>
-        <data>bsd-license</data>
+        <data>{"id":"bsd-license","name":"BSD Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>21</id>
@@ -9269,7 +9269,7 @@ JJJJ-MM-TT</description>
             <string>GNU Free Documentation License</string>
           </entry>
         </localisations>
-        <data>gfdl</data>
+        <data>{"id":"gfdl","name":"GNU Free Documentation License","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>22</id>
@@ -9280,7 +9280,7 @@ JJJJ-MM-TT</description>
             <string>GNU General Public License version 3.0 (GPLv3)</string>
           </entry>
         </localisations>
-        <data>gpl-3.0</data>
+        <data>{"id":"gpl-3.0","name":"GNU General Public License version 3.0 (GPLv3)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>23</id>
@@ -9291,7 +9291,7 @@ JJJJ-MM-TT</description>
             <string>Mozilla Public License 1.0 (MPL)</string>
           </entry>
         </localisations>
-        <data>mozilla</data>
+        <data>{"id":"mozilla","name":"Mozilla Public License 1.0 (MPL)","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>24</id>
@@ -9302,7 +9302,7 @@ JJJJ-MM-TT</description>
             <string>Andere eingeschränkte Lizenz</string>
           </entry>
         </localisations>
-        <data>other-closed</data>
+        <data>{"id":"other-closed","name":"Andere eingeschränkte Lizenz","url":"","quelle":""}</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
