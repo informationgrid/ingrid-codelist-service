@@ -7193,7 +7193,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Geografische Gittersysteme</string>
+            <string>Geographische Gittersysteme</string>
           </entry>
           <entry>
             <string>en</string>
@@ -7245,7 +7245,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Flurstücke/Grundstücke (Katasterparzellen)</string>
+            <string>Flurstücke/Grundstücke</string>
           </entry>
           <entry>
             <string>en</string>
@@ -7505,24 +7505,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Atmosphärische Bedingungen</string>
+            <string>Atmosphärische Bedingungen / Meteorologisch-geografische Kennwerte</string>
           </entry>
           <entry>
             <string>en</string>
             <string>Atmospheric conditions</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>314</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Meteorologisch-geografische Kennwerte</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>Meteorological geographical features</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
