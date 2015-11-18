@@ -128,13 +128,14 @@ public class CodeListService {
         return null;
     }
     
+    @SuppressWarnings("unchecked")
     public List<CodeList> getCodeLists() {
         // read codelists if it's the first time
         if (this.codelists.isEmpty() && persistencies != null) {
-            this.codelists = persistencies.get(defaultPersistency).read();
+            this.codelists = (List<CodeList>) persistencies.get(defaultPersistency).read();
             // log an error if codelists could not be read!
             if (this.codelists == null || this.codelists.isEmpty()) {
-                log.error("No Codelists could be read using initial ones!");
+                log.warn("No Codelists could be read using initial ones!");
                 this.codelists = getInitialCodelists();
             }
         }
@@ -228,6 +229,7 @@ public class CodeListService {
             this.codelists.remove(oldCl);
         
         cl.setId(id);
+        cl.setLastModified(System.currentTimeMillis());
         this.codelists.add(cl);
     }
     

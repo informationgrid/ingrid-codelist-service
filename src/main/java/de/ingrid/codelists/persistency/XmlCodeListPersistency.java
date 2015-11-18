@@ -44,30 +44,39 @@ import com.thoughtworks.xstream.io.StreamException;
 
 import de.ingrid.codelists.model.CodeList;
 
-public class XmlCodeListPersistency implements ICodeListPersistency {
+public class XmlCodeListPersistency<T> implements ICodeListPersistency {
 
     private static Log log = LogFactory.getLog(XmlCodeListPersistency.class);
     
     private String pathToXml;
     
-    public XmlCodeListPersistency() {}
+    //public XmlCodeListPersistency() {}
     
     @SuppressWarnings("unchecked")
     @Override
-    public List<CodeList> read() {
+    public List<T> read() {
         XStream xStream = new XStream();
+        Reader reader = null;
         try {
             checkForFile(this.pathToXml);
-            Reader reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
-            return (List<CodeList>) xStream.fromXML(reader);
+            reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
+            return (List<T>) xStream.fromXML(reader);
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
             //throw new Exception();
         } catch (StreamException e) {
-            return new ArrayList<CodeList>();
+            return new ArrayList<T>();
         } catch (UnsupportedEncodingException e) {
             log.warn("Problems reading codelists from file "+this.pathToXml+".", e);
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
         return null;
     }
@@ -75,21 +84,28 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
     @Override
     public boolean write(List<CodeList> data) {
         XStream xStream = new XStream();
+        FileOutputStream fos = null;
         try {
             checkForFile(this.pathToXml);
             
-            FileOutputStream fos = new FileOutputStream(this.pathToXml);
+            fos = new FileOutputStream(this.pathToXml);
             Writer writer = new OutputStreamWriter(fos, "UTF-8");
             // sort list by id to write similar file so it can be patched
             Collections.sort(data);
             xStream.toXML(data, writer);
             return true;
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
+        } finally {
+            if (fos != null) {
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
         return false;
     }
@@ -106,7 +122,6 @@ public class XmlCodeListPersistency implements ICodeListPersistency {
             try {
                 f.createNewFile();
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }
