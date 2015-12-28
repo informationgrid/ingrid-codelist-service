@@ -6604,11 +6604,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Geographical names - Guidelines</string>
+            <string>INSPIRE Data Specification on Geographical Names - Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Geographical names - Guidelines</string>
+            <string>INSPIRE Data Specification on Geographical Names - Guidelines</string>
           </entry>
         </localisations>
         <data>2010-04-26</data>
@@ -6660,32 +6660,36 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Specification on Coordinate Reference Systems – Guidelines</string>
+            <string>INSPIRE Data Specification on Coordinate Reference Systems – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Specification on Coordinate Reference Systems – Guidelines</string>
+            <string>INSPIRE Data Specification on Coordinate Reference Systems – Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-05-03</data>
+        <data>2010-04-26</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>9</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Specification on Geographical Grid Systems – Guidelines</string>
+            <string>INSPIRE Data Specification on Geographical Grid Systems – Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Specification on Geographical Grid Systems – Guidelines</string>
+            <string>INSPIRE Data Specification on Geographical Grid Systems – Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-05-03</data>
+        <data>2010-04-26</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>10</id>
         <localisations>
+          <entry>
+            <string>iso</string>
+            <string>VERORDNUNG (EG) Nr. 976/2009 DER KOMMISSION vom 19. Oktober 2009 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich der Netzdienste</string>
+          </entry>
           <entry>
             <string>de</string>
             <string>INSPIRE Durchführungsbestimmung Netzdienste</string>
@@ -6695,11 +6699,15 @@ JJJJ-MM-TT</description>
             <string>INSPIRE Durchführungsbestimmung Netzdienste</string>
           </entry>
         </localisations>
-        <data>2009-10-19</data>
+        <data>2009-10-20</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>11</id>
         <localisations>
+          <entry>
+            <string>iso</string>
+            <string>VERORDNUNG (EG) Nr. 1205/2008 DER KOMMISSION vom 3. Dezember 2008 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich Metadaten</string>
+          </entry>
           <entry>
             <string>de</string>
             <string>INSPIRE Durchführungsbestimmung Metadaten</string>
@@ -6716,7 +6724,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten</string>
+            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und -diensten</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -6724,7 +6732,7 @@ JJJJ-MM-TT</description>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und --diensten</string>
+            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und -diensten</string>
           </entry>
         </localisations>
         <data>2010-12-08</data>
@@ -6808,11 +6816,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Statistical units – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Statistical Units – Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Statistical units – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Statistical Units – Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -6990,11 +6998,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Oceanographic geographical features – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Oceanographic Geographical Features – Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Oceanographic geographical features – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Oceanographic Geographical Features – Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7004,11 +7012,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Sea regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Sea Regions – Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Sea regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Sea Regions – Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7137,7 +7145,7 @@ JJJJ-MM-TT</description>
             <string>Technical Guidance for the INSPIRE Schema Transformation Network Service</string>
           </entry>
         </localisations>
-        <data>2010-12-15</data>
+        <data>2010-07-12</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>42</id>
