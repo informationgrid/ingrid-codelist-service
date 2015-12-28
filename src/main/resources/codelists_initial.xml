@@ -6692,11 +6692,11 @@ JJJJ-MM-TT</description>
           </entry>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Netzdienste</string>
+            <string>VERORDNUNG (EG) Nr. 976/2009 - INSPIRE Durchführungsbestimmung Netzdienste</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Netzdienste</string>
+            <string>VERORDNUNG (EG) Nr. 976/2009 - INSPIRE Durchführungsbestimmung Netzdienste</string>
           </entry>
         </localisations>
         <data>2009-10-20</data>
@@ -6710,11 +6710,11 @@ JJJJ-MM-TT</description>
           </entry>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Metadaten</string>
+            <string>VERORDNUNG (EG) Nr. 1205/2008 - INSPIRE Durchführungsbestimmung Metadaten</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Metadaten</string>
+            <string>VERORDNUNG (EG) Nr. 1205/2008 - INSPIRE Durchführungsbestimmung Metadaten</string>
           </entry>
         </localisations>
         <data>2009-12-15</data>
@@ -6724,7 +6724,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und -diensten</string>
+            <string>VERORDNUNG (EG) Nr. 1089/2010 - INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und -diensten</string>
           </entry>
           <entry>
             <string>iso</string>
@@ -6732,7 +6732,7 @@ JJJJ-MM-TT</description>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und -diensten</string>
+            <string>VERORDNUNG (EG) Nr. 1089/2010 - INSPIRE Durchführungsbestimmung Interoperabilität von Geodatensätzen und -diensten</string>
           </entry>
         </localisations>
         <data>2010-12-08</data>
