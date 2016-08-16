@@ -2126,7 +2126,7 @@ Bei der Erzeuung der ISO-Metadaten aus den Katalogdaten wird, wenn vorhanden, im
         <localisations>
           <entry>
             <string>de</string>
-            <string>letzte Änderung</string>
+            <string>Letzte Änderung</string>
           </entry>
           <entry>
             <string>iso</string>
