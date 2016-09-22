@@ -7513,11 +7513,24 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Atmosphärische Bedingungen / Meteorologisch-geografische Kennwerte</string>
+            <string>Atmosphärische Bedingungen</string>
           </entry>
           <entry>
             <string>en</string>
             <string>Atmospheric conditions</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>314</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Meteorologisch-geografische Kennwerte</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Meteorological geographical features</string>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
