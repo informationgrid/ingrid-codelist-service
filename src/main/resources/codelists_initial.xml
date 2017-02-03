@@ -9970,6 +9970,157 @@ JJJJ-MM-TT</description>
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
+    <id>8001</id>
+    <name>Vorhaben</name>
+    <description></description>
+    <defaultEntry>-1</defaultEntry>
+    <entries>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>10</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVP</string>
+          </entry>
+        </localisations>
+        <data></data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>11</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Ausländische UVP</string>
+          </entry>
+        </localisations>
+        <data></data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>12</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVP Vorprüfung</string>
+          </entry>
+        </localisations>
+        <data></data>
+      </de.ingrid.codelists.model.CodeListEntry>
+    </entries>
+  </de.ingrid.codelists.model.CodeList>
+  <de.ingrid.codelists.model.CodeList>
+    <id>9000</id>
+    <name>UVP-Kategorien</name>
+    <description></description>
+    <defaultEntry>-1</defaultEntry>
+    <entries>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>0</id>
+        <description>mehr als 200 MW</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.1.1</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>1</id>
+        <description>50 MW bis 200 MW</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.1.2</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>2</id>
+        <description>Kohle, Koks einschließlich Petrolkoks, Kohlebriketts, Torfbriketts, Brenntorf,
+            naturbelassenem Holz, emulgiertem Naturbitumen, Heizölen, ausgenommen Heizöl EL,
+            mit einer Feuerungswärmeleistung von 1 MW bis weniger als 50 MW
+        </description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.1</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>3</id>
+        <description>10 MW bis weniger als 50 MW</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.2.1</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>4</id>
+        <description>1 MW bis weniger als 10 MW, bei Verbrennungsmotoranlagen oder Gasturbinenanlagen</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.2.2</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>5</id>
+        <description>20 MW bis weniger als 50 MW</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.3.1</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>6</id>
+        <description>1 MW bis weniger als 20 MW, bei Verbrennungsmotoranlagen oder Gasturbinenanlagen</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.3.2</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>7</id>
+        <description>1 MW bis weniger als 50 MW</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.4.1</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>8</id>
+        <description>100 KW bis weniger als 1 MW</description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>UVPG-1.2.4.2</string>
+          </entry>
+        </localisations>
+        <data>UVPG-1</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+    </entries>
+  </de.ingrid.codelists.model.CodeList>
+  <de.ingrid.codelists.model.CodeList>
     <id>99999999</id>
     <name>Sprache der Ressource / des Metadatensatzes</name>
     <defaultEntry></defaultEntry>
