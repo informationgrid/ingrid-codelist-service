@@ -9981,7 +9981,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVP</string>
+            <string>UVP Vorhaben</string>
           </entry>
         </localisations>
         <data></data>
@@ -9992,7 +9992,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Ausländische UVP</string>
+            <string>Ausländische Vorprüfungen</string>
           </entry>
         </localisations>
         <data></data>
@@ -10003,7 +10003,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVP Vorprüfung</string>
+            <string>Negative Vorprüfungen</string>
           </entry>
         </localisations>
         <data></data>
