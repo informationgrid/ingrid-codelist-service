@@ -10008,6 +10008,28 @@ JJJJ-MM-TT</description>
         </localisations>
         <data></data>
       </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>13</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Raumordnungsverfahren nach ROG mit UVP</string>
+          </entry>
+        </localisations>
+        <data></data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>14</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Linienbestimmungen nach § 16 Bundesfernstraßengesetz oder Landesstraßenrecht</string>
+          </entry>
+        </localisations>
+        <data></data>
+      </de.ingrid.codelists.model.CodeListEntry>
     </entries>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
