@@ -5923,8 +5923,7 @@ Bei der Erzeuung der ISO-Metadaten aus den Katalogdaten wird, wenn vorhanden, im
           </entry>
           <entry>
             <string>iso</string>
-            <string>intellectualPropertyRights
-                        </string>
+            <string>intellectualPropertyRights</string>
           </entry>
           <entry>
             <string>en</string>
