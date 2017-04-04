@@ -17642,6 +17642,28 @@ JJJJ-MM-TT</description>
         <data>{"cat":"UVPG-15", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
+        <id>368</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>HmbUVPG-1.13.1</string>
+          </entry>
+        </localisations>
+        <data>{"cat":"UVPG-13", "type":"A"}</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>369</id>
+        <description></description>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>HmbUVPG-1.13.2</string>
+          </entry>
+        </localisations>
+        <data>{"cat":"UVPG-13", "type":"S"}</data>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
         <id>370</id>
         <description></description>
         <localisations>
