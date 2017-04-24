@@ -9980,7 +9980,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVP Vorhaben</string>
+            <string>UVP-Vorhaben</string>
           </entry>
         </localisations>
         <data></data>
@@ -9991,7 +9991,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>Ausländische Verfahren</string>
+            <string>Ausländische Vorhaben</string>
           </entry>
         </localisations>
         <data></data>
