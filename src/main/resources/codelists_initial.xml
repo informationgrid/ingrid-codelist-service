@@ -10154,6 +10154,15 @@ JJJJ-MM-TT</description>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>13</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Digitale Oberflächenmodelle</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
     </entries>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
