@@ -22,17 +22,18 @@
  */
 package de.ingrid.codelists.comm;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
-import org.apache.commons.httpclient.Credentials;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.HttpMethod;
-import org.apache.commons.httpclient.UsernamePasswordCredentials;
-import org.apache.commons.httpclient.auth.AuthScope;
-import org.apache.commons.httpclient.methods.GetMethod;
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.auth.AuthScope;
+import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.http.client.CredentialsProvider;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.BasicCredentialsProvider;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
 public class HttpCLCommunication implements ICodeListCommunication {
@@ -56,32 +57,25 @@ public class HttpCLCommunication implements ICodeListCommunication {
             log.debug("Requesting codelists from Codelist-Repository ...");
         }
         HttpClient client = getClient();
-        HttpMethod method = new GetMethod(requestUrl + "?lastModifiedDate=" + timestamp);
-//        method.s
+        HttpGet method = new HttpGet(requestUrl + "?lastModifiedDate=" + timestamp);
         String result = "";
         int status = -1;
+        HttpResponse response = null;
         try {
-            status = client.executeMethod(method);
+            response = client.execute(method);
+            status = response.getStatusLine().getStatusCode();
             
-            if (status == 200) {
-                BufferedReader in = new BufferedReader(new InputStreamReader(method.getResponseBodyAsStream(), "UTF-8"));
-                String inputLine = "";
-                while ((inputLine = in.readLine()) != null) {
-                    result = result.concat(inputLine);
-                }
-                in.close();
+            if (status == HttpStatus.SC_OK) {
+                result = EntityUtils.toString( response.getEntity() );
             } else {
                 log.error("Could not connect to Codelist-Repository. Status: " + status); 
                 return null;
             }
-        } catch (HttpException e) {
-            log.error("Problem when accessing url: " + requestUrl + " (Status Code: " + status + ") Message: " + e.getMessage());
-            return null;
         } catch (IOException e) {
             log.error("Problem handling the http-stream. Message: " + e.getMessage()); 
             return null;
         } catch (Exception e) {
-            log.error("Could not connect to repository! Probably wrong method call: " + method.getPath() + "?" + method.getQueryString());
+            log.error("Could not connect to repository! Probably wrong method call: " + method.getURI() + "?");
             return null;
         }
         
@@ -93,12 +87,23 @@ public class HttpCLCommunication implements ICodeListCommunication {
     }
     
     private HttpClient getClient() {
-        HttpClient client = new HttpClient();
+        HttpClientBuilder builder = HttpClientBuilder.create();
         
-        Credentials defaultcreds = new UsernamePasswordCredentials(this.username, this.password);
-        //client.getState().setCredentials(new AuthScope("localhost", 80, AuthScope.ANY_REALM), defaultcreds);
-        client.getState().setCredentials(AuthScope.ANY, defaultcreds);
-        return client;
+        CredentialsProvider provider = new BasicCredentialsProvider();
+
+        // Create the authentication scope
+        AuthScope scope = new AuthScope(AuthScope.ANY_HOST, AuthScope.ANY_PORT, AuthScope.ANY_REALM);
+
+        // Create credential pair
+        UsernamePasswordCredentials credentials = new UsernamePasswordCredentials(username, password);
+
+        // Inject the credentials
+        provider.setCredentials(scope, credentials);
+
+        // Set the default credentials provider
+        builder.setDefaultCredentialsProvider(provider);
+        
+        return builder.build();
     }
 
     public void setRequestUrl(String requestUrl) {
