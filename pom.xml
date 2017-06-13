@@ -5,9 +5,8 @@
     <version>4.0.1</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>de.ingrid</groupId>
   <artifactId>ingrid-codelist-service</artifactId>
-    <version>4.0.1</version>
+    <version>4.0.3</version>
   <packaging>jar</packaging>
   <name>InGrid CodeList Service</name>
   <scm>
@@ -37,9 +36,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>commons-httpclient</groupId>
-      <artifactId>commons-httpclient</artifactId>
-      <version>3.1</version>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.3</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.jettison</groupId>
@@ -79,14 +78,6 @@
   </dependencies>
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
-        </configuration>
-      </plugin>
       <plugin>
         <groupId>external.atlassian.jgitflow</groupId>
         <artifactId>jgitflow-maven-plugin</artifactId>
