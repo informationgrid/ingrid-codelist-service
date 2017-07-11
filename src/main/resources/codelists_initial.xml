@@ -67413,6 +67413,71 @@ JJJJ-MM-TT</description>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>467</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Sorbisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Sorbian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>182</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Obersorbisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Upper Sorbian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>113</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Niedersorbisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Lower Sorbian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>142</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Friesisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Western Frisian</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
+      <de.ingrid.codelists.model.CodeListEntry>
+        <id>306</id>
+        <localisations>
+          <entry>
+            <string>de</string>
+            <string>Niedersächsisch</string>
+          </entry>
+          <entry>
+            <string>en</string>
+            <string>Low Saxon</string>
+          </entry>
+        </localisations>
+      </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
