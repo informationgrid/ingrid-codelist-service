@@ -6747,137 +6747,137 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Addresses - Guidelines</string>
+            <string>Data Specification on Addresses - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Addresses - Guidelines</string>
+            <string>Data Specification on Addresses - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>2</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Administrative Units - Guidelines</string>
+            <string>Data Specification on Administrative Units - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Administrative Units - Guidelines</string>
+            <string>Data Specification on Administrative Units - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>3</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Cadastral Parcels - Guidelines</string>
+            <string>Data Specification on Cadastral Parcels - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Cadastral Parcels - Guidelines</string>
+            <string>Data Specification on Cadastral Parcels - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>4</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Geographical Names - Guidelines</string>
+            <string>Data Specification on Geographical Names - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Geographical Names - Guidelines</string>
+            <string>Data Specification on Geographical Names - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>5</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Hydrography - Guidelines</string>
+            <string>Data Specification on Hydrography - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Hydrography - Guidelines</string>
+            <string>Data Specification on Hydrography - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-14</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>6</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Protected Sites - Guidelines</string>
+            <string>Data Specification on Protected Sites - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Protected Sites - Guidelines</string>
+            <string>Data Specification on Protected Sites - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>7</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Transport Networks - Guidelines</string>
+            <string>Data Specification on Transport Networks - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Transport Networks - Guidelines</string>
+            <string>Data Specification on Transport Networks - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>8</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Coordinate Reference Systems – Guidelines</string>
+            <string>Data Specification on Coordinate Reference Systems - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Coordinate Reference Systems – Guidelines</string>
+            <string>Data Specification on Coordinate Reference Systems - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>9</id>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Geographical Grid Systems – Guidelines</string>
+            <string>Data Specification on Geographical Grid Systems - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Geographical Grid Systems – Guidelines</string>
+            <string>Data Specification on Geographical Grid Systems - Technical Guidelines</string>
           </entry>
         </localisations>
-        <data>2010-04-26</data>
+        <data>2014-04-17</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
         <id>10</id>
         <localisations>
           <entry>
-            <string>iso</string>
-            <string>VERORDNUNG (EG) Nr. 976/2009 DER KOMMISSION vom 19. Oktober 2009 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich der Netzdienste</string>
-          </entry>
-          <entry>
             <string>de</string>
             <string>VERORDNUNG (EG) Nr. 976/2009 - INSPIRE Durchführungsbestimmung Netzdienste</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>VERORDNUNG (EG) Nr. 976/2009 DER KOMMISSION vom 19. Oktober 2009 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich der Netzdienste</string>
           </entry>
           <entry>
             <string>en</string>
@@ -6890,12 +6890,12 @@ JJJJ-MM-TT</description>
         <id>11</id>
         <localisations>
           <entry>
-            <string>iso</string>
-            <string>VERORDNUNG (EG) Nr. 1205/2008 DER KOMMISSION vom 3. Dezember 2008 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich Metadaten</string>
-          </entry>
-          <entry>
             <string>de</string>
             <string>VERORDNUNG (EG) Nr. 1205/2008 - INSPIRE Durchführungsbestimmung Metadaten</string>
+          </entry>
+          <entry>
+            <string>iso</string>
+            <string>VERORDNUNG (EG) Nr. 1205/2008 DER KOMMISSION vom 3. Dezember 2008 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich Metadaten</string>
           </entry>
           <entry>
             <string>en</string>
@@ -6941,11 +6941,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Elevation – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Elevation - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Elevation – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Elevation - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -6955,15 +6955,15 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Land Cover – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Land Cover - Technical Guidelines</string>
           </entry>
           <entry>
             <string>iso</string>
-            <string>INSPIRE Data Specification on Land Cover – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Land Cover - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Land Cover – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Land Cover - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -6973,11 +6973,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Orthoimagery – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Orthoimagery - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Orthoimagery – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Orthoimagery - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -6987,11 +6987,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Geology – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Geology - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Geology – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Geology - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7001,11 +7001,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Statistical Units – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Statistical Units - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Statistical Units – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Statistical Units - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7015,11 +7015,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Buildings – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Buildings - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Buildings – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Buildings - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7029,11 +7029,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Soil – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Soil - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Soil – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Soil - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7043,11 +7043,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Land Use – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Land Use - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Land Use – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Land Use - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7057,11 +7057,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Human Health and Safety – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Human Health and Safety - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Human Health and Safety – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Human Health and Safety - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7071,11 +7071,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Utility and Governmental Services – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Utility and Government Services - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Utility and Governmental Services – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Utility and Government Services - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7085,11 +7085,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Environmental Monitoring Facilities – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Environmental Monitoring Facilities - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Environmental Monitoring Facilities – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Environmental Monitoring Facilities - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7099,11 +7099,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Production and Industrial Facilities – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Production and Industrial Facilities - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Production and Industrial Facilities – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Production and Industrial Facilities - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7113,11 +7113,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Agricultural and Aquaculture Facilities – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Agricultural and Aquaculture Facilities - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Agricultural and Aquaculture Facilities – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Agricultural and Aquaculture Facilities - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7127,11 +7127,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Population Distribution – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Population Distribution - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Population Distribution – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Population Distribution - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7141,11 +7141,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Area Management/Restriction/Regulation Zones and Reporting Units – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Area Management/Restriction/Regulation Zones and Reporting Units - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Area Management/Restriction/Regulation Zones and Reporting Units – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Area Management/Restriction/Regulation Zones and Reporting Units - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7155,11 +7155,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Natural Risk Zones – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Natural Risk Zones - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Natural Risk Zones – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Natural Risk Zones - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7169,11 +7169,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Atmospheric Conditions and Meteorological Geographical Features – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Atmospheric Conditions and Meteorological Geographical Features - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Atmospheric Conditions and Meteorological Geographical Features – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Atmospheric Conditions and Meteorological Geographical Features - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7183,11 +7183,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Oceanographic Geographical Features – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Oceanographic Geographical Features - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Oceanographic Geographical Features – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Oceanographic Geographical Features - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7197,11 +7197,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Sea Regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Sea Regions - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Sea Regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Sea Regions - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7211,11 +7211,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Bio-geographical Regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Bio-geographical Regions - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Bio-geographical Regions – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Bio-geographical Regions - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7225,11 +7225,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Habitats and Biotopes – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Habitats and Biotopes - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Habitats and Biotopes – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Habitats and Biotopes - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7239,11 +7239,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Species Distribution – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Species Distribution - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Species Distribution – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Species Distribution - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7253,11 +7253,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Energy Resources – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Energy Resources - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Energy Resources – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Energy Resources - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7267,11 +7267,11 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>INSPIRE Data Specification on Mineral Resources – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Mineral Resources - Technical Guidelines</string>
           </entry>
           <entry>
             <string>en</string>
-            <string>INSPIRE Data Specification on Mineral Resources – Technical Guidelines</string>
+            <string>INSPIRE Data Specification on Mineral Resources - Technical Guidelines</string>
           </entry>
         </localisations>
         <data>2013-12-10</data>
@@ -7358,10 +7358,10 @@ JJJJ-MM-TT</description>
             <string>Technical Guidance for INSPIRE Spatial Data Services and services allowing spatial data services to be invoked</string>
           </entry>
         </localisations>
-        <data>2012-08-02</data>
+        <data>2016-12-16</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
-    <lastModified>1391508866903</lastModified>
+    <lastModified>1502700498286</lastModified>
   </de.ingrid.codelists.model.CodeList>
   <de.ingrid.codelists.model.CodeList>
     <id>6010</id>
