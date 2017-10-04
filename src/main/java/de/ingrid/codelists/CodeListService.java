@@ -241,9 +241,9 @@ public class CodeListService {
         try {
             for (ICodeListPersistency persistTarget : persistencies) {
                 if (persistTarget.canDoPartialUpdates()) {
-                    persistTarget.writePartial(modifiedCodelists);
+                    return persistTarget.writePartial(modifiedCodelists);
                 } else {
-                    persistTarget.write(this.codelists);
+                    return persistTarget.write(this.codelists);
                 }
             }
         } catch (Exception e) {

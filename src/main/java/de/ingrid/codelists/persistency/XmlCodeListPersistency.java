@@ -62,8 +62,7 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
             reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
             return (List<T>) xStream.fromXML(reader);
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error( "Codelist file could not be found", e );
             //throw new Exception();
         } catch (StreamException e) {
             return new ArrayList<T>();
@@ -95,9 +94,9 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
             xStream.toXML(data, writer);
             return true;
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            log.error( "Codelist file could not be found" );
         } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
+            log.error( "Codelist file has unsupported encoding", e );
         } finally {
             if (fos != null) {
                 try {
@@ -122,7 +121,7 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
             try {
                 f.createNewFile();
             } catch (IOException e) {
-                e.printStackTrace();
+                log.error( "Could not create codelist.xml file: " + filePath );
             }
         }
     }
