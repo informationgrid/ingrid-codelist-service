@@ -1,0 +1,69 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>10005</id>
+  <name>BKG-Use constraints (opendata)</name>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>(1) Open Data des Bundes</string>
+        </entry>
+      </localisations>
+      <data>{ &quot;id&quot;: &quot;geonutzv-de-2013-03-19&quot;, &quot;name&quot;: &quot;Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes&quot;, &quot;url&quot;:
+        &quot;http://www.geodatenzentrum.de/docpdf/geonutzv.pdf&quot;, &quot;quelle&quot;: &quot;Quelle: © GeoBasis-DE / BKG 2017&quot; }</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Template für copyright</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Template für license</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>4</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Template für copyright und license</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>5</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Template für intellectualPropertyRights</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>6</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Template für restricted</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>
+  

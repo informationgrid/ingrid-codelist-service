@@ -38,4 +38,7 @@ public interface ICodeListPersistency {
     
     // is the persistence layer able to do partial updates of codelists?
     public boolean canDoPartialUpdates();
+    
+    // remove a codelist by its ID
+    public boolean remove(String id);  
 }

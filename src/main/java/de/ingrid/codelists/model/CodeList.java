@@ -131,5 +131,8 @@ public class CodeList implements Comparable<CodeList> {
         return maintainable;
     }
     */
-    
+
+	public String toString() {
+	    return id;
+	}
 }

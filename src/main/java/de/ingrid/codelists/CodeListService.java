@@ -139,7 +139,6 @@ public class CodeListService {
                 this.codelists = getInitialCodelists();
             }
         }
-        
         return this.codelists;
     }
 
@@ -215,11 +214,12 @@ public class CodeListService {
      * @param id
      * @param data
      */
-    public void setCodelist(String id, String data) {
+    public CodeList setCodelist(String id, String data) {
         CodeList cl = CodeListUtils.getCodeListFromJsonGeneric(data);
         // add modification date
         cl.setLastModified(System.currentTimeMillis());
         setCodelist(id, cl);
+        return cl;
     }
         
     public void setCodelist(String id, CodeList cl) { 
@@ -285,5 +285,12 @@ public class CodeListService {
                 time = codelist.getLastModified();
         }
         return time;
+    }
+
+    public void removeCodelist(String id) {
+        for (ICodeListPersistency persistTarget : persistencies) {
+            persistTarget.remove( id );
+        }
+        
     }
 }
