@@ -73,7 +73,17 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
                             e.printStackTrace();
                         } // , "UTF-8");
                         
-                        list.add( (T) xStream.fromXML( codelistReader ) );
+                        Object xml = xStream.fromXML( codelistReader );
+                        try {
+                            codelistReader.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        if (xml instanceof List) {
+                            list.addAll( (List<T>) xml );
+                        } else {
+                            list.add( (T) xml );
+                        }
                         
                     });
             } catch (IOException e1) {

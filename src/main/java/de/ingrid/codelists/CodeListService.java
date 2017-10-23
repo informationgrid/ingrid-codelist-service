@@ -40,7 +40,7 @@ public class CodeListService {
     private final static Logger log = Logger.getLogger(CodeListService.class);
 
     // injected by Spring
-    @Autowired
+    @Autowired(required = false)
     private ICodeListCommunication      comm;
 
     // injected by Spring
@@ -137,6 +137,10 @@ public class CodeListService {
             if (this.codelists == null || this.codelists.isEmpty()) {
                 log.warn("No Codelists could be read using initial ones!");
                 this.codelists = getInitialCodelists();
+                
+                // if no codelists are stored yet, make sure to store the initial set, so that the next
+                // time the codelists are read from data dir
+                persistToAll();
             }
         }
         return this.codelists;
