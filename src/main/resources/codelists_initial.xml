@@ -18095,7 +18095,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>HWG-13a-1-1</string>
+            <string>HWG-13a.1.1</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -18105,7 +18105,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>HWG-13a-1-2</string>
+            <string>HWG-13a.1.2</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -18115,7 +18115,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>HWG-13a-1-3</string>
+            <string>HWG-13a.1.3</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -18125,7 +18125,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>HWG-13a-2-1</string>
+            <string>HWG-13a.2.1</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"A"}</data>
@@ -18135,7 +18135,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>HWG-13a-2-2</string>
+            <string>HWG-13a.2.2</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"A"}</data>
@@ -18145,7 +18145,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>HWG-13a-2-3</string>
+            <string>HWG-13a.2.3</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"A"}</data>
@@ -32891,7 +32891,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>UVPG LSA-4.</string>
+                  <string>UVPG LSA-4</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14", "type":"S"}</data>
@@ -32901,7 +32901,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>UVPG LSA-5.</string>
+                  <string>UVPG LSA-5</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14", "type":"S"}</data>
@@ -32911,7 +32911,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>UVPG LSA-6.</string>
+                  <string>UVPG LSA-6</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18", "type":"S"}</data>
@@ -32921,7 +32921,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>UVPG LSA-7.</string>
+                  <string>UVPG LSA-7</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-17", "type":"S"}</data>
@@ -36420,7 +36420,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 1.1</string>
+                  <string>LUVPG SH-1.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-13"", "type":"A"}</data>
@@ -36430,7 +36430,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.1</string>
+                  <string>LUVPG SH-2.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"X"}</data>
@@ -36440,7 +36440,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.2</string>
+                  <string>LUVPG SH-2.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"X"}</data>
@@ -36450,7 +36450,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.3</string>
+                  <string>LUVPG SH-2.3</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"X"}</data>
@@ -36460,7 +36460,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.4 a)</string>
+                  <string>LUVPG SH-2.4a</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"S"}</data>
@@ -36470,7 +36470,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.4 b)</string>
+                  <string>LUVPG SH-2.4b</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"S"}</data>
@@ -36480,7 +36480,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.4 c)</string>
+                  <string>LUVPG SH-2.4c</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"S"}</data>
@@ -36490,7 +36490,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.5 a)</string>
+                  <string>LUVPG SH-2.5a</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"S"}</data>
@@ -36500,7 +36500,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.5 b)</string>
+                  <string>LUVPG SH-2.5b</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"S"}</data>
@@ -36510,7 +36510,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.5 c)</string>
+                  <string>LUVPG SH-2.5c</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"S"}</data>
@@ -36520,7 +36520,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 2.6</string>
+                  <string>LUVPG SH-2.6</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14"", "type":"A"}</data>
@@ -36530,7 +36530,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 3.1</string>
+                  <string>LUVPG SH-3.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-17"", "type":"S"}</data>
@@ -36540,7 +36540,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 3.2</string>
+                  <string>LUVPG SH-3.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-17"", "type":"A"}</data>
@@ -36550,7 +36550,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 3.2.1</string>
+                  <string>LUVPG SH-3.2.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-17"", "type":"S"}</data>
@@ -36560,7 +36560,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 4.1.1</string>
+                  <string>LUVPG SH-4.1.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-15"", "type":"X"}</data>
@@ -36570,7 +36570,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 4.1.2</string>
+                  <string>LUVPG SH-4.1.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-15"", "type":"S"}</data>
@@ -36580,7 +36580,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 5.1</string>
+                  <string>LUVPG SH-5.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"A"}</data>
@@ -36590,7 +36590,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 6.1</string>
+                  <string>LUVPG SH-6.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-1"", "type":"X"}</data>
@@ -36600,7 +36600,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 6.2</string>
+                  <string>LUVPG SH-6.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-1"", "type":"A"}</data>
@@ -36610,7 +36610,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 6.3</string>
+                  <string>LUVPG SH-6.3</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-1"", "type":"S"}</data>
@@ -36620,7 +36620,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 7.1</string>
+                  <string>LUVPG SH-7.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"X"}</data>
@@ -36630,7 +36630,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 7.2</string>
+                  <string>LUVPG SH-7.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"A"}</data>
@@ -36640,7 +36640,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 8.1</string>
+                  <string>LUVPG SH-8.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"X"}</data>
@@ -36650,7 +36650,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 8.2</string>
+                  <string>LUVPG SH-8.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"A"}</data>
@@ -36660,7 +36660,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 9.1</string>
+                  <string>LUVPG SH-9.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"X"}</data>
@@ -36670,7 +36670,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 9.2</string>
+                  <string>LUVPG SH-9.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"A"}</data>
@@ -36680,7 +36680,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 10.1</string>
+                  <string>LUVPG SH-10.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"X"}</data>
@@ -36690,7 +36690,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 10.2</string>
+                  <string>LUVPG SH-10.2</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18"", "type":"A"}</data>
@@ -36700,7 +36700,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>LUVPG SH 11.1</string>
+                  <string>LUVPG SH-11.1</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-16"", "type":"A"}</data>
@@ -40199,7 +40199,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>BbgUVPG-18.</string>
+                  <string>BbgUVPG-18</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -40209,7 +40209,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>BbgUVPG-19.</string>
+                  <string>BbgUVPG-19</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -40219,7 +40219,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>BbgUVPG-20.</string>
+                  <string>BbgUVPG-20</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -40279,7 +40279,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>BbgUVPG-25.</string>
+                  <string>BbgUVPG-25</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -40289,7 +40289,7 @@ JJJJ-MM-TT</description>
           <localisations>
               <entry>
                   <string>de</string>
-                  <string>BbgUVPG-26.</string>
+                  <string>BbgUVPG-26</string>
               </entry>
           </localisations>
           <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -58904,7 +58904,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-1 a)</string>
+            <string>BremUVPG-1.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-15", "type":"X"}</data>
@@ -58914,7 +58914,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-1 b)</string>
+            <string>BremUVPG-1.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-15", "type":"S"}</data>
@@ -58924,7 +58924,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-2 a)</string>
+            <string>BremUVPG-2.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-15", "type":"X"}</data>
@@ -58934,7 +58934,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-2 b)</string>
+            <string>BremUVPG-2.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-15", "type":"A"}</data>
@@ -58944,7 +58944,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-3 a)</string>
+            <string>BremUVPG-3.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-17", "type":"A"}</data>
@@ -58954,7 +58954,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-3 b)</string>
+            <string>BremUVPG-3.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-17", "type":"S"}</data>
@@ -59014,7 +59014,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-s1.1</string>
+            <string>BremUVPG-s.1.1</string>
           </entry>
         </localisations>
         <data>{"cat":"", "type":""}</data>
@@ -59024,7 +59024,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-s2.1</string>
+            <string>BremUVPG-s.2.1</string>
           </entry>
         </localisations>
         <data>{"cat":"", "type":""}</data>
@@ -59034,7 +59034,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>BremUVPG-s2.3</string>
+            <string>BremUVPG-s.2.3</string>
           </entry>
         </localisations>
         <data>{"cat":"", "type":""}</data>
@@ -70592,7 +70592,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 4.</string>
+            <string>UVPG NW-4</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-16", "type":"A"}</data>
@@ -70603,7 +70603,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 5.</string>
+            <string>UVPG NW-5</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -70614,7 +70614,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 6.</string>
+            <string>UVPG NW-6</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -70625,7 +70625,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 7.</string>
+            <string>UVPG NW-7</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -70636,7 +70636,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 8.</string>
+            <string>UVPG NW-8</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-14", "type":"A"}</data>
@@ -70647,7 +70647,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 9.</string>
+            <string>UVPG NW-9</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -70658,7 +70658,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 10.</string>
+            <string>UVPG NW-10</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -70669,7 +70669,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 11.a)</string>
+            <string>UVPG NW-11.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -70680,7 +70680,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 11.b)</string>
+            <string>UVPG NW-11.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -70691,7 +70691,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 11.c)</string>
+            <string>UVPG NW-11.c</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-18", "type":"S"}</data>
@@ -70702,7 +70702,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 12.a)</string>
+            <string>UVPG NW-12.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"X"}</data>
@@ -70713,7 +70713,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 12.b)</string>
+            <string>UVPG NW-12.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"A"}</data>
@@ -70724,7 +70724,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 13.a)</string>
+            <string>UVPG NW-13.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"X"}</data>
@@ -70735,7 +70735,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 13.b)</string>
+            <string>UVPG NW-13.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"A"}</data>
@@ -70746,7 +70746,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 13.c)</string>
+            <string>UVPG NW-13.c</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"S"}</data>
@@ -70757,7 +70757,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 13.d)</string>
+            <string>UVPG NW-13.d</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"S"}</data>
@@ -70768,7 +70768,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 14.a)</string>
+            <string>UVPG NW-14.a</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"A"}</data>
@@ -70779,7 +70779,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 14.b)</string>
+            <string>UVPG NW-14.b</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-1", "type":"S"}</data>
@@ -70790,7 +70790,7 @@ JJJJ-MM-TT</description>
         <localisations>
           <entry>
             <string>de</string>
-            <string>UVPG NW 15.</string>
+            <string>UVPG NW-15</string>
           </entry>
         </localisations>
         <data>{"cat":"UVPG-18", "type":"A"}</data>
