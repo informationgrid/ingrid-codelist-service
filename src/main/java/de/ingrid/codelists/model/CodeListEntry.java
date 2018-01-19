@@ -35,7 +35,7 @@ public class CodeListEntry  {
     /**
      * 
      */
-    private static final long serialVersionUID = 5219802039802156694L;
+    private static final long serialVersionUID = 4574387734455432251L;
     
     private String              id;
     private String              description;
@@ -54,20 +54,61 @@ public class CodeListEntry  {
         return id;
     }
     
+    /**
+     * Use setField(...) instead
+     * @param lang
+     * @param localisedEntry
+     */
+    @Deprecated
     public void setLocalisedEntry(String lang, String localisedEntry) {
         this.localisations.put(lang, localisedEntry);
     }
     
+    public void setField(String key, String value) {
+        this.localisations.put(key, value);
+    }
+    
+    /**
+     * Use getField(...) instead
+     * @param lang
+     * @param localisedEntry
+     */
+    @Deprecated
     public String getLocalisedEntry(String lang) {
         String value = this.localisations.get(lang);
         return value == null ? "" : value;
     }
+    
+    public String getField(String key) {
+        String value = this.localisations.get(key);
+        return value == null ? "" : value;
+    }
 
+    /**
+     * Use getFields(...) instead
+     * @param lang
+     * @param localisedEntry
+     */
+    @Deprecated
     public Map<String, String> getLocalisations() {
         return this.localisations;
     }
     
+    public Map<String, String> getFields() {
+        return this.localisations;
+    }
+    
+    /**
+     * Use setFields(...) instead
+     * @param lang
+     * @param localisedEntry
+     */
+    @Deprecated
     public void setLocalisations(Map<String, String> map) {
+        this.localisations = map;
+    }
+    
+    public void setFields(Map<String, String> map) {
         this.localisations = map;
     }
 
