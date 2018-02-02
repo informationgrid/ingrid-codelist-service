@@ -21647,7 +21647,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-1.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-7"", "type":"A"}</data>
+          <data>{"cat":"UVPG-7", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>346</id>
@@ -21657,7 +21657,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-2.1.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-15"", "type":"X"}</data>
+          <data>{"cat":"UVPG-15", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>347</id>
@@ -21667,7 +21667,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-2.1.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-15"", "type":"A"}</data>
+          <data>{"cat":"UVPG-15", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>348</id>
@@ -21677,7 +21677,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-2.2.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-15"", "type":"X"}</data>
+          <data>{"cat":"UVPG-15", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>349</id>
@@ -21687,7 +21687,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-2.2.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-15"", "type":"A"}</data>
+          <data>{"cat":"UVPG-15", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>350</id>
@@ -21697,7 +21697,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-3.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>351</id>
@@ -21707,7 +21707,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-3.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>352</id>
@@ -21717,7 +21717,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-3.3</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>353</id>
@@ -21727,7 +21727,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-3.4</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>354</id>
@@ -21737,7 +21737,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-3.5</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"A"}</data>
+          <data>{"cat":"UVPG-14", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>355</id>
@@ -21747,7 +21747,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-3.6</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"A"}</data>
+          <data>{"cat":"UVPG-14", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>356</id>
@@ -21757,7 +21757,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.1.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>357</id>
@@ -21767,7 +21767,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.2.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>358</id>
@@ -21777,7 +21777,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.2.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>359</id>
@@ -21787,7 +21787,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.2.3</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"S"}</data>
+          <data>{"cat":"UVP-18", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>360</id>
@@ -21797,7 +21797,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.2.4</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>361</id>
@@ -21807,7 +21807,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.3.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>362</id>
@@ -21817,7 +21817,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-4.3.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>363</id>
@@ -21827,7 +21827,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.1.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>364</id>
@@ -21837,7 +21837,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.1.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>365</id>
@@ -21847,7 +21847,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.2.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>366</id>
@@ -21857,7 +21857,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.2.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>367</id>
@@ -21867,7 +21867,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.3.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>368</id>
@@ -21877,7 +21877,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.3.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>369</id>
@@ -21887,7 +21887,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.4.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>370</id>
@@ -21897,7 +21897,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.2.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>371</id>
@@ -21907,7 +21907,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.5.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>372</id>
@@ -21917,7 +21917,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.5.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>373</id>
@@ -21927,7 +21927,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.6.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"X"}</data>
+          <data>{"cat":"UVP-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>374</id>
@@ -21937,7 +21937,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG RP-5.6.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVP-18"", "type":"A"}</data>
+          <data>{"cat":"UVP-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
   </de.ingrid.codelists.model.CodeList>
@@ -25436,7 +25436,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-1a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>346</id>
@@ -25446,7 +25446,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-1b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"A"}</data>
+          <data>{"cat":"UVPG-14", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>347</id>
@@ -25456,7 +25456,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>348</id>
@@ -25466,7 +25466,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>349</id>
@@ -25476,7 +25476,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2c</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>350</id>
@@ -25486,7 +25486,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2d</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>351</id>
@@ -25496,7 +25496,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2e</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>352</id>
@@ -25506,7 +25506,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2f</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>353</id>
@@ -25516,7 +25516,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2g</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>354</id>
@@ -25526,7 +25526,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2h</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>355</id>
@@ -25536,7 +25536,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-2i</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>356</id>
@@ -25546,7 +25546,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-3a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>357</id>
@@ -25556,7 +25556,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-3b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>358</id>
@@ -25566,7 +25566,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-4a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>359</id>
@@ -25576,7 +25576,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-4b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>360</id>
@@ -25586,7 +25586,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-4c</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>361</id>
@@ -25596,7 +25596,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-5a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>362</id>
@@ -25606,7 +25606,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-5b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>363</id>
@@ -25616,7 +25616,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-6</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-17"", "type":"X"}</data>
+          <data>{"cat":"UVPG-17", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>364</id>
@@ -25626,7 +25626,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-7</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-16"", "type":"A"}</data>
+          <data>{"cat":"UVPG-16", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>365</id>
@@ -25636,7 +25636,7 @@ JJJJ-MM-TT</description>
                   <string>SächsUVPG-8</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-13"", "type":"X"}</data>
+          <data>{"cat":"UVPG-13", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
   </de.ingrid.codelists.model.CodeList>
@@ -36423,7 +36423,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-1.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-13"", "type":"A"}</data>
+          <data>{"cat":"UVPG-13", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>346</id>
@@ -36433,7 +36433,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>347</id>
@@ -36443,7 +36443,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>348</id>
@@ -36453,7 +36453,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.3</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"X"}</data>
+          <data>{"cat":"UVPG-14", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>349</id>
@@ -36463,7 +36463,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.4a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>350</id>
@@ -36473,7 +36473,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.4b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>351</id>
@@ -36483,7 +36483,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.4c</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>352</id>
@@ -36493,7 +36493,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.5a</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>353</id>
@@ -36503,7 +36503,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.5b</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>354</id>
@@ -36513,7 +36513,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.5c</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"S"}</data>
+          <data>{"cat":"UVPG-14", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>355</id>
@@ -36523,7 +36523,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-2.6</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-14"", "type":"A"}</data>
+          <data>{"cat":"UVPG-14", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>356</id>
@@ -36533,7 +36533,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-3.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-17"", "type":"S"}</data>
+          <data>{"cat":"UVPG-17", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>357</id>
@@ -36543,7 +36543,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-3.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-17"", "type":"A"}</data>
+          <data>{"cat":"UVPG-17", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>358</id>
@@ -36553,7 +36553,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-3.2.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-17"", "type":"S"}</data>
+          <data>{"cat":"UVPG-17", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>359</id>
@@ -36563,7 +36563,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-4.1.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-15"", "type":"X"}</data>
+          <data>{"cat":"UVPG-15", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>360</id>
@@ -36573,7 +36573,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-4.1.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-15"", "type":"S"}</data>
+          <data>{"cat":"UVPG-15", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>361</id>
@@ -36583,7 +36583,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-5.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"A"}</data>
+          <data>{"cat":"UVPG-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>362</id>
@@ -36593,7 +36593,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-6.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-1"", "type":"X"}</data>
+          <data>{"cat":"UVPG-1", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>363</id>
@@ -36603,7 +36603,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-6.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-1"", "type":"A"}</data>
+          <data>{"cat":"UVPG-1", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>364</id>
@@ -36613,7 +36613,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-6.3</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-1"", "type":"S"}</data>
+          <data>{"cat":"UVPG-1", "type":"S"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>365</id>
@@ -36623,7 +36623,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-7.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>366</id>
@@ -36633,7 +36633,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-7.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"A"}</data>
+          <data>{"cat":"UVPG-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>367</id>
@@ -36643,7 +36643,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-8.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>368</id>
@@ -36653,7 +36653,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-8.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"A"}</data>
+          <data>{"cat":"UVPG-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>369</id>
@@ -36663,7 +36663,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-9.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>370</id>
@@ -36673,7 +36673,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-9.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"A"}</data>
+          <data>{"cat":"UVPG-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>371</id>
@@ -36683,7 +36683,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-10.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"X"}</data>
+          <data>{"cat":"UVPG-18", "type":"X"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>372</id>
@@ -36693,7 +36693,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-10.2</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-18"", "type":"A"}</data>
+          <data>{"cat":"UVPG-18", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
       <de.ingrid.codelists.model.CodeListEntry>
           <id>373</id>
@@ -36703,7 +36703,7 @@ JJJJ-MM-TT</description>
                   <string>LUVPG SH-11.1</string>
               </entry>
           </localisations>
-          <data>{"cat":"UVPG-16"", "type":"A"}</data>
+          <data>{"cat":"UVPG-16", "type":"A"}</data>
       </de.ingrid.codelists.model.CodeListEntry>
     </entries>
   </de.ingrid.codelists.model.CodeList>
