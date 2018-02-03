@@ -2,7 +2,7 @@
   <parent>
     <groupId>de.ingrid</groupId>
     <artifactId>ingrid-base-pom</artifactId>
-    <version>4.3.0-SNAPSHOT</version>
+    <version>4.1.0</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ingrid-codelist-service</artifactId>
@@ -22,6 +22,23 @@
       <url>https://nexus.informationgrid.eu/repository/maven-public</url>
     </repository>
   </repositories>
+
+  <!--  override base pom for changed maven repository using nexus now -->
+  <distributionManagement>
+    <repository>
+      <!-- <uniqueVersion>false</uniqueVersion> -->
+      <id>nexus</id>
+      <name>Nexus Repo InGrid</name>
+      <url>https://nexus.informationgrid.eu/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Repo InGrid Snapshot</name>
+      <url>https://nexus.informationgrid.eu/repository/maven-snapshots/</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>de.ingrid</groupId>
