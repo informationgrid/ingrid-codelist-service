@@ -21054,19 +21054,6 @@ JJJJ-MM-TT</description>
           </entry>
         </localisations>
       </de.ingrid.codelists.model.CodeListEntry>
-      <de.ingrid.codelists.model.CodeListEntry>
-        <id>99999</id>
-        <localisations>
-          <entry>
-            <string>de</string>
-            <string>Kein INSPIRE-Thema</string>
-          </entry>
-          <entry>
-            <string>en</string>
-            <string>No INSPIRE Theme</string>
-          </entry>
-        </localisations>
-      </de.ingrid.codelists.model.CodeListEntry>
     </entries>
     <lastModified>0</lastModified>
   </de.ingrid.codelists.model.CodeList>
