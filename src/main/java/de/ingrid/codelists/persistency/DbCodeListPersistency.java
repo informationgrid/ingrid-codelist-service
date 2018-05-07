@@ -82,4 +82,10 @@ public class DbCodeListPersistency implements ICodeListPersistency {
         return false;
     }
 
+    @Override
+    public boolean remove(String id) {
+        // not supported
+        return false;
+    }
+
 }
