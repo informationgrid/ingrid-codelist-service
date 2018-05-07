@@ -40,15 +40,13 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
 
 	private static Log log = LogFactory.getLog(InitialCodeListReaderPersistency.class);
 
-    private static String INITIAL_CODELISTS_FILENAME = "codelists_initial.xml";
-    
     public InitialCodeListReaderPersistency() {}
     
     @Override
     public List<CodeList> read() {
         XStream xStream = new XStream();
         try {
-            List<CodeList> list = new ArrayList<CodeList>();
+            List<CodeList> list = new ArrayList<>();
             
             ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
             Resource[] codelistResources = context.getResources("classpath*:/initial/codelist_*.xml");
@@ -65,7 +63,7 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
             
             return list;
         } catch (Exception e) {
-        	log.warn("Problems reading initial codelists from file " + INITIAL_CODELISTS_FILENAME, e);
+        	log.warn("Problems reading initial codelists", e);
         }
         return null;
     }
