@@ -3493,7 +3493,7 @@
           <string>SächsUVPG-1a</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>346</id>
@@ -3503,7 +3503,7 @@
           <string>SächsUVPG-1b</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"A"}</data>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>347</id>
@@ -3513,7 +3513,7 @@
           <string>SächsUVPG-2a</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>348</id>
@@ -3523,7 +3523,7 @@
           <string>SächsUVPG-2b</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>349</id>
@@ -3533,7 +3533,7 @@
           <string>SächsUVPG-2c</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>350</id>
@@ -3543,7 +3543,7 @@
           <string>SächsUVPG-2d</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>351</id>
@@ -3553,7 +3553,7 @@
           <string>SächsUVPG-2e</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>352</id>
@@ -3563,7 +3563,7 @@
           <string>SächsUVPG-2f</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>353</id>
@@ -3573,7 +3573,7 @@
           <string>SächsUVPG-2g</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>354</id>
@@ -3583,7 +3583,7 @@
           <string>SächsUVPG-2h</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>355</id>
@@ -3593,7 +3593,7 @@
           <string>SächsUVPG-2i</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14"", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>356</id>
@@ -3603,7 +3603,7 @@
           <string>SächsUVPG-3a</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>357</id>
@@ -3613,7 +3613,7 @@
           <string>SächsUVPG-3b</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>358</id>
@@ -3623,7 +3623,7 @@
           <string>SächsUVPG-4a</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>359</id>
@@ -3633,7 +3633,7 @@
           <string>SächsUVPG-4b</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>360</id>
@@ -3643,7 +3643,7 @@
           <string>SächsUVPG-4c</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>361</id>
@@ -3653,7 +3653,7 @@
           <string>SächsUVPG-5a</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>362</id>
@@ -3663,7 +3663,7 @@
           <string>SächsUVPG-5b</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18"", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>363</id>
@@ -3673,7 +3673,7 @@
           <string>SächsUVPG-6</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-17"", "type":"X"}</data>
+      <data>{"cat":"UVPG-17", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>364</id>
@@ -3683,7 +3683,7 @@
           <string>SächsUVPG-7</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-16"", "type":"A"}</data>
+      <data>{"cat":"UVPG-16", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>365</id>
@@ -3693,7 +3693,7 @@
           <string>SächsUVPG-8</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-13"", "type":"X"}</data>
+      <data>{"cat":"UVPG-13", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
