@@ -58,9 +58,9 @@ public class HttpCLCommunication implements ICodeListCommunication {
         }
         HttpClient client = getClient();
         HttpGet method = new HttpGet(requestUrl + "?lastModifiedDate=" + timestamp);
-        String result = "";
-        int status = -1;
-        HttpResponse response = null;
+        String result;
+        int status;
+        HttpResponse response;
         try {
             response = client.execute(method);
             status = response.getStatusLine().getStatusCode();
