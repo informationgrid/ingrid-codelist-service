@@ -23,18 +23,20 @@
 package de.ingrid.codelists.persistency;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.stream.Stream;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -50,34 +52,49 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
     
     private String pathToXml;
     
-    //public XmlCodeListPersistency() {}
-    
     @SuppressWarnings("unchecked")
     @Override
     public List<T> read() {
         XStream xStream = new XStream();
-        Reader reader = null;
+        
         try {
-            checkForFile(this.pathToXml);
-            reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
-            return (List<T>) xStream.fromXML(reader);
-        } catch (FileNotFoundException e) {
-            log.error( "Codelist file could not be found", e );
-            //throw new Exception();
+            checkForFolder(this.pathToXml);
+            // reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
+            List<T> list = new ArrayList<T>();
+            
+            try (Stream<Path> paths = Files.walk(Paths.get( this.pathToXml ))) {
+                paths
+                    .filter(Files::isRegularFile)
+                    .forEach(file -> {
+                        Reader codelistReader = null;
+                        try {
+                            codelistReader = new FileReader(file.toFile());
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        } // , "UTF-8");
+                        
+                        Object xml = xStream.fromXML( codelistReader );
+                        try {
+                            codelistReader.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        if (xml instanceof List) {
+                            list.addAll( (List<T>) xml );
+                        } else {
+                            list.add( (T) xml );
+                        }
+                        
+                    });
+            } catch (IOException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+            } 
+            
+            return list;
         } catch (StreamException e) {
             return new ArrayList<T>();
-        } catch (UnsupportedEncodingException e) {
-            log.warn("Problems reading codelists from file "+this.pathToXml+".", e);
-        } finally {
-            if (reader != null) {
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
-        return null;
     }
 
     @Override
@@ -85,18 +102,24 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
         XStream xStream = new XStream();
         FileOutputStream fos = null;
         try {
-            checkForFile(this.pathToXml);
+            checkForFolder(this.pathToXml);
             
-            fos = new FileOutputStream(this.pathToXml);
-            Writer writer = new OutputStreamWriter(fos, "UTF-8");
-            // sort list by id to write similar file so it can be patched
-            Collections.sort(data);
-            xStream.toXML(data, writer);
+            for (CodeList codeList : data) {
+                
+                fos = new FileOutputStream(this.pathToXml + "/codelist_" + codeList.getId() + ".xml");
+                Writer writer = new OutputStreamWriter(fos, "UTF-8");
+                xStream.toXML(codeList, writer);
+                fos.close();
+            }
+            
             return true;
         } catch (FileNotFoundException e) {
             log.error( "Codelist file could not be found" );
         } catch (UnsupportedEncodingException e) {
             log.error( "Codelist file has unsupported encoding", e );
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         } finally {
             if (fos != null) {
                 try {
@@ -109,20 +132,11 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
         return false;
     }
 
-    private void checkForFile(String filePath) {
-        File f = new File(filePath);
-        File parentDir = f.getParentFile();
-        // create dir if the file is inside a subdirectory and does not exist already
-        if (parentDir != null && (!parentDir.exists() || !parentDir.isDirectory())) {
-            parentDir.mkdir();
-        }
-        // check for the file now!
+    private void checkForFolder(String folderPath) {
+        File f = new File(folderPath);
+        
         if (!f.exists()) {
-            try {
-                f.createNewFile();
-            } catch (IOException e) {
-                log.error( "Could not create codelist.xml file: " + filePath );
-            }
+            f.mkdirs();
         }
     }
 
@@ -133,12 +147,21 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
 
     @Override
     public boolean writePartial(List<CodeList> codelists) {
-        return false;
+        return write(codelists);
     }
 
     
     @Override
     public boolean canDoPartialUpdates() {
+        return true;
+    }
+
+    @Override
+    public boolean remove(String id) {
+        File file = new File(this.pathToXml + "/codelist_" + id + ".xml");
+        if (file.exists()) {
+            return file.delete();
+        }
         return false;
     }
 

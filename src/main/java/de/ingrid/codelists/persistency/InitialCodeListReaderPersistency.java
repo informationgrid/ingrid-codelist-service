@@ -22,13 +22,15 @@
  */
 package de.ingrid.codelists.persistency;
 
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.Resource;
 
 import com.thoughtworks.xstream.XStream;
 
@@ -38,21 +40,30 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
 
 	private static Log log = LogFactory.getLog(InitialCodeListReaderPersistency.class);
 
-    private static String INITIAL_CODELISTS_FILENAME = "codelists_initial.xml";
-    
     public InitialCodeListReaderPersistency() {}
     
-    @SuppressWarnings("unchecked")
     @Override
     public List<CodeList> read() {
         XStream xStream = new XStream();
         try {
-            InputStream input = this.getClass().getResourceAsStream("/" + INITIAL_CODELISTS_FILENAME);
-            Reader reader = new InputStreamReader(input, "UTF-8");
-            return (List<CodeList>) xStream.fromXML(reader);
+            List<CodeList> list = new ArrayList<>();
+            
+            ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
+            Resource[] codelistResources = context.getResources("classpath*:/initial/codelist_*.xml");
+            
+            for (Resource codelistResource : codelistResources) {
+                Reader codelistReader = new InputStreamReader(codelistResource.getInputStream(), "UTF-8");
+                
+                list.add( (CodeList) xStream.fromXML( codelistReader ) ); 
+                
+                codelistReader.close();
+            }
+            
+            context.close();
+            
+            return list;
         } catch (Exception e) {
-        	log.warn("Problems reading initial codelists from file " + INITIAL_CODELISTS_FILENAME, e);
-            //return new ArrayList<CodeList>();
+        	log.warn("Problems reading initial codelists", e);
         }
         return null;
     }
@@ -66,13 +77,18 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
     
     @Override
     public boolean writePartial(List<CodeList> codelists) {
-        //new Exception();
         return false;
     }
 
     
     @Override
     public boolean canDoPartialUpdates() {
+        return false;
+    }
+
+    @Override
+    public boolean remove(String id) {
+        // not needed
         return false;
     }
 
