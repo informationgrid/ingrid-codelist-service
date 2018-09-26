@@ -23,8 +23,6 @@
 package de.ingrid.codelists.comm;
 
 
-import org.apache.log4j.Logger;
-
 import de.ingrid.ibus.client.BusClient;
 import de.ingrid.ibus.client.BusClientFactory;
 import de.ingrid.utils.IngridHit;
@@ -32,9 +30,11 @@ import de.ingrid.utils.IngridHits;
 import de.ingrid.utils.query.FieldQuery;
 import de.ingrid.utils.query.IngridQuery;
 import de.ingrid.utils.queryparser.QueryStringParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class IngridCLCommunication implements ICodeListCommunication {
-    private final static Logger log = Logger.getLogger(IngridCLCommunication.class);
+    private final static Logger log = LogManager.getLogger(IngridCLCommunication.class);
 
     @Override
     public String sendRequest(Long timestamp) {

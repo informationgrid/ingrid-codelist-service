@@ -34,11 +34,12 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class HttpCLCommunication implements ICodeListCommunication {
     
-    private final static Logger log = Logger.getLogger(HttpCLCommunication.class);
+    private final static Logger log = LogManager.getLogger(HttpCLCommunication.class);
 
     // injected by Spring
     private String requestUrl;
