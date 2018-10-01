@@ -8,10 +8,10 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Datenlizenz Deutschland Namensnennung</string>
+          <string>Datenlizenz Deutschland – Namensnennung – Version 2.0</string>
         </entry>
       </localisations>
-      <data>{"id":"dl-de-by-1.0","name":"Datenlizenz Deutschland Namensnennung","url":"","quelle":""}</data>
+      <data>{"id":"dl-de-by-2.0","name":"Datenlizenz Deutschland - Namensnennung – Version 2.0","url":"https://www.govdata.de/dl-de/by-2-0","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>2</id>
@@ -21,7 +21,7 @@
           <string>Amtliches Werk, lizenzfrei nach §5 UrhG</string>
         </entry>
       </localisations>
-      <data>{"id":"official-work","name":"Amtliches Werk, lizenzfrei nach §5 UrhG","url":"","quelle":""}</data>
+      <data>{"id":"official-work","name":"Amtliches Werk, lizenzfrei nach §5 UrhG","url":"https://www.gesetze-im-internet.de/urhg/__5.html","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>3</id>
@@ -31,7 +31,7 @@
           <string>Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes</string>
         </entry>
       </localisations>
-      <data>{"id":"geonutzv-de-2013-03-19","name":"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes","url":"","quelle":""}</data>
+      <data>{"id":"geonutzv-de-2013-03-19","name":"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes","url":"https://www.geodatenzentrum.de/docpdf/geonutzv.pdf","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>4</id>
@@ -41,7 +41,7 @@
           <string>Creative Commons Namensnennung (CC-BY)</string>
         </entry>
       </localisations>
-      <data>{"id":"cc-by","name":"Creative Commons Namensnennung (CC-BY)","url":"","quelle":""}</data>
+      <data>{"id":"cc-by","name":"Creative Commons Namensnennung (CC-BY)","url":"https://www.opendefinition.org/licenses/cc-by","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>5</id>
@@ -51,7 +51,7 @@
           <string>Creative Commons Zero</string>
         </entry>
       </localisations>
-      <data>{"id":"cc-zero","name":"Creative Commons Zero","url":"","quelle":""}</data>
+      <data>{"id":"cc-zero","name":"Creative Commons Zero","url":"https://www.opendefinition.org/licenses/cc-zero","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>6</id>
@@ -61,7 +61,7 @@
           <string>Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC-BY-SA)</string>
         </entry>
       </localisations>
-      <data>{"id":"cc-by-sa","name":"Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC-BY-SA)","url":"","quelle":""}</data>
+      <data>{"id":"cc-by-sa","name":"Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC-BY-SA)","url":"https://www.opendefinition.org/licenses/cc-by-sa","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>7</id>
@@ -71,7 +71,7 @@
           <string>Open Data Commons Open Database License (ODbL)</string>
         </entry>
       </localisations>
-      <data>{"id":"odc-odbl","name":"Open Data Commons Open Database License (ODbL)","url":"","quelle":""}</data>
+      <data>{"id":"odc-odbl","name":"Open Data Commons Open Database License (ODbL)","url":"https://www.opendefinition.org/licenses/odc-odbl","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>8</id>
@@ -81,7 +81,7 @@
           <string>Open Data Commons Namensnennung</string>
         </entry>
       </localisations>
-      <data>{"id":"odc-by","name":"Open Data Commons Namensnennung","url":"","quelle":""}</data>
+      <data>{"id":"odc-by","name":"Open Data Commons Namensnennung","url":"https://www.opendefinition.org/licenses/odc-by","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>9</id>
@@ -91,7 +91,7 @@
           <string>Open Data Commons Public Domain Dedication and Licence (PDDL)</string>
         </entry>
       </localisations>
-      <data>{"id":"odc-pddl","name":"Open Data Commons Public Domain Dedication and Licence (PDDL)","url":"","quelle":""}</data>
+      <data>{"id":"odc-pddl","name":"Open Data Commons Public Domain Dedication and Licence (PDDL)","url":"https://www.opendefinition.org/licenses/odc-pddl","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>10</id>
@@ -111,7 +111,7 @@
           <string>Creative Commons Nicht-Kommerziell (CC-NC)</string>
         </entry>
       </localisations>
-      <data>{"id":"cc-nc","name":"Creative Commons Nicht-Kommerziell (CC-NC)","url":"","quelle":""}</data>
+      <data>{"id":"cc-nc","name":"Creative Commons Nicht-Kommerziell (CC-NC)","url":"https://creativecommons.org/licenses/by-nc/2.0/","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>12</id>
@@ -121,7 +121,7 @@
           <string>Creative Commons Keine Bearbeitung (CC-BY-ND)</string>
         </entry>
       </localisations>
-      <data>{"id":"cc-by-nd","name":"Creative Commons Keine Bearbeitung (CC-BY-ND)","url":"","quelle":""}</data>
+      <data>{"id":"cc-by-nd","name":"Creative Commons Keine Bearbeitung (CC-BY-ND)","url":"https://creativecommons.org/licenses/by-nd/3.0/","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>13</id>
@@ -131,7 +131,7 @@
           <string>Datenlizenz Deutschland Namensnennung nicht-kommerziell</string>
         </entry>
       </localisations>
-      <data>{"id":"dl-de-by-nc-1.0","name":"Datenlizenz Deutschland Namensnennung nicht-kommerziell","url":"","quelle":""}</data>
+      <data>{"id":"dl-de-by-nc-1.0","name":"Datenlizenz Deutschland Namensnennung nicht-kommerziell","url":"https://www.govdata.de/dl-de/by-nc-1-0","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>14</id>
@@ -141,7 +141,7 @@
           <string>Geolizenz Ia Namensnennung</string>
         </entry>
       </localisations>
-      <data>{"id":"geolizenz-i-a","name":"Geolizenz Ia Namensnennung","url":"","quelle":""}</data>
+      <data>{"id":"geolizenz-i-a","name":"Geolizenz Ia Namensnennung","url":"https://www.geolizenz.org","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>15</id>
@@ -151,7 +151,7 @@
           <string>eingeschränkte Geolizenz</string>
         </entry>
       </localisations>
-      <data>{"id":"geolizenz-closed","name":"eingeschränkte Geolizenz","url":"","quelle":""}</data>
+      <data>{"id":"geolizenz-closed","name":"eingeschränkte Geolizenz","url":"https://www.geolizenz.org","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>16</id>
@@ -161,7 +161,7 @@
           <string>Apache Lizenz</string>
         </entry>
       </localisations>
-      <data>{"id":"apache","name":"Apache Lizenz","url":"","quelle":""}</data>
+      <data>{"id":"apache","name":"Apache Lizenz","url":"https://www.apache.org/licenses","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>17</id>
@@ -201,7 +201,7 @@
           <string>BSD Lizenz</string>
         </entry>
       </localisations>
-      <data>{"id":"bsd-license","name":"BSD Lizenz","url":"","quelle":""}</data>
+      <data>{"id":"bsd-license","name":"BSD Lizenz","url":"http://www.opensource.org/licenses/bsd-license.php","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>21</id>
@@ -211,7 +211,7 @@
           <string>GNU Free Documentation License</string>
         </entry>
       </localisations>
-      <data>{"id":"gfdl","name":"GNU Free Documentation License","url":"","quelle":""}</data>
+      <data>{"id":"gfdl","name":"GNU Free Documentation License","url":"https://www.opendefinition.org/licenses/gfdl","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>22</id>
@@ -221,7 +221,7 @@
           <string>GNU General Public License version 3.0 (GPLv3)</string>
         </entry>
       </localisations>
-      <data>{"id":"gpl-3.0","name":"GNU General Public License version 3.0 (GPLv3)","url":"","quelle":""}</data>
+      <data>{"id":"gpl-3.0","name":"GNU General Public License version 3.0 (GPLv3)","url":"https://www.opensource.org/licenses/gpl-3.0.html","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>23</id>
@@ -231,7 +231,7 @@
           <string>Mozilla Public License 1.0 (MPL)</string>
         </entry>
       </localisations>
-      <data>{"id":"mozilla","name":"Mozilla Public License 1.0 (MPL)","url":"","quelle":""}</data>
+      <data>{"id":"mozilla","name":"Mozilla Public License 1.0 (MPL)","url":"https://www.mozilla.org/MPL","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>24</id>
@@ -242,6 +242,16 @@
         </entry>
       </localisations>
       <data>{"id":"other-closed","name":"Andere eingeschränkte Lizenz","url":"","quelle":""}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>25</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Datenlizenz Deutschland – Zero – Version 2.0</string>
+        </entry>
+      </localisations>
+      <data>{"id":"dl-de-by-2.0","name":"Datenlizenz Deutschland – Zero – Version 2.0","url":"https://www.govdata.de/dl-de/zero-2-0","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
