@@ -1,19 +1,24 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>de.ingrid</groupId>
     <artifactId>ingrid-base-pom</artifactId>
-    <version>4.2.2</version>
+    <version>5.0.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ingrid-codelist-service</artifactId>
   <version>5.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>InGrid CodeList Service</name>
+
+  <!-- ==================== Source Code Management ==================== -->
   <scm>
     <connection>scm:git:git@github.com:informationgrid/ingrid-codelist-service.git</connection>
     <developerConnection>scm:git:git@github.com:informationgrid/ingrid-codelist-service.git</developerConnection>
-      <tag>HEAD</tag>
+    <tag>HEAD</tag>
   </scm>
+
+  <!-- ==================== REPOSITORIES ==================== -->
   <repositories>
     <!-- Repo of parent pom needed, parent pom may not be installed locally yet -->
     <repository>
@@ -22,6 +27,8 @@
       <url>https://nexus.informationgrid.eu/repository/maven-public</url>
     </repository>
   </repositories>
+
+  <!-- ==================== DEPENDENCIES ==================== -->
   <dependencies>
     <dependency>
       <groupId>de.ingrid</groupId>
@@ -89,6 +96,8 @@
       <version>2.11.1</version>
     </dependency>
   </dependencies>
+
+  <!-- ==================== Build Configuration ==================== -->
   <build>
     <plugins>
       <plugin>
