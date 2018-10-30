@@ -1,6 +1,6 @@
 <de.ingrid.codelists.model.CodeList>
   <id>6005</id>
-  <name>Konformität - Spezifikation der Konformität</name>
+  <name>Konformität - Spezifikation der Konformität (INSPIRE)</name>
   <description>Das Datum der jeweiligen Spezifikation wird aus dem &lt;Data&gt;-Feld ausgelesen, bitte in folgender Form eingeben:
     JJJJ-MM-TT</description>
   <defaultEntry>12</defaultEntry>
