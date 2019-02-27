@@ -129,5 +129,14 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>14</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Sonstige Produkte Geotopographie</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
