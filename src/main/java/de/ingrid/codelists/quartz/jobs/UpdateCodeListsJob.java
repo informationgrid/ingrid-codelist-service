@@ -22,7 +22,9 @@
  */
 package de.ingrid.codelists.quartz.jobs;
 
-import org.apache.log4j.Logger;
+import de.ingrid.codelists.CodeListService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.SchedulerContext;
@@ -30,11 +32,9 @@ import org.quartz.SchedulerException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
-import de.ingrid.codelists.CodeListService;
-
 public class UpdateCodeListsJob extends QuartzJobBean {
     
-    private final static Logger log = Logger.getLogger(UpdateCodeListsJob.class);
+    private final static Logger log = LogManager.getLogger(UpdateCodeListsJob.class);
 
     public UpdateCodeListsJob() {}
     

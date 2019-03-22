@@ -26,7 +26,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import de.ingrid.codelists.comm.ICodeListCommunication;
@@ -37,7 +38,7 @@ import de.ingrid.codelists.persistency.InitialCodeListReaderPersistency;
 import de.ingrid.codelists.util.CodeListUtils;
 
 public class CodeListService {
-    private final static Logger log = Logger.getLogger(CodeListService.class);
+    private final static Logger log = LogManager.getLogger(CodeListService.class);
 
     // injected by Spring
     @Autowired(required = false)
@@ -157,10 +158,10 @@ public class CodeListService {
         if(cl != null){
         	for (CodeListEntry entry : cl.getEntries()) {
                 if (entry.getId().equalsIgnoreCase(entryId)) {
-                    localizedEntry = entry.getLocalisedEntry(lang);
+                    localizedEntry = entry.getField(lang);
                     // fallback to english value
                     if (localizedEntry == null)
-                        localizedEntry = entry.getLocalisedEntry("en");
+                        localizedEntry = entry.getField("en");
                     break;
                 }
             }
@@ -195,9 +196,9 @@ public class CodeListService {
 	        for (CodeListEntry entry : cl.getEntries()) {
 	        	Collection<String> localisedEntryValues = new ArrayList<String>();
 	        	if (lang != null && lang.length() > 0) {
-		        	localisedEntryValues.add(entry.getLocalisedEntry(lang));
+		        	localisedEntryValues.add(entry.getField(lang));
 	        	} else {
-	        		localisedEntryValues = entry.getLocalisations().values();
+	        		localisedEntryValues = entry.getFields().values();
 	        	}
 	        	for (String localisedEntryValue : localisedEntryValues) {
 		        	if (doRobustComparison && localisedEntryValue != null) {

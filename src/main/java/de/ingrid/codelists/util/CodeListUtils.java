@@ -138,7 +138,7 @@ public class CodeListUtils {
                 cle.setData(jsonEntryObject.optString("data", ""));
                 JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations"); 
                 for (int j=0; j<jsonLocalisationsArray.length(); j++) {
-                    cle.setLocalisedEntry(
+                    cle.setField(
                             jsonLocalisationsArray.getJSONArray(j).getString(0),
                             jsonLocalisationsArray.getJSONArray(j).getString(1)
                     );
