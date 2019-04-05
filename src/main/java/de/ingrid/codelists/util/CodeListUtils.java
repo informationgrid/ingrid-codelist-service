@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2018 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2019 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -138,7 +138,7 @@ public class CodeListUtils {
                 cle.setData(jsonEntryObject.optString("data", ""));
                 JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations"); 
                 for (int j=0; j<jsonLocalisationsArray.length(); j++) {
-                    cle.setLocalisedEntry(
+                    cle.setField(
                             jsonLocalisationsArray.getJSONArray(j).getString(0),
                             jsonLocalisationsArray.getJSONArray(j).getString(1)
                     );

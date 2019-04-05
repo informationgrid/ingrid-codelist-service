@@ -1,4 +1,4 @@
-/*
+/*-
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
@@ -20,16 +20,28 @@
  * limitations under the Licence.
  * **************************************************#
  */
-package de.ingrid.codelists.comm;
+package de.ingrid.codelists.persistency;
 
-public interface ICodeListCommunication {
+import org.junit.Test;
+import org.springframework.core.io.ClassPathResource;
+
+import java.io.IOException;
+import java.util.List;
+
+import static org.junit.Assert.*;
+
+public class XmlCodeListPersistencyTest {
 
     /**
-     * Receive all codelists that are newer than 'timestamp'. If 'timestamp'
-     * is null, all codelists are received.
-     * @param timestamp is the date the last time codelists were received (at least one!)
-     * @return typically a JSON String containing all codelists
+     * Ignore directories or files that are not conform.
      */
-    public String sendRequest(Long timestamp);
-    
+    @Test
+    public void read() throws IOException {
+        XmlCodeListPersistency<Object> persistency = new XmlCodeListPersistency<>();
+        ClassPathResource xmlReadTest = new ClassPathResource("xmlReadTest");
+        persistency.setPathToXml(xmlReadTest.getFile().getPath());
+        List<Object> result = persistency.read();
+        assertNotNull(result);
+        assertEquals(2, result.size());
+    }
 }
