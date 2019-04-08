@@ -1,7 +1,7 @@
 InGrid Codelist Service
 =========
 
-This library is part of the InGrid software package. It provides common functionality to handle codelists (fetch from repository on schedule, persist codelists, access codelists).
+This library is part of the InGrid software package. It provides common functionality to handle codelists (fetch from repository on schedule, persist codelists, access codelists). HTTP Proxy information will be picked up automatically from JVM configurations. 
 
 Usage
 =========

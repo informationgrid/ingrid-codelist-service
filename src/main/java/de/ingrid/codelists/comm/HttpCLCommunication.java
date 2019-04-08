@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2018 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2019 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -23,6 +23,7 @@
 package de.ingrid.codelists.comm;
 
 import java.io.IOException;
+import java.net.ProxySelector;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -33,12 +34,14 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.conn.SystemDefaultRoutePlanner;
 import org.apache.http.util.EntityUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class HttpCLCommunication implements ICodeListCommunication {
     
-    private final static Logger log = Logger.getLogger(HttpCLCommunication.class);
+    private final static Logger log = LogManager.getLogger(HttpCLCommunication.class);
 
     // injected by Spring
     private String requestUrl;
@@ -102,7 +105,11 @@ public class HttpCLCommunication implements ICodeListCommunication {
 
         // Set the default credentials provider
         builder.setDefaultCredentialsProvider(provider);
-        
+
+        // pickup JRE wide proxy configuration
+        SystemDefaultRoutePlanner routePlanner = new SystemDefaultRoutePlanner(ProxySelector.getDefault());
+        builder.setRoutePlanner( routePlanner );
+
         return builder.build();
     }
 

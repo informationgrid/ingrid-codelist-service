@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2018 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2019 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -22,29 +22,20 @@
  */
 package de.ingrid.codelists.persistency;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.Reader;
-import java.io.UnsupportedEncodingException;
-import java.io.Writer;
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.StreamException;
+import de.ingrid.codelists.model.CodeList;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.StreamException;
-
-import de.ingrid.codelists.model.CodeList;
 
 public class XmlCodeListPersistency<T> implements ICodeListPersistency {
 
@@ -59,41 +50,42 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
         
         try {
             checkForFolder(this.pathToXml);
-            // reader = new InputStreamReader(new FileInputStream(this.pathToXml), "UTF-8");
-            List<T> list = new ArrayList<T>();
+            List<T> list = new ArrayList<>();
             
             try (Stream<Path> paths = Files.walk(Paths.get( this.pathToXml ))) {
                 paths
                     .filter(Files::isRegularFile)
                     .forEach(file -> {
-                        Reader codelistReader = null;
+                        Object xml;
+                        Reader codelistReader;
+
                         try {
+
                             codelistReader = new FileReader(file.toFile());
-                        } catch (FileNotFoundException e) {
-                            e.printStackTrace();
-                        } // , "UTF-8");
-                        
-                        Object xml = xStream.fromXML( codelistReader );
-                        try {
+                            xml = xStream.fromXML( codelistReader );
                             codelistReader.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
+
+                            if (xml instanceof List) {
+                                list.addAll( (List<T>) xml );
+                            } else {
+                                list.add( (T) xml );
+                            }
+
+                        } catch (FileNotFoundException e) {
+                            log.error("Could not read file: " + file.getFileName().toString());
+                        } catch (Exception e) {
+                            // log error and skip to next file
+                            log.error("Error converting file to XML", e);
                         }
-                        if (xml instanceof List) {
-                            list.addAll( (List<T>) xml );
-                        } else {
-                            list.add( (T) xml );
-                        }
-                        
                     });
             } catch (IOException e1) {
-                // TODO Auto-generated catch block
-                e1.printStackTrace();
+                log.error("Error reading codelists", e1);
             } 
             
             return list;
         } catch (StreamException e) {
-            return new ArrayList<T>();
+            log.error(e);
+            return new ArrayList<>();
         }
     }
 
@@ -107,7 +99,7 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
             for (CodeList codeList : data) {
                 
                 fos = new FileOutputStream(this.pathToXml + "/codelist_" + codeList.getId() + ".xml");
-                Writer writer = new OutputStreamWriter(fos, "UTF-8");
+                Writer writer = new OutputStreamWriter(fos, StandardCharsets.UTF_8);
                 xStream.toXML(codeList, writer);
                 fos.close();
             }
@@ -136,7 +128,9 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
         File f = new File(folderPath);
         
         if (!f.exists()) {
-            f.mkdirs();
+            if (!f.mkdirs()) {
+                log.warn("Directory for codelists could not be created");
+            }
         }
     }
 

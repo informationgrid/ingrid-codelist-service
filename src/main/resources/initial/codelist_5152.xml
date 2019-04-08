@@ -37,5 +37,22 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>OGC:WMTS 1.0.0</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>OGC:WMTS 1.0.0</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>OGC:WMTS 1.0.0</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
