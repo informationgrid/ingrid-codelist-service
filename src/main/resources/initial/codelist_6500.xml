@@ -253,5 +253,18 @@
       </localisations>
       <data>{"id":"dl-de-by-2.0","name":"Datenlizenz Deutschland – Zero – Version 2.0","url":"https://www.govdata.de/dl-de/zero-2-0","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>26</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Es gelten keine Bedingungen</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>no conditions apply</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
