@@ -47,11 +47,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 4258: ETRS89 / geographisch (INSPIRE)</string>
+          <string>EPSG 4258: ETRS89 / geographisch</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 4258: ETRS89 / geographisch (INSPIRE)</string>
+          <string>EPSG 4258: ETRS89 / geographisch</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -203,11 +203,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E) (INSPIRE)</string>
+          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E)</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E) (INSPIRE)</string>
+          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -216,11 +216,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E) (INSPIRE)</string>
+          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E)</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E) (INSPIRE)</string>
+          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -268,11 +268,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3034: ETRS89 / LCC Europa (INSPIRE)</string>
+          <string>EPSG 3034: ETRS89 / LCC Europa</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3034: ETRS89 / LCC Europe (INSPIRE)</string>
+          <string>EPSG 3034: ETRS89 / LCC Europe</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -294,11 +294,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3035: ETRS89 / LAEA Europa (INSPIRE)</string>
+          <string>EPSG 3035: ETRS89 / LAEA Europa</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3035: ETRS89 / LAEA Europe (INSPIRE)</string>
+          <string>EPSG 3035: ETRS89 / LAEA Europe</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
