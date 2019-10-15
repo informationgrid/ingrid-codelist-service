@@ -169,5 +169,29 @@
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>16</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>(11) Bereitstellung nur für Bundesbehörden und Landesvermessungseinrichtungen</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>99</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Es gelten keine Bedingungen</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>no conditions apply</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
