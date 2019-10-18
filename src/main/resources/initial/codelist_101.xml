@@ -30,6 +30,19 @@
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>7837</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>DE_DHHN2016_NH</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>DE_DHHN2016_NH</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>900002</id>
       <localisations>
         <entry>

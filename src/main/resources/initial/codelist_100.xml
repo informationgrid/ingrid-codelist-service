@@ -47,11 +47,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 4258: ETRS89 / geographisch (INSPIRE)</string>
+          <string>EPSG 4258: ETRS89 / geographisch</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 4258: ETRS89 / geographisch (INSPIRE)</string>
+          <string>EPSG 4258: ETRS89 / geographisch</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -203,11 +203,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E) (INSPIRE)</string>
+          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E)</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E) (INSPIRE)</string>
+          <string>EPSG 3044: ETRS89 / UTM Zone 32N (N-E)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -216,11 +216,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E) (INSPIRE)</string>
+          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E)</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E) (INSPIRE)</string>
+          <string>EPSG 3045: ETRS89 / UTM Zone 33N (N-E)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -234,6 +234,19 @@
         <entry>
           <string>en</string>
           <string>EPSG 4647: ETRS89 / UTM Zone 32N (zE-N)</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>5243</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>EPSG 5243: ETRS89 / LCC Deutschland (E-N)</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>EPSG 5243: ETRS89 / LCC Germany (E-N)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -268,11 +281,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3034: ETRS89 / LCC Europa (INSPIRE)</string>
+          <string>EPSG 3034: ETRS89 / LCC Europa</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3034: ETRS89 / LCC Europe (INSPIRE)</string>
+          <string>EPSG 3034: ETRS89 / LCC Europe</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -290,15 +303,28 @@
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>4937</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>EPSG 4937: ETRS89 / geographisch 3D</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>EPSG 4937: ETRS89 / geographic 3D</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>3035</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>EPSG 3035: ETRS89 / LAEA Europa (INSPIRE)</string>
+          <string>EPSG 3035: ETRS89 / LAEA Europa</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>EPSG 3035: ETRS89 / LAEA Europe (INSPIRE)</string>
+          <string>EPSG 3035: ETRS89 / LAEA Europe</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -624,6 +650,19 @@
         <entry>
           <string>en</string>
           <string>DE_PD/83 / GK_9-15, Bezug 12. Meridian (BY)</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>9000014</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>WGS84 / LCC Deutschland (E-N)</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>WGS84 / LCC Germany (E-N)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
