@@ -12091,6 +12091,31 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>570</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>1</string>
+        </entry>
+        <entry>
+          <string>sortkey_partner</string>
+          <string>6</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>hb_gdi_fhb</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Landesamt GeoInformation Bremen, Koordinierungsstelle GDI-FHB</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://www.geo.bremen.de/informationssysteme/gdi_fhb-11407</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
   <lastModified>0</lastModified>
 </de.ingrid.codelists.model.CodeList>
