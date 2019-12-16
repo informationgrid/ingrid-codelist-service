@@ -54,13 +54,12 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
             
             try (Stream<Path> paths = Files.walk(Paths.get( this.pathToXml ))) {
                 paths
-                    .filter(Files::isRegularFile)
+                    .filter(p -> Files.isRegularFile(p) && p.toString().toLowerCase().endsWith(".xml")                    )
                     .forEach(file -> {
                         Object xml;
                         Reader codelistReader;
 
                         try {
-
                             codelistReader = new FileReader(file.toFile());
                             xml = xStream.fromXML( codelistReader );
                             codelistReader.close();
