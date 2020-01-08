@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2019 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2020 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -54,13 +54,12 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
             
             try (Stream<Path> paths = Files.walk(Paths.get( this.pathToXml ))) {
                 paths
-                    .filter(Files::isRegularFile)
+                    .filter(p -> Files.isRegularFile(p) && p.toString().toLowerCase().endsWith(".xml")                    )
                     .forEach(file -> {
                         Object xml;
                         Reader codelistReader;
 
                         try {
-
                             codelistReader = new FileReader(file.toFile());
                             xml = xStream.fromXML( codelistReader );
                             codelistReader.close();

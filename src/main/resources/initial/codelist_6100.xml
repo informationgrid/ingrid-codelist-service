@@ -73,7 +73,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flurstücke/Grundstücke</string>
+          <string>Flurstücke/Grundstücke (Katasterparzellen)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -294,11 +294,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Verteilung der Bevölkerung - Demografie</string>
+          <string>Verteilung der Bevölkerung — Demografie</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>Population distribution - demography</string>
+          <string>Population distribution — demography</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>

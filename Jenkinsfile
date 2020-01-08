@@ -14,6 +14,9 @@ pipeline {
 
     stages {
         stage('Build') {
+            when {
+                not { expression { params.RELEASE } }
+            }
             steps {
                 withMaven(
                     // Maven installation declared in the Jenkins "Global Tool Configuration"
