@@ -64,7 +64,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations (Noise Directive)</string>
+          <string>Ballungsräume (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -78,7 +78,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Population (Noise Directive)</string>
+          <string>Bevölkerung (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -148,7 +148,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Areas of Potential significant flood risk (Floods Directive)</string>
+          <string>Gebiete mit einem signifikanten Hochwasserrisiko (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -176,7 +176,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flooded areas (Floods Directive)</string>
+          <string>Überflutungsgebiete (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -190,7 +190,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood risk zones (Floods Directive)</string>
+          <string>Risikogebiete (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -232,7 +232,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Monitoring stations (Marine Strategy Framework Directive)</string>
+          <string>Messstellen (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -484,7 +484,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Sensitive areas, less sensitive areas and catchments (Urban Waste-Water Treatment Directive)</string>
+          <string>Empfindliche Gebiete, weniger empfindliche Gebiete und Einzugsgebiete (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -512,7 +512,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Nitrates vulnerable zones (Nitrates Directive)</string>
+          <string>Nitratgefährdete Gebiete (Nitratrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1156,7 +1156,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2000/60/EC</string>
+          <string>Richtlinie 2000/60/EG (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1170,7 +1170,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>River basin districts (Water Framework Directive)</string>
+          <string>Flussgebietseinheiten (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1184,7 +1184,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>River basin districts sub-units (Water Framework Directive)</string>
+          <string>Flussgebietsuntereinheiten (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1198,7 +1198,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Water bodies (Water Framework Directive)</string>
+          <string>Wasserkörper (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1212,7 +1212,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Surface water bodies (Water Framework Directive)</string>
+          <string>Oberflächenwasserkörper (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1226,7 +1226,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Lakes (Water Framework Directive)</string>
+          <string>Seen (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1240,7 +1240,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Rivers (Water Framework Directive)</string>
+          <string>Flüsse (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1254,7 +1254,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Transitional waters (Water Framework Directive)</string>
+          <string>Übergangsgewässer (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1268,7 +1268,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Coastal waters (Water Framework Directive)</string>
+          <string>Küstengewässer (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1282,7 +1282,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Groundwater bodies (Water Framework Directive)</string>
+          <string>Grundwasserkörper (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1296,7 +1296,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>River network (Water Framework Directive)</string>
+          <string>Gewässernetz (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1310,7 +1310,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Protected areas (Water Framework Directive)</string>
+          <string>Schutzgebiete (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1324,7 +1324,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Nitrate vulnerable zones - nutrient sensitive areas (Water Framework Directive)</string>
+          <string>Nitratgefährdete Gebiete – nährstoffsensible Gebiete (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1338,7 +1338,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Urban waste water sensitive areas - nutrient sensitive areas (Water Framework Directive)</string>
+          <string>Städtische Abwässer - empfindliche Gebiete - nährstoffsensible Gebiete (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1352,7 +1352,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bathing waters - recreational waters (Water Framework Directive)</string>
+          <string>Badegewässer (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1366,7 +1366,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Drinking water protection areas (Water Framework Directive)</string>
+          <string>Trinkwasserschutzgebiete (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1380,7 +1380,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Water dependent Natura 2000 sites (Water Framework Directive)</string>
+          <string>Wasserabhängige Natura-2000-Gebiete (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1394,7 +1394,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Designated waters (Water Framework Directive)</string>
+          <string>Ausgewiesene Gewässer (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1408,7 +1408,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Protection of economically significant aquatic species - shellfish designated waters (Water Framework Directive)</string>
+          <string>Schutz wirtschaftlich bedeutender aquatischer Arten – als Muschelgewässer eingestufte Gewässer (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1422,7 +1422,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Protection of economically significant aquatic species - freshwater fish designated waters (Water Framework Directive)</string>
+          <string>Schutz wirtschaftlich bedeutender aquatischer Arten – für Süßwasserfische ausgewiesene Gewässer (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1436,7 +1436,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Other protected areas (Water Framework Directive)</string>
+          <string>Sonstige Schutzgebiete (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1450,7 +1450,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Monitoring stations (Water Framework Directive)</string>
+          <string>Messstellen (Wasserrahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1464,7 +1464,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2002/49/EC</string>
+          <string>Richtlinie 2002/49/EG (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1478,7 +1478,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major roads, railways and air transport network (Noise Directive)</string>
+          <string>Hauptverkehrsstraßen, Haupteisenbahnstrecken und Großflughäfen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1492,7 +1492,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major roads (Noise Directive)</string>
+          <string>Hauptverkehrsstraßen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1506,7 +1506,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major railways (Noise Directive)</string>
+          <string>Haupteisenbahnstrecken (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1520,7 +1520,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major air transport (Noise Directive)</string>
+          <string>Großflughäfen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1534,7 +1534,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - population (Noise Directive)</string>
+          <string>Ballungsräume - Einwohnerzahl (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1548,7 +1548,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Population - densely populated built-up areas (Noise Directive)</string>
+          <string>Bevölkerung in dicht besiedelten Ortschaften (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1562,7 +1562,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Environmental noise exposure (Noise Directive)</string>
+          <string>Belastung durch Umgebungslärm (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1576,7 +1576,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major roads noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Hauptverkehrsstraßen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1590,7 +1590,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major roads noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Hauptverkehrsstraßen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1604,7 +1604,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major roads noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Hauptverkehrsstraßen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1618,7 +1618,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major railways noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Haupteisenbahnstrecken (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1632,7 +1632,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major railways noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Haupteisenbahnstrecken - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1646,7 +1646,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major railways noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Haupteisenbahnstrecken - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1660,7 +1660,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major airports noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Großflughäfen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1674,7 +1674,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major airports noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Großflughäfen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1688,7 +1688,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Major airports noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Großflughäfen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1702,7 +1702,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - roads noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Straßenverkehr in Ballungsräumen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1716,7 +1716,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - roads noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Straßenverkehr in Ballungsräumen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1730,7 +1730,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - roads noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Straßenverkehr in Ballungsräumen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1744,7 +1744,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - railways noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Schienenverkehr in Ballungsräumen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1758,7 +1758,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - railways noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Schienenverkehr in Ballungsräumen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1772,7 +1772,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - railways noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Schienenverkehr in Ballungsräumen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1786,7 +1786,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - aircraft noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Luftverkehr in Ballungsräumen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1800,7 +1800,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - aircraft noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Luftverkehr in Ballungsräumen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1814,7 +1814,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - aircraft noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Luftverkehr in Ballungsräumen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1828,7 +1828,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - industrial noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung durch Industrieanlagen in Ballungsräumen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1842,7 +1842,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - industrial noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung durch Industrieanlagen in Ballungsräumen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1856,7 +1856,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations – industrial noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung durch Industrieanlagen in Ballungsräumen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1870,7 +1870,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - noise exposure delineation (Noise Directive)</string>
+          <string>Lärmbelastung in Ballungsräumen (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1884,7 +1884,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - noise exposure delineation day-evening-night (Noise Directive)</string>
+          <string>Lärmbelastung in Ballungsräumen - Tag-Abend-Nacht-Lärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1898,7 +1898,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations - noise exposure delineation - night (Noise Directive)</string>
+          <string>Lärmbelastung in Ballungsräumen - Nachtlärmindex (Umgebungslärmrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1912,7 +1912,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2006/21/EC</string>
+          <string>Richtlinie 2006/21/EG (Bergbauabfallrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1926,7 +1926,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Facilities for managing extractive waste (Extractive Waste Directive)</string>
+          <string>Anlagen für die Bewirtschaftung von Abfällen aus der mineralgewinnenden Industrie (Bergbauabfallrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1940,7 +1940,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2006/7/EC</string>
+          <string>Richtlinie 2006/7/EG (Badegewässer-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1954,7 +1954,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bathing water sites (Bathing Water Directive)</string>
+          <string>Badegewässer (Badegewässer-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1968,7 +1968,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2007/60/EC</string>
+          <string>Richtlinie 2007/60/EG (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1982,7 +1982,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Preliminary flood risk assessment (Floods Directive)</string>
+          <string>Vorläufige Bewertung des Hochwasserrisikos (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -1996,7 +1996,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Preliminary flood risk assessment - observed events (Floods Directive)</string>
+          <string>Vorläufige Bewertung des Hochwasserrisikos – beobachtete Ereignisse (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2010,7 +2010,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Preliminary flood risk assessment - potential future events (Floods Directive)</string>
+          <string>Vorläufige Bewertung des Hochwasserrisikos – mögliche künftige Ereignisse (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2024,7 +2024,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood hazard areas low probability scenario (Floods Directive)</string>
+          <string>Hochwassergefahrengebiete – Szenario mit geringer Wahrscheinlichkeit (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2038,7 +2038,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood hazard areas medium probability scenario (Floods Directive)</string>
+          <string>Hochwassergefahrengebiete – Szenario mit mittlerer Wahrscheinlichkeit (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2052,7 +2052,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood hazard areas high probability scenario (Floods Directive)</string>
+          <string>Hochwassergefahrengebiete – Szenario mit hoher Wahrscheinlichkeit (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2066,7 +2066,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood risk zones low probability scenario (Floods Directive)</string>
+          <string>Hochwasserrisikogebiete – Szenario mit geringer  Wahrscheinlichkeit (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2080,7 +2080,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood risk zones medium probability scenario (Floods Directive)</string>
+          <string>Hochwasserrisikogebiete – Szenario mit mittlerer Wahrscheinlichkeit (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2094,7 +2094,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Flood risk zones high probability scenario (Floods Directive)</string>
+          <string>Hochwasserrisikogebiete – Szenario mit hoher  Wahrscheinlichkeit (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2108,7 +2108,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Management units (Floods Directive)</string>
+          <string>Managementeinheiten (Hochwasserrisikomanagement-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2122,7 +2122,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2008/50/EC</string>
+          <string>Richtlinie 2008/50/EG (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2136,7 +2136,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Management zones and agglomerations (Air Quality Directive)</string>
+          <string>Beurteilungsgebiete und Ballungsräume (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2150,7 +2150,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Management zones (Air Quality Directive)</string>
+          <string>Beurteilungsgebiete (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2164,7 +2164,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations (Air Quality Directive)</string>
+          <string>Ballungsräume (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2178,7 +2178,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Model areas (Air Quality Directive)</string>
+          <string>Modellgebiete (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2192,7 +2192,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Monitoring stations (Air Quality Directive)</string>
+          <string>Überwachungsstationen (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2206,7 +2206,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Measurement and modelling data (Air Quality Directive)</string>
+          <string>Daten zur Messung und Modellierung (Luftqualitätsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2220,7 +2220,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2008/56/EC</string>
+          <string>Richtlinie 2008/56/EG (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2234,7 +2234,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Marine regions and units (Marine Strategy Framework Directive)</string>
+          <string>Meeresregionen und -einheiten (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2248,7 +2248,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Marine sub-regions (Marine Strategy Framework Directive)</string>
+          <string>Meeresunterregionen (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2262,7 +2262,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Marine assessment units (Marine Strategy Framework Directive)</string>
+          <string>Meeresbewertungsstellen (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2276,7 +2276,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2009/147/EC</string>
+          <string>Richtlinie 2009/147/EG (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2290,7 +2290,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Pan-European biogeographical regions (Birds Directive)</string>
+          <string>Biogeografische Regionen (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2304,7 +2304,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bird species distribution and range (Birds Directive)</string>
+          <string>Verteilung/Vorkommen und Verbreitungsgebiet von Vogelarten (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2318,7 +2318,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bird species distribution (Birds Directive)</string>
+          <string>Verteilung/Vorkommen von Vogelarten (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2332,7 +2332,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bird species distribution - sensitive (Birds Directive)</string>
+          <string>Verteilung/Vorkommen empfindlicher Vogelarten (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2346,7 +2346,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Birds range (Birds Directive)</string>
+          <string>Verbreitungsgebiet von Vogelarten (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2360,7 +2360,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Birds range - sensitive (Birds Directive)</string>
+          <string>Verbreitungsgebiet empfindlicher Vogelarten (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2374,7 +2374,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Natura 2000 sites (Birds Directive)</string>
+          <string>Vogelschutzgebiete (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2388,7 +2388,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2010/75/EU</string>
+          <string>Richtlinie 2010/75/EU (Industrieemissionsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2402,7 +2402,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Industrial sites - EU Registry (Industrial Emissions Directive)</string>
+          <string>Industrieanlagen – EU-Register (Industrieemissionsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2416,7 +2416,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Installations (Industrial Emissions Directive)</string>
+          <string>Anlagen (Industrieemissionsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2430,7 +2430,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Large combustion plants (Industrial Emissions Directive)</string>
+          <string>Großfeuerungsanlagen (Industrieemissionsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2444,7 +2444,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Emissions (Industrial Emissions Directive)</string>
+          <string>Emissionen (Industrieemissionsrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2458,7 +2458,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 2012/18/EU</string>
+          <string>Richtlinie 2012/18/EU (Seveso-III-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2472,7 +2472,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Establishments involving dangerous substances (SEVESO III Directive)</string>
+          <string>Betriebe mit gefährlichen Stoffen (Seveso-III-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2486,7 +2486,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 86/278/EEC</string>
+          <string>Richtlinie 86/278/EWG (Klärschlammrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2500,7 +2500,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agricultural facilities receiving sludge (Sewage Sludge Directive)</string>
+          <string>Landwirtschaftliche Anlagen, die Schlämme erhalten (Klärschlammrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2514,7 +2514,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agricultural sites where sludge is deposited (Sewage Sludge Directive)</string>
+          <string>Landwirtschaftliche Betriebe, in denen Schlamm abgelagert wird (Klärschlammrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2528,7 +2528,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 91/271/EEC</string>
+          <string>Richtlinie 91/271/EWG (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2542,7 +2542,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Agglomerations (Urban Waste Water Treatment Directive)</string>
+          <string>Gemeindegebiete (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2556,7 +2556,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Urban waste-water treatment plants (Urban Waste Water Treatment Directive)</string>
+          <string>Kommunale Abwasserbehandlungsanlagen (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2570,7 +2570,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Discharge points to receiving waters (Urban Waste Water Treatment Directive)</string>
+          <string>Einleitstellen in den aufnehmenden Gewässern (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2584,7 +2584,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Sensitive areas (Urban Waste-Water Treatment Directive)</string>
+          <string>Empfindliche Gebiete (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2598,7 +2598,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Less sensitive areas (Urban Waste-Water Treatment Directive)</string>
+          <string>Weniger empfindliche Gebiete (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2612,7 +2612,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Sensitive area catchments (Urban Waste-Water Treatment Directive)</string>
+          <string>Einzugsgebiete empfindlicher Gebiete (Kommunalabwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2626,7 +2626,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 91/676/EEC</string>
+          <string>Richtlinie 91/676/EWG (Nitratrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2640,7 +2640,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 92/43/EEC</string>
+          <string>Richtlinie 92/43/EWG (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2654,7 +2654,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Pan-European biogeographical regions (Habitats Directive)</string>
+          <string>Biogeografische Regionen (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2668,7 +2668,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Habitat types and species distribution and range (Habitats Directive)</string>
+          <string>Verteilung/Vorkommen und Verbreitungsgebiet von Lebensraumtypen und Arten (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2682,7 +2682,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Habitat types distribution (Habitats Directive)</string>
+          <string>Verteilung/Vorkommen von Lebensraumtypen (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2696,7 +2696,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Habitat types distribution - sensitive (Habitats Directive)</string>
+          <string>Verteilung/Vorkommen empfindlicher Lebensraumtypen (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2710,7 +2710,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Habitat types range (Habitats Directive)</string>
+          <string>Verbreitungsgebiet von Lebensraumtypen (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2724,7 +2724,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Species distribution (Habitats Directive)</string>
+          <string>Verteilung/Vorkommen von Arten (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2738,7 +2738,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Species distribution sensitive (Habitats Directive)</string>
+          <string>Verteilung/Vorkommen empfindlicher Arten (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2752,7 +2752,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Species range (Habitats Directive)</string>
+          <string>Verbreitungsgebiet von Arten (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2766,7 +2766,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Natura 2000 sites (Habitats Directive)</string>
+          <string>Fauna-Flora-Habitat-Gebiete (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2780,7 +2780,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 98/83/EC</string>
+          <string>Richtlinie 98/83/EG (Trinkwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2794,7 +2794,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Drinking water supply zones (Drinking Water Directive)</string>
+          <string>Trinkwasserversorgungszonen (Trinkwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2808,7 +2808,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Large water supply zones (Drinking Water Directive)</string>
+          <string>Große Wasserversorgungsgebiete (Trinkwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2822,7 +2822,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Small water supply zones (Drinking Water Directive)</string>
+          <string>Kleine Wasserversorgungsgebiete (Trinkwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2836,7 +2836,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Drinking water abstraction points (Drinking Water Directive)</string>
+          <string>Trinkwasserentnahmestellen (Trinkwasserrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2850,7 +2850,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>EEA Annual Work Programme</string>
+          <string>Jahresarbeitsprogramm der EUA</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2864,7 +2864,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Nationally designated areas - CDDA</string>
+          <string>Nationale Schutzgebiete - CDDA</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2878,7 +2878,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>National legislation</string>
+          <string>Nationales Recht</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2892,7 +2892,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>National biogeographical regions</string>
+          <string>Nationale biogeografische Regionen</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2906,7 +2906,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>National biogeographical regions (Habitats Directive)</string>
+          <string>Nationale biogeografische Regionen (FFH-Richtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2920,7 +2920,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>National biogeographical regions (Birds Directive)</string>
+          <string>Nationale biogeografische Regionen (Vogelschutzrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2934,7 +2934,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Recommendation 2014/70/EU</string>
+          <string>Empfehlung 2014/70/EU (Hochvolumen-Fracking-Empfehlung)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2948,7 +2948,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Boreholes (Recommendation on hydraulic fracturing)</string>
+          <string>Bohrungen (Hochvolumen-Fracking-Empfehlung)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2962,7 +2962,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Boreholes for hydraulic fracturing (Recommendation on hydraulic fracturing)</string>
+          <string>Bohrungen mit Hydrofracking (Hochvolumen-Fracking-Empfehlung)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2976,7 +2976,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Regulation (EU) 2017/852</string>
+          <string>Verordnung (EU) 2017/852 (Quecksilberverordnung)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -2990,7 +2990,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Mercury storage facilities (Mercury Regulation)</string>
+          <string>Quecksilberlagereinrichtungen (Quecksilber-Verordnung)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3004,7 +3004,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Regulation (EC) 166/2006</string>
+          <string>Verordnung (EG) Nr. 166/2006 (E-PRTR Verordnung)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3018,7 +3018,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Industrial sites - EU Registry (European Pollutant Release and Transfer Register)</string>
+          <string>Industrieanlagen – Register der Europäischen Union (Europäisches Schadstofffreisetzungs- und -verbringungsregister)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3032,7 +3032,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Sites and facilities (European Pollutant Release and Transfer Register)</string>
+          <string>Betriebseinrichtungen (Europäisches Schadstofffreisetzungs- und -verbringungsregister)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3046,7 +3046,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Actual pollutant releases (European Pollutant Release and Transfer Register)</string>
+          <string>Schadstofffreisetzungen (Europäisches Schadstofffreisetzungs- und -verbringungsregister)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3060,7 +3060,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Regulation (EU) 1143/2014</string>
+          <string>Verordnung (EU) Nr. 1143/2014 (Verordnung zu invasiven gebietsfremden Arten)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3074,7 +3074,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Invasive alien species distribution (Invasive Alien Species Directive)</string>
+          <string>Verteilung invasiver gebietsfremder Arten (Verordnung zu invasiven gebietsfremden Arten)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3088,7 +3088,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Monitoring stations (Nitrates Directive)</string>
+          <string>Messstellen (Nitratrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3102,7 +3102,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Marine regions (Marine Strategy Framework Directive)</string>
+          <string>Meeresregionen (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3116,7 +3116,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Marine reporting units (Marine Strategy Framework Directive)</string>
+          <string>Berichtseinheiten für Meeresgebiete (Meeresstrategie-Rahmenrichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3130,7 +3130,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Directive 1999/31/EC</string>
+          <string>Richtlinie 1999/31/EG (Deponierichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3144,7 +3144,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Exempted islands and isolated settlements (Landfill of Waste Directive)</string>
+          <string>Freigestellte Inseln und isolierte Siedlungsgebiete (Deponierichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3158,7 +3158,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Landfill of waste sites (Landfill of Waste Directive)</string>
+          <string>Abfalldeponien (Deponierichtlinie)</string>
         </entry>
         <entry>
           <string>en</string>
@@ -3168,5 +3168,5 @@
       <data>{&quot;url&quot;:&quot;http://inspire.ec.europa.eu/metadata-codelist/PriorityDataset/LandfillOfWasteSites-dir-1999-31&quot;}</data>
     </de.ingrid.codelists.model.CodeListEntry>
   </entries>
-  <lastModified>1573554107013</lastModified>
+  <lastModified>1574073590455</lastModified>
 </de.ingrid.codelists.model.CodeList>

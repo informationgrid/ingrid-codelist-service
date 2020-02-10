@@ -71,7 +71,7 @@
           <string>the confidentiality of commercial or industrial information</string>
         </entry>
       </localisations>
-      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1d","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(d) der INSPIRE Richtlinie: d) aufgrund nachteiliger Auswirkungen auf die Vertraulichkeit von Geschäfts- oder Betriebsinformationen"}</data>
+      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1d","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(d) der INSPIRE-Richtlinie: d) aufgrund nachteiliger Auswirkungen auf die Vertraulichkeit von Geschäfts- oder Betriebsinformationen"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>6</id>
@@ -85,7 +85,7 @@
           <string>intellectual property rights</string>
         </entry>
       </localisations>
-      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1e","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(e) der INSPIRE Richtlinie: e) aufgrund nachteiliger Auswirkungen auf die Rechte des geistigen Eigentums"}</data>
+      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1e","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(e) der INSPIRE-Richtlinie: e) aufgrund nachteiliger Auswirkungen auf die Rechte des geistigen Eigentums"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>7</id>
@@ -99,7 +99,7 @@
           <string>the confidentiality of personal data and/or files</string>
         </entry>
       </localisations>
-      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1f","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(f) der INSPIRE Richtlinie: f) aufgrund nachteiliger Auswirkungen auf die Vertraulichkeit personenbezogener Daten"}</data>
+      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1f","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(f) der INSPIRE-Richtlinie: f) aufgrund nachteiliger Auswirkungen auf die Vertraulichkeit personenbezogener Daten"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>8</id>
@@ -113,7 +113,7 @@
           <string>the interests or protection of any person</string>
         </entry>
       </localisations>
-      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1g","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(g) der INSPIRE Richtlinie: g) aufgrund nachteiliger Auswirkungen auf den Schutz einer Person"}</data>
+      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1g","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(g) der INSPIRE-Richtlinie: g) aufgrund nachteiliger Auswirkungen auf den Schutz einer Person"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>9</id>
@@ -127,7 +127,7 @@
           <string>the protection of the environment</string>
         </entry>
       </localisations>
-      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1h","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(h) der INSPIRE Richtlinie: h) aufgrund nachteiliger Auswirkungen auf den Schutz von Umweltbereichen"}</data>
+      <data>{"url":"http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1h","de":"Öffentlicher Zugriff beschränkt entsprechend Artikel 13(1)(h) der INSPIRE-Richtlinie: h) aufgrund nachteiliger Auswirkungen auf den Schutz von Umweltbereichen"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
