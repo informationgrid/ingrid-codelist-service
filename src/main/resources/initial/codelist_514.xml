@@ -1,6 +1,6 @@
 <de.ingrid.codelists.model.CodeList>
   <id>514</id>
-  <name>Bezeichnung der Dimension</name>
+  <name>Bezeichnung der Dimension (B.5.14 MD_DimensionNameTypeCode)</name>
   <defaultEntry></defaultEntry>
   <entries>
     <de.ingrid.codelists.model.CodeListEntry>
