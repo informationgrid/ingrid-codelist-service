@@ -3490,7 +3490,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 1.1</string>
+          <string>LUVPG SH-1.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-13", "type":"A"}</data>
@@ -3500,7 +3500,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.1</string>
+          <string>LUVPG SH-2.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -3510,7 +3510,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.2</string>
+          <string>LUVPG SH-2.2</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -3520,47 +3520,27 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.3</string>
+          <string>LUVPG SH-2.3</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
-      <id>349</id>
+      <id>3490</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.4 a)</string>
+          <string>LUVPG SH-2.4</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14", "type":"S"}</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>350</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>LUVPG SH 2.4 b)</string>
-        </entry>
-      </localisations>
-      <data>{"cat":"UVPG-14", "type":"S"}</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>351</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>LUVPG SH 2.4 c)</string>
-        </entry>
-      </localisations>
-      <data>{"cat":"UVPG-14", "type":"S"}</data>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>352</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.5 a)</string>
+          <string>LUVPG SH-2.5 a)</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"S"}</data>
@@ -3570,7 +3550,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.5 b)</string>
+          <string>LUVPG SH-2.5 b)</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"S"}</data>
@@ -3580,47 +3560,57 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.5 c)</string>
+          <string>LUVPG SH-2.5 c)</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"S"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
-      <id>355</id>
+      <id>3550</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 2.6</string>
+          <string>LUVPG SH-2.6 a)</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14", "type":"A"}</data>
+      <data>{"cat":"UVPG-14", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3551</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>LUVPG SH-2.6 b)</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3552</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>LUVPG SH-2.6 c)</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"S"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>356</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 3.1</string>
+          <string>LUVPG SH-3.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-17", "type":"S"}</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>357</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>LUVPG SH 3.2</string>
-        </entry>
-      </localisations>
-      <data>{"cat":"UVPG-17", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>358</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 3.2.1</string>
+          <string>LUVPG SH-3.2.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-17", "type":"S"}</data>
@@ -3630,7 +3620,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 4.1.1</string>
+          <string>LUVPG SH-4.1.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-15", "type":"X"}</data>
@@ -3640,7 +3630,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 4.1.2</string>
+          <string>LUVPG SH-4.1.2</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-15", "type":"S"}</data>
@@ -3650,7 +3640,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 5.1</string>
+          <string>LUVPG SH-5.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -3660,7 +3650,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 6.1</string>
+          <string>LUVPG SH-6.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-1", "type":"X"}</data>
@@ -3670,27 +3660,17 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 6.2</string>
+          <string>LUVPG SH-6.2</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-1", "type":"A"}</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>364</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>LUVPG SH 6.3</string>
-        </entry>
-      </localisations>
-      <data>{"cat":"UVPG-1", "type":"S"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>365</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 7.1</string>
+          <string>LUVPG SH-7.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3700,7 +3680,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 7.2</string>
+          <string>LUVPG SH-7.2</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -3710,7 +3690,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 8.1</string>
+          <string>LUVPG SH-8.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3720,7 +3700,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 8.2</string>
+          <string>LUVPG SH-8.2</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -3730,7 +3710,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 9.1</string>
+          <string>LUVPG SH-9.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3740,7 +3720,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 9.2</string>
+          <string>LUVPG SH-9.2</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"A"}</data>
@@ -3750,30 +3730,10 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>LUVPG SH 10.1</string>
-        </entry>
-      </localisations>
-      <data>{"cat":"UVPG-18", "type":"X"}</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>372</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>LUVPG SH 10.2</string>
+          <string>LUVPG SH-10.1</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"A"}</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>373</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>LUVPG SH 11.1</string>
-        </entry>
-      </localisations>
-      <data>{"cat":"UVPG-16", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
