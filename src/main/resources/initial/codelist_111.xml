@@ -2541,11 +2541,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Ministerium für Umwelt, Landwirtschaft, Ernährung, Weinbau und Forsten Rheinland-Pfalz (MULEWF) </string>
+          <string>Ministerium für Umwelt, Energie, Ernährung und Forsten (MUEEF)</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.mulewf.rlp.de/</string>
+          <string>http://www.mueef.rlp.de/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>

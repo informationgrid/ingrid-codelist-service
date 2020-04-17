@@ -1,6 +1,6 @@
 <de.ingrid.codelists.model.CodeList>
-  <id>5180</id>
-  <name>Objektklasse 3 - Operation - Unterstützte Plattformen</name>
+  <id>514</id>
+  <name>Bezeichnung der Dimension (B.5.14 MD_DimensionNameTypeCode)</name>
   <defaultEntry></defaultEntry>
   <entries>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -8,11 +8,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>XML</string>
+          <string>Zeile</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>row</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>XML</string>
+          <string>Row</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -21,11 +25,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>CORBA</string>
+          <string>Spalte</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>column</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>CORBA</string>
+          <string>Column</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -34,11 +42,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>JAVA</string>
+          <string>Vertikale</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>vertical</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>JAVA</string>
+          <string>Vertical</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -47,11 +59,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>COM</string>
+          <string>Track</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>track</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>COM</string>
+          <string>Track</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -60,11 +76,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SQL</string>
+          <string>CrossTrack</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>crossTrack</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>SQL</string>
+          <string>Cross Track</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -73,11 +93,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>WebServices</string>
+          <string>Linie</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>line</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>WebServices</string>
+          <string>Line</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -86,11 +110,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>HTTPGet</string>
+          <string>Sample</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>sample</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>HTTPGet</string>
+          <string>Sample</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -99,24 +127,15 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>HTTPPost</string>
+          <string>Zeit</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>time</string>
         </entry>
         <entry>
           <string>en</string>
-          <string>HTTPPost</string>
-        </entry>
-      </localisations>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>9</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>SOAP</string>
-        </entry>
-        <entry>
-          <string>en</string>
-          <string>SOAP</string>
+          <string>Time</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>

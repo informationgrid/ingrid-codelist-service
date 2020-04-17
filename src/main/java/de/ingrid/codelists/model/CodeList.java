@@ -24,6 +24,7 @@ package de.ingrid.codelists.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * The model for a CodeList, which are going to be stored.
@@ -135,4 +136,19 @@ public class CodeList implements Comparable<CodeList> {
 	public String toString() {
 	    return id;
 	}
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CodeList codeList = (CodeList) o;
+        return id.equals(codeList.id) &&
+                Objects.equals(name, codeList.name) &&
+                entries.equals(codeList.entries);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, entries);
+    }
 }

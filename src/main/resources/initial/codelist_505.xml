@@ -190,5 +190,28 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>12</id>
+      <description>Auskunftsadresse Metadaten. Dieser Adresstyp wird verwendet, damit beim ISO Import die Metadatenauskunftsadresse korrekt gespeichert werden kann.
+
+        Der IGE legt normalerweise diese Adresse nicht an, sondern verwendet den KatAdmin als Metadatenverantwortlichen. Beim Export nach ISO wird dann der Metadatenverantwortliche als Auskunftsadresse Metadaten verwendet. Die Adresse geht also beim ISO Import verloren.
+
+        Neue Funktion: Die Auskunftsadresse Metadaten wird separat als Adresse mit diesem Typ importiert. Beim Export wird statt des Metadatenverantwortlichen diese Adresse verwendet. </description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Ansprechpartner MD</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>pointOfContactMd</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>Point of Contact MD</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>

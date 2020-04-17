@@ -24,6 +24,7 @@ package de.ingrid.codelists.model;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * The model for an entry of a CodeList.
@@ -41,9 +42,11 @@ public class CodeListEntry  {
     private String              description;
     private Map<String, String> localisations;
     private String 				data;
+
+    // private CodeListEntryStatus status;
     
     public CodeListEntry() {
-        localisations = new HashMap<String, String>();
+        localisations = new HashMap<>();
     }
     
     public void setId(String id) {
@@ -70,8 +73,6 @@ public class CodeListEntry  {
     
     /**
      * Use getField(...) instead
-     * @param lang
-     * @param localisedEntry
      */
     @Deprecated
     public String getLocalisedEntry(String lang) {
@@ -86,8 +87,6 @@ public class CodeListEntry  {
 
     /**
      * Use getFields(...) instead
-     * @param lang
-     * @param localisedEntry
      */
     @Deprecated
     public Map<String, String> getLocalisations() {
@@ -100,8 +99,6 @@ public class CodeListEntry  {
     
     /**
      * Use setFields(...) instead
-     * @param lang
-     * @param localisedEntry
      */
     @Deprecated
     public void setLocalisations(Map<String, String> map) {
@@ -130,6 +127,14 @@ public class CodeListEntry  {
 		this.data = data;
 	}
 
+    /*public CodeListEntryStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(CodeListEntryStatus status) {
+        this.status = status;
+    }*/
+
     
     
     /*
@@ -149,4 +154,19 @@ public class CodeListEntry  {
         setLocalisations((Map<String, String>) in.readObject());
         
     }*/
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CodeListEntry that = (CodeListEntry) o;
+        return id.equals(that.id) &&
+                localisations.equals(that.localisations) &&
+                Objects.equals(data, that.data);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, localisations, data);
+    }
 }
