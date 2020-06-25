@@ -2426,6 +2426,156 @@
       <data>{"cat":"UVPG-13", "type":"S"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>241</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.1.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>242</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.1.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>243</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.2.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>244</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.2.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>245</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.3</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>246</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.4</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>247</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.5</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>248</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.6</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>249</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.7</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>250</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.8</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>251</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.9</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>252</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.10</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>253</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.11</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>254</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.12.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>255</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.12.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>1256</id>
       <localisations>
         <entry>
@@ -2444,6 +2594,266 @@
         </entry>
       </localisations>
       <data>{"cat":"UVPG-15", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>257</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-16.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-16", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>258</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.1.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>259</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.1.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>260</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.1.3</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>261</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.2.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>262</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.2.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>263</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.2.3</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>264</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.3.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>265</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.3.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>266</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-17.3.3</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-17", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>267</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.1.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>268</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.1.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>269</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.2.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>270</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.2.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>271</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.3.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>272</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.3.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>273</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.4.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>274</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.4.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>275</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.5.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>276</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.5.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>277</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.6.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>278</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.6.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>279</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.7.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>280</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.7.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>281</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.8</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-18", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1282</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-18.9</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"", "type":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>282</id>
