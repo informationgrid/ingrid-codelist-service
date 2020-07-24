@@ -159,5 +159,18 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>900011</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Mittelwasser</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>Mean Sea Level</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>

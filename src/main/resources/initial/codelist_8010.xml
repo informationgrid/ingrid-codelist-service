@@ -10,6 +10,10 @@
           <string>de</string>
           <string>Digitale Orthophotos</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Digitale Orthophotos</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -17,6 +21,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Digitale Landschaftsmodelle</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Digitale Landschaftsmodelle</string>
         </entry>
       </localisations>
@@ -28,6 +36,10 @@
           <string>de</string>
           <string>Digitale Geländemodelle</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Digitale Geländemodelle</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -35,6 +47,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Digitale Topographische Karten</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Digitale Topographische Karten</string>
         </entry>
       </localisations>
@@ -46,6 +62,10 @@
           <string>de</string>
           <string>3D-Gebäudemodelle</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>3D-Gebäudemodelle</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -53,6 +73,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Topographische Sonderkarten</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Topographische Sonderkarten</string>
         </entry>
       </localisations>
@@ -64,6 +88,10 @@
           <string>de</string>
           <string>Luftbilder</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Luftbilder</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -71,6 +99,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Anwendungen</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Anwendungen</string>
         </entry>
       </localisations>
@@ -82,6 +114,10 @@
           <string>de</string>
           <string>ALKIS</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>ALKIS</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -89,6 +125,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Hauskoordinaten</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Hauskoordinaten</string>
         </entry>
       </localisations>
@@ -100,6 +140,10 @@
           <string>de</string>
           <string>Hausumringe</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Hausumringe</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -107,6 +151,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Verwaltungsgrenzen</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Verwaltungsgrenzen</string>
         </entry>
       </localisations>
@@ -118,6 +166,10 @@
           <string>de</string>
           <string>Festpunkte</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Festpunkte</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -127,6 +179,10 @@
           <string>de</string>
           <string>Digitale Oberflächenmodelle</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Digitale Oberflächenmodelle</string>
+        </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -134,6 +190,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Sonstige Produkte Geotopographie</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Sonstige Produkte Geotopographie</string>
         </entry>
       </localisations>
