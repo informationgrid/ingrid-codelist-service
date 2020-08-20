@@ -326,5 +326,14 @@
       </localisations>
       <data>{"id":"dl-by-de/1.0","name":"Datenlizenz Deutschland Namensnennung 1.0","url":"https://www.govdata.de/dl-de/by-1-0","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>33</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Nutzung der Daten nur nach Rücksprache mit dem Dateneigentümer</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
