@@ -10,7 +10,11 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>(01) Open Data des Bundes</string>
+          <string>(01) GeoNutzV</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>(01) GeoNutzV</string>
         </entry>
       </localisations>
       <data>{ "id": "geoNutz/20130319", "name": "Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes", "url": "https://sg.geodatenzentrum.de/web_public/gdz/lizenz/geonutzv.pdf", "quelle": "" }</data>
@@ -21,6 +25,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>(02) WebAtlasDE light</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>(02) WebAtlasDE light</string>
         </entry>
       </localisations>
@@ -34,6 +42,10 @@
           <string>de</string>
           <string>(03) Datenlizenz Deutschland Namensnennung 2.0</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>(03) Datenlizenz Deutschland Namensnennung 2.0</string>
+        </entry>
       </localisations>
       <data>{ "id": "dl-by-de/2.0", "name": "Datenlizenz Deutschland Namensnennung 2.0", "url": "https://www.govdata.de/dl-de/by-2-0", "quelle": "" }</data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -43,6 +55,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>(04) WebAtlasDE</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>(04) WebAtlasDE</string>
         </entry>
       </localisations>
@@ -56,6 +72,10 @@
           <string>de</string>
           <string>(05) AdV-Daten – Vertrieb durch ZSGT an jedermann</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>(05) AdV-Daten – Vertrieb durch ZSGT an jedermann</string>
+        </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -65,6 +85,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>(06) AdV-Daten – Vertrieb durch ZSGT an jedermann und Bereitstellung für Bundesbehörden durch DLZ</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>(06) AdV-Daten – Vertrieb durch ZSGT an jedermann und Bereitstellung für Bundesbehörden durch DLZ</string>
         </entry>
       </localisations>
@@ -78,6 +102,10 @@
           <string>de</string>
           <string>(07) AdV-Daten – Bereitstellung nur für Bundesbehörden auf Grundlage des VGeoBund</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>(07) AdV-Daten – Bereitstellung nur für Bundesbehörden auf Grundlage des VGeoBund</string>
+        </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -87,6 +115,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>(08) Daten Dritter – Bereitstellung nur für Bundesbehörden</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>(08) Daten Dritter – Bereitstellung nur für Bundesbehörden</string>
         </entry>
       </localisations>
@@ -100,6 +132,10 @@
           <string>de</string>
           <string>(09) Bereitstellung nur für Bundesbehörden</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>(09) Bereitstellung nur für Bundesbehörden</string>
+        </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -109,6 +145,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Template für copyright</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Template für copyright</string>
         </entry>
       </localisations>
@@ -122,6 +162,10 @@
           <string>de</string>
           <string>Template für license</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Template für license</string>
+        </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -131,6 +175,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Template für copyright und license</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Template für copyright und license</string>
         </entry>
       </localisations>
@@ -144,6 +192,10 @@
           <string>de</string>
           <string>Template für intellectualPropertyRights</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>Template für intellectualPropertyRights</string>
+        </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -153,6 +205,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>Template für restricted</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>Template für restricted</string>
         </entry>
       </localisations>
@@ -166,6 +222,10 @@
           <string>de</string>
           <string>(10) Kontakt DLZ</string>
         </entry>
+        <entry>
+          <string>en</string>
+          <string>(10) Kontakt DLZ</string>
+        </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -175,6 +235,10 @@
       <localisations>
         <entry>
           <string>de</string>
+          <string>(11) Bereitstellung nur für Bundesbehörden und Landesvermessungseinrichtungen</string>
+        </entry>
+        <entry>
+          <string>en</string>
           <string>(11) Bereitstellung nur für Bundesbehörden und Landesvermessungseinrichtungen</string>
         </entry>
       </localisations>
@@ -189,7 +253,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>no conditions apply</string>
+          <string>No conditions to access and use</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
