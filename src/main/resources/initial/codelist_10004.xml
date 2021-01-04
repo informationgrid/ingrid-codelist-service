@@ -170,6 +170,21 @@
       <data/>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>17</id>
+      <description/>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Die Daten sind urheberrechtlich geschützt. Der Datensatz wird entgeltfrei unter folgenden Nutzungsbedingungen zur Verfügung gestellt: Legal notice on the use of Copernicus Sentinel Data and Service Information (https://sg.geodatenzentrum.de/web_public/Sentinel_Data_Legal_Notice_deu.pdf). Der Quellenvermerk ist zu beachten.</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>The data are protected by copyright. The data set is made available free of charge under the following terms of use: Legal notice on the use of Copernicus Sentinel Data and Service Information (https://sg.geodatenzentrum.de/web_public/Sentinel_Data_Legal_Notice_deu.pdf). The source note must be observed.</string>
+        </entry>
+      </localisations>
+      <data/>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>99</id>
       <description/>
       <localisations>
