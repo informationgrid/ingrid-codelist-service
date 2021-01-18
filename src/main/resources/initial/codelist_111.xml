@@ -1466,11 +1466,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Behörde für Stadtentwicklung und Umwelt Hamburg</string>
+          <string>Behörde für Umwelt, Klima, Energie und Agrarwirtschaft Hamburg</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.hamburg.de/bsu/</string>
+          <string>https://www.hamburg.de/bukea</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -1491,11 +1491,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Behörde für Wirtschaft, Verkehr und Innovation</string>
+          <string>Behörde für Wirtschaft und Innovation Hamburg</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.hamburg.de/bwvi/</string>
+          <string>https://www.hamburg.de/bwi</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -1516,11 +1516,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Behörde für Gesundheit und Verbraucherschutz</string>
+          <string>Behörde für Arbeit, Gesundheit, Soziales, Familie und Integration</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.hamburg.de/bgv/</string>
+          <string>https://www.hamburg.de/sozialbehoerde/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -4416,11 +4416,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Behörde für Justiz und Gleichstellung</string>
+          <string>Behörde für Justiz und Verbraucherschutz</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.hamburg.de/justizbehoerde/</string>
+          <string>https://www.hamburg.de/bjv/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -12113,6 +12113,81 @@
         <entry>
           <string>url</string>
           <string>https://www.gdi.bremen.de/</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>22001</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>1</string>
+        </entry>
+        <entry>
+          <string>sortkey_partner</string>
+          <string>7</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>hh_bsw</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Behörde für Stadtentwicklung und Wohnen Hamburg</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://www.hamburg.de/bsw/</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>22002</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>1</string>
+        </entry>
+        <entry>
+          <string>sortkey_partner</string>
+          <string>7</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>hh_bvm</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Behörde für Verkehr und Mobilitätswende Hamburg</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://www.hamburg.de/bvm/</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>22003</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>1</string>
+        </entry>
+        <entry>
+          <string>sortkey_partner</string>
+          <string>7</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>hh_bwfgb</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Behörde für Wissenschaft, Forschung, Gleichstellung und Bezirke</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://www.hamburg.de/bwfgb/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
