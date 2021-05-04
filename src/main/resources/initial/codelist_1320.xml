@@ -341,5 +341,31 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>27</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>GeoTIFF</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>GeoTIFF</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>28</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>GeoPackage</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>GeoPackage</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
