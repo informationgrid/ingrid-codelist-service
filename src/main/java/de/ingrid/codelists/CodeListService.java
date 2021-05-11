@@ -168,6 +168,20 @@ public class CodeListService {
         }
         return localizedEntry;
     }
+
+    public CodeListEntry getCodeListEntry(String lstId, String entryId) {
+        CodeListEntry entry = null;
+        CodeList cl = getCodeList(lstId);
+        if(cl != null){
+            for (CodeListEntry listEntry : cl.getEntries()) {
+                if (listEntry.getId().equalsIgnoreCase(entryId)) {
+                    entry = listEntry;
+                    break;
+                }
+            }
+        }
+        return entry;
+    }
     
     /** Map String to codelist entry
      * @param lstId id of syslist
