@@ -335,5 +335,45 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>34</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International</string>
+        </entry>
+      </localisations>
+      <data>{"id":"CC BY-NC-SA 4.0","name":"Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>35</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International</string>
+        </entry>
+      </localisations>
+      <data>{"id":"CC BY-NC-ND 4.0","name":"Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International ","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>36</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Creative Commons 1.0 Universell Public Domain Dedication</string>
+        </entry>
+      </localisations>
+      <data>{"id":"CC0 1.0","name":"Creative Commons 1.0 Universell Public Domain Dedication","url":"https://creativecommons.org/publicdomain/zero/1.0/deed.de"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>37</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Creative Commons Namensnennung 3.0 Deutschland</string>
+        </entry>
+      </localisations>
+      <data>{"id":"CC BY 3.0 DE","name":"Creative Commons Namensnennung 3.0 Deutschland","url":"https://creativecommons.org/licenses/by/3.0/de/","quelle":""}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
