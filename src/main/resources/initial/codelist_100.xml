@@ -121,6 +121,19 @@
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>4327</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>EPSG 4327: WGS 84 / geographisch</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>EPSG 4327: WGS 84 / geographisch</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>23031</id>
       <localisations>
         <entry>
