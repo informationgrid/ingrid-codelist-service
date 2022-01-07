@@ -27,6 +27,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.thoughtworks.xstream.security.AnyTypePermission;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -45,6 +46,7 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
     @Override
     public List<CodeList> read() {
         XStream xStream = new XStream();
+        xStream.addPermission(AnyTypePermission.ANY);
         try {
             List<CodeList> list = new ArrayList<>();
             
