@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2021 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2022 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -24,6 +24,7 @@ package de.ingrid.codelists.persistency;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.StreamException;
+import com.thoughtworks.xstream.security.AnyTypePermission;
 import de.ingrid.codelists.model.CodeList;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -47,6 +48,7 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
     @Override
     public List<T> read() {
         XStream xStream = new XStream();
+        xStream.addPermission(AnyTypePermission.ANY);
         
         try {
             checkForFolder(this.pathToXml);
@@ -91,6 +93,7 @@ public class XmlCodeListPersistency<T> implements ICodeListPersistency {
     @Override
     public boolean write(List<CodeList> data) {
         XStream xStream = new XStream();
+        xStream.addPermission(AnyTypePermission.ANY);
         FileOutputStream fos = null;
         try {
             checkForFolder(this.pathToXml);

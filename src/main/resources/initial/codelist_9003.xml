@@ -3580,17 +3580,17 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-2h</string>
+          <string>SächsUVPG-3</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-14", "type":"X"}</data>
+      <data>{"cat":"UVPG-14", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>355</id>
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-2i</string>
+          <string>SächsUVPG-4</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-14", "type":"X"}</data>
@@ -3600,7 +3600,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-3a</string>
+          <string>SächsUVPG-5a</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3610,7 +3610,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-3b</string>
+          <string>SächsUVPG-5b</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3620,7 +3620,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-4a</string>
+          <string>SächsUVPG-6a</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3630,7 +3630,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-4b</string>
+          <string>SächsUVPG-6b</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3640,7 +3640,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-4c</string>
+          <string>SächsUVPG-6c</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3650,7 +3650,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-5a</string>
+          <string>SächsUVPG-7a</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3660,7 +3660,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-5b</string>
+          <string>SächsUVPG-7b</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-18", "type":"X"}</data>
@@ -3670,7 +3670,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-6</string>
+          <string>SächsUVPG-8</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-17", "type":"X"}</data>
@@ -3680,7 +3680,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-7</string>
+          <string>SächsUVPG-9</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-16", "type":"A"}</data>
@@ -3690,7 +3690,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>SächsUVPG-8</string>
+          <string>SächsUVPG-10</string>
         </entry>
       </localisations>
       <data>{"cat":"UVPG-13", "type":"X"}</data>

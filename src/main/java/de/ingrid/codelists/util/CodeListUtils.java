@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2021 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2022 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -27,6 +27,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import com.thoughtworks.xstream.security.AnyTypePermission;
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
@@ -108,6 +109,7 @@ public class CodeListUtils {
                 // try to convert it from xml notation (response from InGrid communication
                 try {
                     XStream xs = new XStream();
+                    xs.addPermission(AnyTypePermission.ANY);
                     codelists = (List<CodeList>) xs.fromXML(data);
                 } catch (Exception ex) {
                     ex.printStackTrace();
@@ -163,6 +165,7 @@ public class CodeListUtils {
                 return new JsonWriter(writer, JsonWriter.DROP_ROOT_MODE);
             }
         }*/);
+        xstream.addPermission(AnyTypePermission.ANY);
         
         return xstream.toXML(obj);
     }

@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2021 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2022 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -27,6 +27,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.thoughtworks.xstream.security.AnyTypePermission;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -45,6 +46,7 @@ public class InitialCodeListReaderPersistency implements ICodeListPersistency {
     @Override
     public List<CodeList> read() {
         XStream xStream = new XStream();
+        xStream.addPermission(AnyTypePermission.ANY);
         try {
             List<CodeList> list = new ArrayList<>();
             
