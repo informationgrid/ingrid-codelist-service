@@ -7,12 +7,12 @@
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
  * EUPL (the "Licence");
- * 
+ *
  * You may not use this work except in compliance with the Licence.
  * You may obtain a copy of the Licence at:
- * 
+ *
  * http://ec.europa.eu/idabc/eupl5
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -39,16 +39,22 @@ public class VersionUtils {
             byte[] encoded;
             try {
                 encoded = Files.readAllBytes(path);
-                return new String(encoded, Charset.forName( "UTF-8" ));
+                String versionString = new String(encoded, Charset.forName( "UTF-8" ));
+                return convertOldVersionFormat(versionString);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return "0";
-        } else {
-            return "0";
         }
+        return "0";
     }
-    
+
+    public static String convertOldVersionFormat(String versionString){
+        if(versionString.matches("\\d{3}.*")){
+            versionString  = "0" + versionString.substring(0,1) + ".0" + versionString.substring(1,2) + ".0" + versionString.substring(2);
+        }
+        return versionString;
+    }
+
     public static void writeVersionInfo( String text ) throws FileNotFoundException {
         PrintWriter out = new PrintWriter( "data/" + VERSION_INFO );
         out.print( text );
