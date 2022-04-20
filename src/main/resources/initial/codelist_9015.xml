@@ -3516,6 +3516,66 @@
       <data>{"cat":"UVPG-19", "type":"X"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>1317</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-19.12.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-19", "type":"X"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1318</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-19.12.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-19", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1319</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-19.12.3</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-19", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1320</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-19.12.4</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-19", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1321</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-19.13.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-19", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1322</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-19.13.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-19", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>317</id>
       <description></description>
       <localisations>
