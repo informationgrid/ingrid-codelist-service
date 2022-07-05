@@ -137,7 +137,7 @@
           <string>(09) Bereitstellung nur für Bundesbehörden</string>
         </entry>
       </localisations>
-      <data></data>
+      <data>{ "id": "other-closed", "name": "Andere geschlossene Lizenz", "url": "http://dcat-ap.de/def/licenses/other-closed", "quelle": "" }</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>10</id>
@@ -242,7 +242,7 @@
           <string>(11) Bereitstellung nur für Bundesbehörden und Landesvermessungseinrichtungen</string>
         </entry>
       </localisations>
-      <data></data>
+      <data>{ "id": "other-closed", "name": "Andere geschlossene Lizenz", "url": "http://dcat-ap.de/def/licenses/other-closed", "quelle": "" }</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>17</id>
@@ -258,6 +258,21 @@
         </entry>
       </localisations>
       <data>{"id":"other-open", "name":"Legal Notice Sentinel Data", "url":"https://sg.geodatenzentrum.de/web_public/Sentinel_Data_Legal_Notice_deu.pdf", "quelle":"© Europäische Union, enthält Copernicus Sentinel-2 Daten [Jahr], verarbeitet durch das Bundesamt für Kartographie und Geodäsie (BKG)"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>18</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>(13) TopPlusOpen</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>(13) TopPlusOpen</string>
+        </entry>
+      </localisations>
+      <data>{ "id": "dl-by-de/2.0", "name": "Datenlizenz Deutschland Namensnennung 2.0", "url": "https://www.govdata.de/dl-de/by-2-0", "quelle": "" }</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>99</id>
