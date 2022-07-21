@@ -40,7 +40,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Die Daten sind urheberrechtlich geschützt. Der Datensatz wird entgeltfrei mit der Datenlizenz Deutschland Namensnennung 2.0 (https://www.govdata.de/dl-de/by-2-0) zur Verfügung gestellt. Der Quellenvermerk ist zu beachten.</string>
+          <string>Die Daten sind urheberrechtlich geschützt. Der Datensatz wird entgeltfrei mit der Datenlizenz Deutschland Namensnennung 2.0 (https://www.govdata.de/dl-de/by-2-0) zur Verfügung gestellt. Die Verwendung des Datensatzes für die Pflege und Erweiterung der Daten des OpenStreetMap Projektes wird unter Einhaltung der im Ergänzungstext beschriebenen Angaben zur Namensnennung ausdrücklich erlaubt (https://sg.geodatenzentrum.de/web_public/gdz/lizenz/deu/Datenlizenz_Deutschland_Erg%C3%A4nzungstext_Namensnennung.pdf). Der Quellenvermerk ist zu beachten.</string>
         </entry>
         <entry>
           <string>en</string>
@@ -130,7 +130,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Die Daten sind urheberrechtlich geschützt. Diese Daten oder dieser Dienst stehen/steht allen Einrichtungen des Bundes inklusive Zuwendungsempfängern, soweit sie zu 50 v.H. oder mehr vom Bund gefördert werden, zur Verfügung. Bei Interesse wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html. Der Quellenvermerk ist zu beachten.</string>
+          <string>Die Daten sind urheberrechtlich geschützt. Diese Daten stehen allen Einrichtungen des Bundes inklusive Zuwendungsempfängern, soweit sie zu 50 v.H. oder mehr vom Bund gefördert werden, zur Verfügung. Bei Interesse wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html. Der Quellenvermerk ist zu beachten.</string>
         </entry>
         <entry>
           <string>en</string>
@@ -160,7 +160,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Die Daten sind urheberrechtlich geschützt. Diese Daten oder dieser Dienst stehen/steht allen Einrichtungen des Bundes inklusive Zuwendungsempfängern, soweit sie zu 50 v.H. oder mehr vom Bund gefördert werden sowie Landesvermessungseinrichtungen, zur Verfügung. Bei Interesse wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html. Der Quellenvermerk ist zu beachten.</string>
+          <string>Die Daten sind urheberrechtlich geschützt. Diese Daten stehen allen Einrichtungen des Bundes inklusive Zuwendungsempfängern, soweit sie zu 50 v.H. oder mehr vom Bund gefördert werden sowie Landesvermessungseinrichtungen, zur Verfügung. Bei Interesse wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html. Der Quellenvermerk ist zu beachten.</string>
         </entry>
         <entry>
           <string>en</string>
@@ -180,6 +180,21 @@
         <entry>
           <string>en</string>
           <string>The data are protected by copyright. The data set is made available free of charge under the following terms of use: Legal notice on the use of Copernicus Sentinel Data and Service Information (https://sg.geodatenzentrum.de/web_public/Sentinel_Data_Legal_Notice_deu.pdf). The source note must be observed.</string>
+        </entry>
+      </localisations>
+      <data/>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>18</id>
+      <description/>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Die Daten sind urheberrechtlich geschützt. Die Kartendarstellung und Präsentationsgraphiken werden entgeltfrei mit der Datenlizenz Deutschland – Namensnennung – Version 2.0 (https://www.govdata.de/dl-de/by-2-0) zur Verfügung gestellt. Der Quellenvermerk ist zu beachten.</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>This data is protected by copyright. The map display and presentation graphics are made available without restrictions and free of charge under the license ‚Datenlizenz Deutschland – Namensnennung – Version 2.0’ (https://www.govdata.de/dl-de/by-2-0). Please include the required reference to the source when using the data.</string>
         </entry>
       </localisations>
       <data/>
