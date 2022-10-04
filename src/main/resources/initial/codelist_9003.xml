@@ -2523,7 +2523,57 @@
           <string>UVPG-14.8</string>
         </entry>
       </localisations>
+      <data>{"cat":"UVPG-14", "type":""}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2501</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.8.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2502</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.8.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2503</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.8.3</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":""}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2504</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.8.3.1</string>
+        </entry>
+      </localisations>
       <data>{"cat":"UVPG-14", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2505</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-14.8.3.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-14", "type":"S"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>251</id>
@@ -2843,7 +2893,7 @@
           <string>UVPG-18.8</string>
         </entry>
       </localisations>
-      <data>{"cat":"UVPG-18", "type":"X"}</data>
+      <data>{"cat":"UVPG-18", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>1282</id>

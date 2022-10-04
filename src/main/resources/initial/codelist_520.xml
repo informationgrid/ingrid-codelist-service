@@ -309,5 +309,22 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>900011</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>HDD</string>
+        </entry>
+        <entry>
+          <string>iso</string>
+          <string>hdd</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>HDD</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
