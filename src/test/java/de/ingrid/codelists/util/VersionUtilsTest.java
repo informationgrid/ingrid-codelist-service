@@ -23,17 +23,17 @@
 package de.ingrid.codelists.util;
 
 import de.ingrid.codelists.util.VersionUtils;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class VersionUtilsTest {
 
     @Test
-    public final void testVersionFormatConversion() {
+    final void testVersionFormatConversion() {
         Map<String, String> versions = new HashMap<>();
         versions.put("560c", "05.06.00c");
         versions.put("560", "05.06.00");
