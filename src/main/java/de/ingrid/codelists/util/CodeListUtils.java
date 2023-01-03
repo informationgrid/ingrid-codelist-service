@@ -142,12 +142,11 @@ public class CodeListUtils {
                 cle.setId(jsonEntryObject.getString("id"));
                 cle.setDescription(jsonEntryObject.optString("description", ""));
                 cle.setData(jsonEntryObject.optString("data", ""));
-                JSONObject jsonLocalisationsObject = jsonEntryObject.getJSONObject("localisations");
-                for (int j = 0; j < jsonLocalisationsObject.length(); j++) {
-                    String key = (String) jsonLocalisationsObject.names().get(j);
+                JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations");
+                for (int j=0; j<jsonLocalisationsArray.length(); j++) {
                     cle.setField(
-                            key,
-                            jsonLocalisationsObject.getString(key)
+                            jsonLocalisationsArray.getJSONArray(j).getString(0),
+                            jsonLocalisationsArray.getJSONArray(j).getString(1)
                     );
                 }
 
