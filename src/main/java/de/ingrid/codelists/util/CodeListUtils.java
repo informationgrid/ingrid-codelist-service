@@ -100,7 +100,7 @@ public class CodeListUtils {
      */
     @SuppressWarnings("unchecked")
     public static List<CodeList> getCodeListsFromResponse(String data) {
-        List<CodeList> codelists = new ArrayList<CodeList>();
+        List<CodeList> codelists = new ArrayList<>();
 
         if (!data.isEmpty()) {
             try {
@@ -134,7 +134,7 @@ public class CodeListUtils {
             cl.setDefaultEntry(jsonObject.optString("defaultEntry", ""));
             cl.setLastModified(jsonObject.optLong("lastModified",-1));
 
-            List<CodeListEntry> entries = new ArrayList<CodeListEntry>();
+            List<CodeListEntry> entries = new ArrayList<>();
             JSONArray jsonEntriesArray = jsonObject.getJSONArray("entries");
             for (int i=0; i<jsonEntriesArray.length(); i++) {
                 CodeListEntry cle = new CodeListEntry();
@@ -142,12 +142,24 @@ public class CodeListUtils {
                 cle.setId(jsonEntryObject.getString("id"));
                 cle.setDescription(jsonEntryObject.optString("description", ""));
                 cle.setData(jsonEntryObject.optString("data", ""));
-                JSONArray jsonLocalisationsArray = jsonEntryObject.getJSONArray("localisations");
-                for (int j=0; j<jsonLocalisationsArray.length(); j++) {
-                    cle.setField(
-                            jsonLocalisationsArray.getJSONArray(j).getString(0),
-                            jsonLocalisationsArray.getJSONArray(j).getString(1)
-                    );
+                Object localisations = jsonEntryObject.get("localisations");
+                if (localisations instanceof JSONArray) {
+                    JSONArray localisationsAsArray = (JSONArray) localisations;
+                    for (int j=0; j<localisationsAsArray.length(); j++) {
+                        cle.setField(
+                                localisationsAsArray.getJSONArray(j).getString(0),
+                                localisationsAsArray.getJSONArray(j).getString(1)
+                        );
+                    }
+                } else {
+                    JSONObject localisationsAsObject = (JSONObject) localisations;
+                    for (int j = 0; j < localisationsAsObject.length(); j++) {
+                        String key = (String) localisationsAsObject.names().get(j);
+                        cle.setField(
+                                key,
+                                localisationsAsObject.getString(key)
+                        );
+                    }
                 }
 
                 entries.add(cle);
