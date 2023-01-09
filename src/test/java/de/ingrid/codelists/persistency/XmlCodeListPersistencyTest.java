@@ -22,13 +22,14 @@
  */
 package de.ingrid.codelists.persistency;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.core.io.ClassPathResource;
 
 import java.io.IOException;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class XmlCodeListPersistencyTest {
 
@@ -36,7 +37,7 @@ public class XmlCodeListPersistencyTest {
      * Ignore directories or files that are not conform.
      */
     @Test
-    public void read() throws IOException {
+    void read() throws IOException {
         XmlCodeListPersistency<Object> persistency = new XmlCodeListPersistency<>();
         ClassPathResource xmlReadTest = new ClassPathResource("xmlReadTest");
         persistency.setPathToXml(xmlReadTest.getFile().getPath());
