@@ -95,19 +95,6 @@
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
-      <id>7</id>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Anwendungen</string>
-        </entry>
-        <entry>
-          <string>en</string>
-          <string>Anwendungen</string>
-        </entry>
-      </localisations>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
       <id>8</id>
       <localisations>
         <entry>
@@ -195,6 +182,188 @@
         <entry>
           <string>en</string>
           <string>Sonstige Produkte Geotopographie</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>15</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Adressen</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Adressen</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>16</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Flurstücke/Grundstücke</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Flurstücke/Grundstücke</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>17</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Geografische Bezeichnungen</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Geografische Bezeichnungen</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>18</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Gewässernetz</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Gewässernetz</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>19</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Verkehrsnetze</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Verkehrsnetze</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>20</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Verwaltungseinheiten</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Verwaltungseinheiten</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>21</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Bodenbedeckung</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Bodenbedeckung</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>22</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Höhe</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Höhe</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>23</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Orthofotografie</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Orthofotografie</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>24</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Boden</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Boden</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>25</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Bodennutzung</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Bodennutzung</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>26</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Gebäude 2D</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Gebäude 2D</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>27</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>INSPIRE Gebäude 3D</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>INSPIRE Gebäude 3D</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>28</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Fachübergreifende Anzeigesysteme</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>Fachübergreifende Anzeigesysteme</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>

@@ -2,7 +2,7 @@
  * **************************************************-
  * InGrid CodeList Service
  * ==================================================
- * Copyright (C) 2014 - 2022 wemove digital solutions GmbH
+ * Copyright (C) 2014 - 2023 wemove digital solutions GmbH
  * ==================================================
  * Licensed under the EUPL, Version 1.1 or – as soon they will be
  * approved by the European Commission - subsequent versions of the
@@ -42,18 +42,18 @@ public class CodeListService {
 
     // injected by Spring
     @Autowired(required = false)
-    private ICodeListCommunication      comm;
+    private ICodeListCommunication comm;
 
     // injected by Spring
-    private List<ICodeListPersistency>  persistencies;
-    
+    private List<ICodeListPersistency> persistencies;
+
     // injected by Spring
-    private int                         defaultPersistency;
-    
-    private List<CodeList>              codelists;
-    
+    private int defaultPersistency;
+
+    private List<CodeList> codelists;
+
     public CodeListService() {
-        this.codelists             = new ArrayList<CodeList>();
+        this.codelists = new ArrayList<>();
     }
     
     /**
@@ -76,7 +76,7 @@ public class CodeListService {
             return null;
         }
         
-        List<CodeList> lastModifiedCodelists = new ArrayList<CodeList>();
+        List<CodeList> lastModifiedCodelists;
         
         // request repository and receive response which contains all codelists
         String response = comm.sendRequest(timestamp);
@@ -208,7 +208,7 @@ public class CodeListService {
         		entryValue = entryValue.trim().replace("—", "").replace("-", "").replace(" ", "");        		
         	}
 	        for (CodeListEntry entry : cl.getEntries()) {
-	        	Collection<String> localisedEntryValues = new ArrayList<String>();
+	        	Collection<String> localisedEntryValues = new ArrayList<>();
 	        	if (lang != null && lang.length() > 0) {
 		        	localisedEntryValues.add(entry.getField(lang));
 	        	} else {
@@ -230,8 +230,6 @@ public class CodeListService {
     /**
      * This function should only be used by the codelist repository where the timestamp
      * is also set.
-     * @param id
-     * @param data
      */
     public CodeList setCodelist(String id, String data) {
         CodeList cl = CodeListUtils.getCodeListFromJsonGeneric(data);
