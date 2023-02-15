@@ -44,7 +44,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>This data is protected by copyright. The data set is made available without restrictions and free of charge under the license ‚Datenlizenz Deutschland – Namensnennung – Version 2.0’ (https://www.govdata.de/dl-de/by-2-0). Please include the required reference to the source when using the data.</string>
+          <string>This data is protected by copyright. The data set is made available without restrictions and free of charge under the license 'Datenlizenz Deutschland – Namensnennung – Version 2.0' (https://www.govdata.de/dl-de/by-2-0). The use of the dataset for the maintenance and extension of the data of the OpenStreetMap project is explicitly permitted (https://sg.geodatenzentrum.de/web_public/gdz/lizenz/deu/Datenlizenz_Deutschland_Erg%C3%A4nzungstext_Namensnennung.pdf). Please include the required reference to the source when using the data.</string>
         </entry>
       </localisations>
       <data></data>
@@ -198,6 +198,21 @@
         </entry>
       </localisations>
       <data/>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>19</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Die Daten sind urheberrechtlich geschützt. Es gelten die unter https://sgx.geodatenzentrum.de/web_public/gdz/lizenz/deu/basemapde_web_dienste_lizenz.pdf angegebenen Lizenzbedingungen. Der Quellenvermerk ist zu beachten.</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>The data are protected by copyright. The terms and conditions set out at https://sgx.geodatenzentrum.de/web_public/gdz/lizenz/deu/basemapde_web_dienste_lizenz.pdf apply. The source reference must be included when using the data.</string>
+        </entry>
+      </localisations>
+      <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>99</id>
