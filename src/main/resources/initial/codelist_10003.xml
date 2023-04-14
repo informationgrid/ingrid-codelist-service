@@ -275,6 +275,21 @@
       <data>{ "id": "dl-by-de/2.0", "name": "Datenlizenz Deutschland Namensnennung 2.0", "url": "https://www.govdata.de/dl-de/by-2-0", "quelle": "" }</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>19</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>(14) basemap.de</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>(14) basemap.de</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>99</id>
       <localisations>
         <entry>
