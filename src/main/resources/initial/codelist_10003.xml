@@ -290,21 +290,6 @@
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
-      <id>20</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>(15) CC BY 4.0</string>
-        </entry>
-        <entry>
-          <string>en</string>
-          <string>(15) CC BY 4.0</string>
-        </entry>
-      </localisations>
-      <data>{ "id": "cc-by/4.0", "name": "Creative Commons Namensnennung – 4.0 International (CC BY 4.0)", "url": "https://creativecommons.org/licenses/by/4.0/", "quelle": "" }</data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
       <id>99</id>
       <localisations>
         <entry>
