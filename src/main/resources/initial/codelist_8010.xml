@@ -367,5 +367,18 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>29</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Zentrale Stellen</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>Zentrale Stellen</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
