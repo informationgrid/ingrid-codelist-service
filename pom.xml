@@ -6,7 +6,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ingrid-codelist-service</artifactId>
-  <version>6.1.0</version>
+  <version>6.3.0</version>
   <packaging>jar</packaging>
   <name>InGrid CodeList Service</name>
 
@@ -54,12 +54,12 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.5.13</version>
+      <version>4.5.14</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.jettison</groupId>
       <artifactId>jettison</artifactId>
-      <version>1.5.1</version>
+      <version>1.5.4</version>
       <exclusions>
         <!-- already included in JDK -->
         <exclusion>
@@ -71,12 +71,12 @@
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.19</version>
+      <version>1.4.20</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context-support</artifactId>
-      <version>4.3.18.RELEASE</version>
+      <version>4.3.30.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.quartz-scheduler</groupId>

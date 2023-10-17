@@ -292,6 +292,23 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>18</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>18</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>zs</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Zentrale Stellen</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
   <lastModified>0</lastModified>
 </de.ingrid.codelists.model.CodeList>
