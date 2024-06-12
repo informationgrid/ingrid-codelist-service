@@ -12117,6 +12117,31 @@
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
+      <id>572</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>0</string>
+        </entry>
+        <entry>
+          <string>sortkey_partner</string>
+          <string>1</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>bast</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Bundesanstalt für Straßenwesen</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://www.bast.de/</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
       <id>22001</id>
       <localisations>
         <entry>
