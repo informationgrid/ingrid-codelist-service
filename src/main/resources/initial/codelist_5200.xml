@@ -8,7 +8,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Katalogdienst (Viewer)</string>
+          <string>Katalogdienst - Viewer</string>
         </entry>
         <entry>
           <string>iso</string>
@@ -178,7 +178,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Dienst für den Zugriff auf Objekte</string>
+          <string>Dienst für den Zugriff auf Objekte (WFS, ATOM, API Features etc.)</string>
         </entry>
         <entry>
           <string>iso</string>
@@ -186,7 +186,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>Feature access service</string>
+          <string>Feature access service (WFS, ATOM, API Features etc.)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -195,7 +195,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Dienst für den Zugriff auf grafische Darstellungen</string>
+          <string>Dienst für den Zugriff auf grafische Darstellungen (WMS, WMTS, API Maps etc.)</string>
         </entry>
         <entry>
           <string>iso</string>
@@ -203,7 +203,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>Map access service</string>
+          <string>Map access service (WMS, WMTS, API Maps etc.)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -212,7 +212,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Dienst für den Zugriff auf Rasterdaten</string>
+          <string>Dienst für den Zugriff auf Rasterdaten (WCS, API Coverages etc.)</string>
         </entry>
         <entry>
           <string>iso</string>
@@ -220,7 +220,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>Coverage access service</string>
+          <string>Coverage access service (WCS, API Coverages etc.)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -280,7 +280,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Katalogdienst (Service)</string>
+          <string>Katalogdienst - Service (CSW, API Records etc.)</string>
         </entry>
         <entry>
           <string>iso</string>
@@ -288,7 +288,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>Catalogue service</string>
+          <string>Catalogue service (CSW, API Records etc.)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -433,7 +433,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Dienst für die Transformation von Koordinaten</string>
+          <string>Dienst für die Transformation von Koordinaten (WCTS etc.)</string>
         </entry>
         <entry>
           <string>iso</string>
@@ -441,7 +441,7 @@
         </entry>
         <entry>
           <string>en</string>
-          <string>Coordinate transformation service</string>
+          <string>Coordinate transformation service (WCTS etc.)</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
