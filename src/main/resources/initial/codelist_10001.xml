@@ -30,7 +30,7 @@
           <string>(2) Zugriffsbeschränkung - Kontakt ZSGT / DLZ</string>
         </entry>
       </localisations>
-      <data></data>
+      <data>{"de": "Es gelten Zugriffsbeschränkungen. Für den Erwerb von Nutzungsrechten wenden Sie sich deshalb bitte an die Zentrale Stelle Geotopographie der AdV (ZSGT) / Dienstleistungszentrum (DLZ) des Bundesamtes für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html.", "en": "Access restrictions apply. In order to obtain the rights of use please contact the Central Office for Geotopography of the AdV (ZSGT) / Service Centre (DLZ) of the Federal Agency for Cartography and Geodesy: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html."}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>5</id>
