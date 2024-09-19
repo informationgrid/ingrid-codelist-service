@@ -122,7 +122,7 @@
           <string>(08) Daten Dritter – Bereitstellung nur für Bundesbehörden</string>
         </entry>
       </localisations>
-      <data>{ "de": "Die Daten sind urheberrechtlich geschützt. Auf Grundlage des Vertrages mit dem Datenanbieter werden die Geodaten je nach vertraglicher Ausgestaltung allen oder ausgewählten Bundesbehörden und weiteren Nutzungsberechtigten (z.Bsp. Zuwendungsempfängern des Bundes) zur Verfügung gestellt. Bei Interesse wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html. Der Quellenvermerk ist zu beachten.", "en": "This data is protected by copyright. In accordance with the contract concluded with the data provider, the geodata is made available to either some or all of the German federal institutions as well as other beneficiaries (e.g. recipients of grants by the Federal Republic of Germany), as will be layed down in individual contracts. If you are interested, please contact the Service Center (DLZ) of the Federal Agency for Cartography and Geodesy:  https://www.bkg.bund.de/EN/About-BKG/Service-Center/service-center.html. Please include the required reference to the source when using the data." }</data>
+      <data>{ "de": "Die Daten sind urheberrechtlich geschützt. Auf Grundlage des Vertrages mit dem Datenanbieter werden die Geodaten je nach vertraglicher Ausgestaltung allen oder ausgewählten Bundesbehörden und weiteren Nutzungsberechtigten (z.Bsp. Zuwendungsempfängern des Bundes) zur Verfügung gestellt. Bei Interesse wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html. Der Quellenvermerk ist zu beachten.", "en": "This data is protected by copyright. In accordance with the contract concluded with the data provider, the geodata is made available to either some or all of the German federal institutions as well as other beneficiaries (e.g. recipients of grants by the Federal Republic of Germany), as will be layed down in individual contracts. If you are interested, please contact the Service Center (DLZ) of the Federal Agency for Cartography and Geodesy: https://www.bkg.bund.de/EN/About-BKG/Service-Center/service-center.html. Please include the required reference to the source when using the data." }</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>9</id>
@@ -227,7 +227,7 @@
           <string>(10) Kontakt DLZ</string>
         </entry>
       </localisations>
-      <data>{ "de": "Wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie:  https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html", "en": "Please contact the Service Center (DLZ) of the Federal Agency for Cartography and Geodesy: https://www.bkg.bund.de/EN/About-BKG/Service-Center/service-center.html" }</data>
+      <data>{ "de": "Wenden Sie sich bitte an das Dienstleistungszentrum (DLZ) des Bundesamt für Kartographie und Geodäsie: https://www.bkg.bund.de/DE/Service/Kontakt/kontakt.html", "en": "Please contact the Service Center (DLZ) of the Federal Agency for Cartography and Geodesy: https://www.bkg.bund.de/EN/About-BKG/Service-Center/service-center.html" }</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>16</id>
