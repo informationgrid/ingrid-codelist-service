@@ -1,4 +1,12 @@
 
+## 7.3.0 (01.10.2024)
+
+### Features
+
+* Analyse BKG-Profil im IGE Classic (#6513)
+* Release > 6.1.1 für BKG-MIS (#6127)
+
+    
 ## 7.2.0 (08.07.2024)
 
 ### Features
