@@ -373,7 +373,7 @@
           <string>Creative Commons Namensnennung 3.0 Deutschland</string>
         </entry>
       </localisations>
-      <data>{"id":"CC BY 3.0 DE","name":"Creative Commons Namensnennung 3.0 Deutschland","url":"https://creativecommons.org/licenses/by/3.0/de/","quelle":""}</data>
+      <data>{"id":"cc-by-de/3.0","name":"Creative Commons Namensnennung 3.0 Deutschland","url":"https://creativecommons.org/licenses/by/3.0/de/","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
