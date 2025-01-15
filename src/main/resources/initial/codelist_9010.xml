@@ -3815,5 +3815,25 @@
       </localisations>
       <data>{"cat":"UVPG-18", "type":"A"}</data>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>402</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-10.8.1</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-10", "type":"A"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>403</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>UVPG-10.8.2</string>
+        </entry>
+      </localisations>
+      <data>{"cat":"UVPG-10", "type":"S"}</data>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
