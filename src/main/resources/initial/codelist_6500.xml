@@ -31,7 +31,7 @@
           <string>Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes</string>
         </entry>
       </localisations>
-      <data>{"id":"geoNutz/20130319","name":"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes","url":"https://www.geodatenzentrum.de/docpdf/geonutzv.pdf","quelle":""}</data>
+      <data>{"id":"geoNutz/20130319","name":"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes","url":"https://sg.geodatenzentrum.de/web_public/gdz/lizenz/geonutzv.pdf","quelle":""}</data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>4</id>
