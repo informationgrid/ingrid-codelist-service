@@ -1416,11 +1416,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Ministerium für Umwelt, Gesundheit und Verbraucherschutz des Landes Brandenburg</string>
+          <string>Ministerium für Land- und Ernährungswirtschaft, Umwelt und Verbraucherschutz</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.mugv.brandenburg.de</string>
+          <string>https://mleuv.brandenburg.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
