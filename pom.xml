@@ -6,7 +6,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ingrid-codelist-service</artifactId>
-  <version>7.5.0</version>
+  <version>8.0.0</version>
   <packaging>jar</packaging>
   <name>InGrid CodeList Service</name>
 
@@ -32,7 +32,7 @@
     <dependency>
       <groupId>de.ingrid</groupId>
       <artifactId>ingrid-ibus-client</artifactId>
-      <version>7.0.0</version>
+      <version>8.0.0</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -54,7 +54,7 @@
     <dependency>
       <groupId>org.apache.httpcomponents.client5</groupId>
       <artifactId>httpclient5</artifactId>
-      <version>5.4.2</version>
+      <version>5.4.4</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.jettison</groupId>
