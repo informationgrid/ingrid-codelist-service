@@ -523,5 +523,31 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>41</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>LAS</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>LAS</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>42</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>LAZ</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>LAZ</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
