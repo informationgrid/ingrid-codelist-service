@@ -1,4 +1,11 @@
 
+## 8.1.0 (09.10.2025)
+
+### Features
+
+* Liste der Datenformate erweitern (#7045)
+
+    
 ## 8.0.0 (04.07.2025)
 
 ### Features
