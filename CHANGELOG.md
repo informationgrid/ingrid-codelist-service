@@ -1,4 +1,12 @@
 
+## 8.2.0 (12.01.2026)
+
+### Features
+
+* Umsetzungsticket: Verbesserung der Eingabe und Darstellung von Zeitbezügen (#7527)
+* IGE: neue Dienstart "OGC API-Feature" (#6189)
+
+    
 ## 8.1.0 (09.10.2025)
 
 ### Features
