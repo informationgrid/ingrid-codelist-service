@@ -82,5 +82,19 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>7</id>
+      <description>Dieser Eintrag ist gedacht für den Zugriff auf einen ATOM-Download-Service</description>
+      <localisations>
+          <entry>
+              <string>de</string>
+              <string>LandingPage</string>
+          </entry>
+          <entry>
+              <string>en</string>
+              <string>LandingPage</string>
+          </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>

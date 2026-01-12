@@ -54,5 +54,22 @@
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>4</id>
+      <localisations>
+          <entry>
+              <string>de</string>
+              <string>OGC API-Feature</string>
+          </entry>
+          <entry>
+              <string>iso</string>
+              <string>OGC API-Feature</string>
+          </entry>
+          <entry>
+              <string>en</string>
+              <string>OGC API-Feature</string>
+          </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
