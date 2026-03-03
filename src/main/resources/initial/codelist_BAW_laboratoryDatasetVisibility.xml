@@ -1,0 +1,30 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>BAW_laboratoryDatasetVisibility</id>
+  <name>BAW Sichtbarkeit des Datensatzes</name>
+  <description>Sichtbarkeit des Datensatzes für BAW Labordaten</description>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Öffentlich</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Beschränkt</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>
