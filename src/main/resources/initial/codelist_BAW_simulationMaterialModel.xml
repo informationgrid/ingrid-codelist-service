@@ -10,7 +10,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Stahl</string>
+          <string>Stahl: Fließplateau</string>
         </entry>
       </localisations>
       <data></data>
@@ -21,7 +21,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Stahl: Fließplateau</string>
+          <string>Stahl: Wiederverfestigung</string>
         </entry>
       </localisations>
       <data></data>
@@ -32,7 +32,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Stahl: Wiederverfestigung</string>
+          <string>Stahl: multilineare Spannungs-Dehnungslinie</string>
         </entry>
       </localisations>
       <data></data>
@@ -43,24 +43,13 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Stahl: multilineare Spannungs-Dehnungslinie</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>5</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
           <string>Bruchmechanik</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
-      <id>6</id>
+      <id>5</id>
       <description></description>
       <localisations>
         <entry>
