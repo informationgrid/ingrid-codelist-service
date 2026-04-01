@@ -1,0 +1,63 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>BAW_simulationMaterialModel</id>
+  <name>BAW Materialmodell</name>
+  <description>Materialmodell für BAW Simulationen</description>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Stahl: Fließplateau</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Stahl: Wiederverfestigung</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Stahl: multilineare Spannungs-Dehnungslinie</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>4</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Bruchmechanik</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>5</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Hyperelastizität</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>

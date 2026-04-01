@@ -1,0 +1,63 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>BAW_laboratorySampleOrigin</id>
+  <name>BAW Probenherkunft</name>
+  <description>Probenherkunft für BAW Labordaten</description>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Bauwerk</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Baustelle</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Labor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>4</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Lieferant/Hersteller</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>5</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Externe (z.B. Uni xy)</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>

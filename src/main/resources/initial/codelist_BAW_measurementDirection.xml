@@ -1,0 +1,41 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>BAW_measurementDirection</id>
+  <name>BAW Messrichtung</name>
+  <description>Messrichtung für BAW Messungen</description>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>horizontal</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>vertikal</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>3D</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>
