@@ -1,7 +1,13 @@
 
-## 8.3.0 (XX.XX.2026)
+## 8.3.0 (01.04.2026)
 
 ### Features
+
+* Integration der Bauchtechnik Codelisten (#8718)
+* Editor: Felder für Grundlegende Werkstoffparameter umgestalten (#8714)
+
+    
+## Features
 
 * BAW Spezifische Codelisten integriert (#8718)
 
