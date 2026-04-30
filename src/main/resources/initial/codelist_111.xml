@@ -1445,7 +1445,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>https://www.bauumwelt.bremen.de/</string>
+          <string>https://umwelt.bremen.de//</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -12258,7 +12258,7 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Der Senator für Inneres</string>
+          <string>Die Senatorin für Inneres und Sport</string>
         </entry>
         <entry>
           <string>url</string>
@@ -12358,7 +12358,7 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Die Senatorin für Kinder und Bildung</string>
+          <string>Der Senator für Kinder und Bildung</string>
         </entry>
         <entry>
           <string>url</string>
@@ -12383,7 +12383,7 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Die Senatorin für Soziales, Jugend, Integration und Sport</string>
+          <string>Die Senatorin für Arbeit, Soziales, Jugend und Integration</string>
         </entry>
         <entry>
           <string>url</string>
@@ -12408,36 +12408,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Die Senatorin für Wirtschaft, Arbeit und Europa</string>
+          <string>Die Senatorin für Wirtschaft, Häfen und Transformation</string>
         </entry>
         <entry>
           <string>url</string>
           <string>https://www.wirtschaft.bremen.de/</string>
-        </entry>
-      </localisations>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>28009</id>
-      <localisations>
-        <entry>
-          <string>sortkey</string>
-          <string>10</string>
-        </entry>
-        <entry>
-          <string>sortkey_partner</string>
-          <string>6</string>
-        </entry>
-        <entry>
-          <string>ident</string>
-          <string>hb_swh</string>
-        </entry>
-        <entry>
-          <string>name</string>
-          <string>Die Senatorin für Wissenschaft und Häfen</string>
-        </entry>
-        <entry>
-          <string>url</string>
-          <string>https://wissenschaft-haefen.bremen.de/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -12483,7 +12458,7 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Landesamt für Denkmalpflege</string>
+          <string>Landesamt für Denkmalpflege und Archäologie</string>
         </entry>
         <entry>
           <string>url</string>
@@ -12563,6 +12538,31 @@
         <entry>
           <string>url</string>
           <string>https://www.statistik.bremen.de/</string>
+        </entry>
+      </localisations>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>28015</id>
+      <localisations>
+        <entry>
+          <string>sortkey</string>
+          <string>9</string>
+        </entry>
+        <entry>
+          <string>sortkey_partner</string>
+          <string>6</string>
+        </entry>
+        <entry>
+          <string>ident</string>
+          <string>hb_sbms</string>
+        </entry>
+        <entry>
+          <string>name</string>
+          <string>Die Senatorin für Bau, Mobilität und Stadtentwicklung</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://www.bau.bremen.de/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
