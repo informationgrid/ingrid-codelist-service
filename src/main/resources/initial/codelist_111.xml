@@ -2541,11 +2541,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Ministerium für Umwelt, Energie, Ernährung und Forsten (MUEEF)</string>
+          <string>Ministerium für Landwirtschaft, Weinbau, Umwelt und Forsten Rheinland-Pfalz (MLWUF)</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.mueef.rlp.de/</string>
+          <string>https://mlwuf.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -2570,7 +2570,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.wald-rlp.de/</string>
+          <string>https://www.wald-rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -2595,7 +2595,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.umdenken.de/</string>
+          <string>https://umdenken.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -2766,11 +2766,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Landesamt für Umwelt, Wasserwirtschaft und Gewerbeaufsicht Rheinland-Pfalz</string>
+          <string>Landesamt für Umwelt Rheinland-Pfalz</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.luwg.rlp.de/</string>
+          <string>https://lfu.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -3070,7 +3070,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.lua.rlp.de/</string>
+          <string>https://lua.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -4920,7 +4920,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.sgdsued.rlp.de</string>
+          <string>https://sgdsued.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -4945,7 +4945,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.sgdnord.rlp.de</string>
+          <string>https://sgdnord.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -4966,11 +4966,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Ministerium für Wirtschaft, Klimaschutz, Energie und Landesplanung Rheinland-Pfalz</string>
+          <string>Ministerium für Wirtschaft, Tourismus, Energie und Klima Rheinland-Pfalz</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.mwkel.rlp.de/Startseite/</string>
+          <string>https://mwtek.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -4995,7 +4995,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.lgb-rlp.de</string>
+          <string>https://www.lgb-rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -5020,7 +5020,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.lbm.rlp.de</string>
+          <string>https://lbm.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -5041,11 +5041,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Ministerium des Innern, für Sport und Infrastruktur Rheinland-Pfalz</string>
+          <string>Ministerium des Innern, für Integration und Verkehr Rheinland-Pfalz</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.isim.rlp.de/</string>
+          <string>https://mdi.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -5070,7 +5070,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.lvermgeo.rlp.de</string>
+          <string>https://lvermgeo.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -5095,7 +5095,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.statistik.rlp.de</string>
+          <string>https://www.statistik.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -5120,7 +5120,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.lfks-rlp.de</string>
+          <string>https://lfks.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -5141,11 +5141,11 @@
         </entry>
         <entry>
           <string>name</string>
-          <string>Ministerium für Soziales, Arbeit, Gesundheit und Demografie Rheinland-Pfalz</string>
+          <string>Ministerium für Arbeit, Soziales, Frauen, Familie und Jugend Rheinland-Pfalz</string>
         </entry>
         <entry>
           <string>url</string>
-          <string>http://msagd.rlp.de/</string>
+          <string>https://masffj.rlp.de</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
@@ -7245,8 +7245,8 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.mjv.rlp.de/Startseite/</string>
-        </entry>
+          <string>https://mjv.rlp.de</string>
+      </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
