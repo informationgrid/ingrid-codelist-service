@@ -5650,31 +5650,6 @@
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
-      <id>260</id>
-      <localisations>
-        <entry>
-          <string>sortkey</string>
-          <string>0</string>
-        </entry>
-        <entry>
-          <string>sortkey_partner</string>
-          <string>12</string>
-        </entry>
-        <entry>
-          <string>ident</string>
-          <string>rp_kgstgdi</string>
-        </entry>
-        <entry>
-          <string>name</string>
-          <string>Kompetenz- und Geschäftsstelle GDI Rheinland-Pfalz</string>
-        </entry>
-        <entry>
-          <string>url</string>
-          <string>http://www.geoportal.rlp.de/portal/ueber-uns/kompetenz-und-geschaeftsstelle.html</string>
-        </entry>
-      </localisations>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
       <id>562</id>
       <localisations>
         <entry>
@@ -8191,7 +8166,7 @@
         </entry>
         <entry>
           <string>url</string>
-          <string>http://www.geoportal.rlp.de/</string>
+          <string>https://www.geoportal.rlp.de/</string>
         </entry>
       </localisations>
     </de.ingrid.codelists.model.CodeListEntry>
