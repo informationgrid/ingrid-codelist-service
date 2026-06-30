@@ -1,0 +1,38 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>BAW_movementType</id>
+  <name>BAW_movementType</name>
+  <description>Bewegungsarten</description>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>DFBIMorphing</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Moving Reference Frame</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>keine</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>

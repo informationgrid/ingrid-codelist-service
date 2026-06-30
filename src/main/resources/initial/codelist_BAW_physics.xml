@@ -1,0 +1,28 @@
+<de.ingrid.codelists.model.CodeList>
+  <id>BAW_physics</id>
+  <name>BAW_physics</name>
+  <description>Angaben zur Physik</description>
+  <defaultEntry>-1</defaultEntry>
+  <entries>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>1</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>VolumeOfFluid (VOF)</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>2</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>LevelSet</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+  </entries>
+</de.ingrid.codelists.model.CodeList>
