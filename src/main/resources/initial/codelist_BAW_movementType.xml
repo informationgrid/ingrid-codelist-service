@@ -1,49 +1,35 @@
 <de.ingrid.codelists.model.CodeList>
-  <id>BAW_laboratoryCollectionReason</id>
-  <name>BAW Anlass der Datenerhebung</name>
-  <description>Anlass der Datenerhebung für BAW Labordaten</description>
+  <id>BAW_movementType</id>
+  <name>BAW_movementType</name>
+  <description>Bewegungsarten</description>
   <defaultEntry>-1</defaultEntry>
   <entries>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>1</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Kontrollprüfung</string>
+          <string>DFBIMorphing</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>2</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bauwerksuntersuchung</string>
+          <string>Moving Reference Frame</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>3</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Forschungsvorhaben</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>4</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Zulassungsprüfung</string>
+          <string>keine</string>
         </entry>
       </localisations>
       <data></data>

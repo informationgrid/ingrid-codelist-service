@@ -1,27 +1,35 @@
 <de.ingrid.codelists.model.CodeList>
-  <id>BAW_laboratoryDatasetVisibility</id>
-  <name>BAW Sichtbarkeit des Datensatzes</name>
-  <description>Sichtbarkeit des Datensatzes für BAW Labordaten</description>
+  <id>BAW_shipName</id>
+  <name>BAW_shipName</name>
+  <description>BAW-Schiffsname</description>
   <defaultEntry>-1</defaultEntry>
   <entries>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>1</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Öffentlich</string>
+          <string>PPM42</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>2</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Beschränkt</string>
+          <string>PPM46</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>3</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>sonstiges</string>
         </entry>
       </localisations>
       <data></data>

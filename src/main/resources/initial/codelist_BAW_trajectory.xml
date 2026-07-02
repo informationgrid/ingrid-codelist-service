@@ -1,60 +1,45 @@
 <de.ingrid.codelists.model.CodeList>
-  <id>BAW_laboratorySampleOrigin</id>
-  <name>BAW Probenherkunft</name>
-  <description>Probenherkunft für BAW Labordaten</description>
+  <id>BAW_trajectory</id>
+  <name>BAW_trajectory</name>
+  <description>Trajektorie</description>
   <defaultEntry>-1</defaultEntry>
   <entries>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>1</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Bauwerk</string>
+          <string>geradeaus</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>2</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Baustelle</string>
+          <string>Kurs</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>3</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Labor</string>
+          <string>ZigZag</string>
         </entry>
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
     <de.ingrid.codelists.model.CodeListEntry>
       <id>4</id>
-      <description></description>
       <localisations>
         <entry>
           <string>de</string>
-          <string>Lieferant/Hersteller</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>5</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Externe (z.B. Uni xy)</string>
+          <string>Drehkreis</string>
         </entry>
       </localisations>
       <data></data>
