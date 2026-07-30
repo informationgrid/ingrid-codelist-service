@@ -395,23 +395,6 @@
             </localisations>
         </de.ingrid.codelists.model.CodeListEntry>
         <de.ingrid.codelists.model.CodeListEntry>
-            <id>24</id>
-            <localisations>
-                <entry>
-                    <string>de</string>
-                    <string>INSPIRE Boden</string>
-                </entry>
-                <entry>
-                    <string>en</string>
-                    <string>INSPIRE Boden</string>
-                </entry>
-                <entry>
-                    <string>sortkey</string>
-                    <string>27</string>
-                </entry>
-            </localisations>
-        </de.ingrid.codelists.model.CodeListEntry>
-        <de.ingrid.codelists.model.CodeListEntry>
             <id>25</id>
             <localisations>
                 <entry>
