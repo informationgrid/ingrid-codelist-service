@@ -1,7 +1,7 @@
 <de.ingrid.codelists.model.CodeList>
   <id>BAW_simulationObject</id>
-  <name>BAW Objekt</name>
-  <description>Objekt für BAW Simulationen</description>
+  <name>BAW Objektart</name>
+  <description>Objektart für BAW Simulationen</description>
   <defaultEntry>-1</defaultEntry>
   <entries>
     <de.ingrid.codelists.model.CodeListEntry>
@@ -10,7 +10,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schleusen: Kammern</string>
+          <string>Dükeranlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -21,7 +21,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schleusen: Häupter</string>
+          <string>Fischpass</string>
         </entry>
       </localisations>
       <data></data>
@@ -32,7 +32,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schleusen: Oberhäupter</string>
+          <string>Kanalbrückenanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -43,7 +43,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schleusen: Unterhäupter</string>
+          <string>Leuchtfeueranlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -54,7 +54,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Wehre: Wehrpfeiler</string>
+          <string>Schiffshebewerksanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -65,7 +65,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Wehre: Wehrfelder</string>
+          <string>Schiffsschleusenanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -76,7 +76,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Brücken</string>
+          <string>Bootsschleusenanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -87,7 +87,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Kanalbrücken</string>
+          <string>Sperrwerksanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -98,7 +98,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Molen</string>
+          <string>Talsperrenanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -109,7 +109,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Talsperren</string>
+          <string>Überführungsanlage (Brücke)</string>
         </entry>
       </localisations>
       <data></data>
@@ -120,7 +120,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Leuchttürme</string>
+          <string>Unterführungsanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -131,205 +131,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Unterführungsbauwerke</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>13</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Fischaufstiegsanlagen</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>14</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verschlusskörper: Umlauf-/Grundlauf-/Füllschütze</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>15</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verschlusskörper: Sparbecken</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>16</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verschlusskörper: Wehre</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>17</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verschlusskörper: Hochwasserentlastungen</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>18</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verschlusskörper: Grundablässe</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>19</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verschlusskörper: Revisionen</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>20</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Schiffshebewerke</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>21</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Schleusentore</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>22</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Stoßschütze</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>23</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Spundwände</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>24</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Düker</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>25</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Feste Teile</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>26</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Maschinenteile</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>27</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Überbauten: Wehrstege/-brücken</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>28</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Überbauten: Hubportale</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>29</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Verbindungselemente</string>
-        </entry>
-      </localisations>
-      <data></data>
-    </de.ingrid.codelists.model.CodeListEntry>
-    <de.ingrid.codelists.model.CodeListEntry>
-      <id>30</id>
-      <description></description>
-      <localisations>
-        <entry>
-          <string>de</string>
-          <string>Sperrwerke</string>
+          <string>Wehranalge</string>
         </entry>
       </localisations>
       <data></data>
