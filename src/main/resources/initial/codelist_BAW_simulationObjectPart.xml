@@ -10,7 +10,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Aufsatzklappe</string>
+          <string>Bedienungssteg</string>
         </entry>
       </localisations>
       <data></data>
@@ -21,7 +21,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Dammbalken</string>
+          <string>Entnahmeeinrichtung</string>
         </entry>
       </localisations>
       <data></data>
@@ -32,7 +32,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Doppelklappen/Dachwehr</string>
+          <string>Festes Teil</string>
         </entry>
       </localisations>
       <data></data>
@@ -43,7 +43,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Doppelschütz</string>
+          <string>Fischaufstiegsanlage</string>
         </entry>
       </localisations>
       <data></data>
@@ -54,7 +54,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Drucksegement (mit/ohne Aufsatzklappe)</string>
+          <string>Hochwasserentlastungseinrichtung</string>
         </entry>
       </localisations>
       <data></data>
@@ -65,7 +65,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Gleitschütz</string>
+          <string>Hubportal</string>
         </entry>
       </localisations>
       <data></data>
@@ -76,7 +76,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Klapptore</string>
+          <string>Maschinenteile</string>
         </entry>
       </localisations>
       <data></data>
@@ -87,7 +87,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Nadelwehr</string>
+          <string>Mole</string>
         </entry>
       </localisations>
       <data></data>
@@ -98,7 +98,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Rollschütz</string>
+          <string>Poller</string>
         </entry>
       </localisations>
       <data></data>
@@ -109,7 +109,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schiebetor</string>
+          <string>Revisionsverschluss</string>
         </entry>
       </localisations>
       <data></data>
@@ -120,7 +120,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schlagtor</string>
+          <string>Schleusenhaupt: Oberhaupt</string>
         </entry>
       </localisations>
       <data></data>
@@ -131,7 +131,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Schlauchwehr</string>
+          <string>Schleusenhaupt: Unterhaupt</string>
         </entry>
       </localisations>
       <data></data>
@@ -142,7 +142,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Sektorflügeltor</string>
+          <string>Schleusenhaupt</string>
         </entry>
       </localisations>
       <data></data>
@@ -153,7 +153,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Sektorwehr</string>
+          <string>Schleusenkammer: Spundwand</string>
         </entry>
       </localisations>
       <data></data>
@@ -164,7 +164,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Stauklappe</string>
+          <string>Schleusenkammer</string>
         </entry>
       </localisations>
       <data></data>
@@ -175,7 +175,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Stemmtor</string>
+          <string>Schleusentor: Drucksegmenttor</string>
         </entry>
       </localisations>
       <data></data>
@@ -186,7 +186,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Trommelwehr</string>
+          <string>Schleusentor: Drucksegmenttor mit Füllmuschel</string>
         </entry>
       </localisations>
       <data></data>
@@ -197,7 +197,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Walzenwehr</string>
+          <string>Schleusentor: Hubdrehtor</string>
         </entry>
       </localisations>
       <data></data>
@@ -208,7 +208,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Zugsegment (mit/ohne Aufsatzklappe)</string>
+          <string>Schleusentor: Hubtor</string>
         </entry>
       </localisations>
       <data></data>
@@ -219,7 +219,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Zylinderschütz</string>
+          <string>Schleusentor: Klapptor mit senkrechter Achse</string>
         </entry>
       </localisations>
       <data></data>
@@ -230,7 +230,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Poller</string>
+          <string>Schleusentor: Klapptor mit waagerechter Achse</string>
         </entry>
       </localisations>
       <data></data>
@@ -241,7 +241,7 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Membran</string>
+          <string>Schleusentor: Schiebetor</string>
         </entry>
       </localisations>
       <data></data>
@@ -252,7 +252,359 @@
       <localisations>
         <entry>
           <string>de</string>
-          <string>Klemmleiste/Klemmschiene</string>
+          <string>Schleusentor: Schlagtor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>24</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Schleusentor: Sektortor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>25</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Schleusentor: Senktor / Hubsenktor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>26</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Schleusentor: Stemmtor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>27</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Schleusentor: Zugsegmenttor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>28</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Schleuse</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>29</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Schleusentor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>30</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Sparbeckenverschluss</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>31</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Überbau</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>32</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Umlauf-/Grundlaufverschluss</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>33</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verbindungselement</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>34</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>35</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Doppelschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>36</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Dreigurtschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>37</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Drucksegment</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>38</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Fischbauchklappe</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>39</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Hakendoppelschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>40</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Holzbalken</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>41</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Hubschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>42</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Hubsenkschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>43</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: luftgefüllter Schlauch</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>44</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Nadeln</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>45</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Normalwalze</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>46</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Rohrschieber</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>47</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Rollschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>48</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Sektor</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>49</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Versenkschütz</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>50</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Versenkwalze</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>51</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: wassergefüllter Schlauch</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>52</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Verschlusskörper: Zugsegment</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>53</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Wehrbauwerk</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>54</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Wehrverschluss</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>55</id>
+      <description></description>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Wehrwangen, Wehrpfeiler</string>
         </entry>
       </localisations>
       <data></data>

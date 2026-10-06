@@ -1,4 +1,15 @@
 
+## 8.5.0 (06.10.2026)
+
+### Features
+
+* Codelist: Feld "AdV-Produktgruppe" - Codelist-Wert "INSPIRE Boden" entfernen (#8935)
+* Schlagwörter für die Abgabe von MD an die Mobilithek angeben können (#8906)
+
+### Bugfixes
+
+* Code-Liste 2000 - Mapping für deutsche Verweis-Typen korrigieren (#8783)
+    
 ## 8.4.0 (02.07.2026)
 
 ### Features
