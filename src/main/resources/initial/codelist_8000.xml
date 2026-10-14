@@ -101,5 +101,19 @@
       </localisations>
       <data></data>
     </de.ingrid.codelists.model.CodeListEntry>
+    <de.ingrid.codelists.model.CodeListEntry>
+      <id>7</id>
+      <localisations>
+        <entry>
+          <string>de</string>
+          <string>Algorithmus</string>
+        </entry>
+        <entry>
+          <string>en</string>
+          <string>Algorithm</string>
+        </entry>
+      </localisations>
+      <data></data>
+    </de.ingrid.codelists.model.CodeListEntry>
   </entries>
 </de.ingrid.codelists.model.CodeList>
